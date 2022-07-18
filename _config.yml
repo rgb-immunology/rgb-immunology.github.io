@@ -1,3 +1,9 @@
 remote_theme: pages-themes/cayman@v0.2.0
 plugins:
 - jekyll-remote-theme
+
+title: The Grieshaber-Bouyer Laboratory
+description: Systems Immunology at Heidelberg University Hospital
+
+show_downloads: [false]
+google_analytics: [Your Google Analytics tracking ID]
