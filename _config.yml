@@ -5,5 +5,5 @@ plugins:
 title: The Grieshaber-Bouyer Laboratory
 description: Systems Immunology at Heidelberg University Hospital
 
-show_downloads: [false]
-google_analytics: [Your Google Analytics tracking ID]
+show_downloads: false
+google_analytics: [Google Analytics tracking ID]
