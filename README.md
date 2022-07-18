@@ -88,12 +88,12 @@ _Nature Immunology_ 2021
 ### 2020
 
 [ImmGen at 15](https://doi.org/10.1038/s41590-020-0687-4)  
-Immunological Genome Project Consortium [consortium including **Grieshaber-Bouyer R**]
+Immunological Genome Project Consortium [consortium including **Grieshaber-Bouyer R**]  
 _Nature Immunology_ 2020
 
 [Biosimilars – Opportunities and Risks](https://doi.org/10.1007/s00108-020-00784-2)  
 **Grieshaber-Bouyer R<sup>#</sup>**, Lorenz HM  
-Internist (Berl) 2020
+_Internist (Berl)_ 2020
 
 ### 2019
 
