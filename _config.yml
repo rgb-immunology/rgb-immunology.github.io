@@ -5,7 +5,7 @@ plugins:
 title: The Grieshaber-Bouyer Laboratory
 description: Systems Immunology at Heidelberg University Hospital
 
-show_downloads: true
+show_downloads: false
 google_analytics: [Google Analytics tracking ID]
 
 google_analytics_anonymize: false
@@ -20,11 +20,11 @@ colors:
     android_theme: "#000" # this default to gradient_color
     link: "#1e6bb8" # this default to gradient_color
     section_title: "#155799" # this default to gradient_color
-buttons:
-      zip_url: http://rgb-lab.de/publications
-      zip_title: Publications
-      zip_hide: false
-      tar_url: http://rgb-lab.de/team
-      tar_title: Team
-      tar_hide: false
-      github_hide: true # hides "View on Github"
+# buttons:
+#      zip_url: http://rgb-lab.de/publications
+#      zip_title: Publications
+#      zip_hide: false
+#      tar_url: http://rgb-lab.de/team
+#      tar_title: Team
+#      tar_hide: false
+#      github_hide: true # hides "View on Github"
