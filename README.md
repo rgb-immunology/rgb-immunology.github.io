@@ -2,7 +2,7 @@
 
 ## About
 We are a systems immunology laboratory in the [Division of Rheumatology](https://www.klinikum.uni-heidelberg.de/kliniken-institute/kliniken/zentrum-fuer-innere-medizin-krehl-klinik/innere-medizin-v-haematologie-onkologie-und-rheumatologie/behandlungsspektrum/rheumatologie) ([Department of Medicine V](https://www.klinikum.uni-heidelberg.de/kliniken-institute/kliniken/zentrum-fuer-innere-medizin-krehl-klinik/innere-medizin-v-haematologie-onkologie-und-rheumatologie)) and [Institute for Immunology](https://www.klinikum.uni-heidelberg.de/immunologie/willkommen).  
-Neutrophils are innate immune cells with diverse roles in homeostasis and immunopathology. They are paramount for a viable defense against invading pathogens, orchestrate immune responses with other immune cells and help repair tissues. In contrast, they are strong drivers of tissue damage in immune mediated diseases. Neutrophils are currently not directly being targeted therapeutically. Our overall research agenda is aimed at developing ways to selectively intervene with pathologic neutrophil functions without compromising host defense. We work towards this goal by studying neutrophil heterogeneity in both healthy tissues as well as pathologic inflammation in humans and mice. We study neutrophils on the systems immunology level using high dimensional technologies to understand the driving forces behind their fascinating adaptation to different tissues and inflammatory conditions. We are always seeking motivated postdoctoral fellows and graduate students to join the neutrophil biology team!
+Neutrophils are innate immune cells with diverse roles in homeostasis and immunopathology. They are paramount for a viable defense against invading pathogens, orchestrate immune responses with other immune cells and help repair tissues. In contrast, they are strong drivers of tissue damage in immune mediated diseases. Neutrophils are currently not directly being targeted therapeutically. Our overall research agenda is aimed at developing ways to selectively intervene with pathologic neutrophil functions without compromising host defense. We work towards this goal by studying neutrophil heterogeneity in both healthy tissues as well as pathologic inflammation in humans and mice. We study neutrophils on the systems immunology level using high dimensional technologies to understand the driving forces behind their fascinating adaptation to different tissues and inflammatory conditions.
 
 ## Team
 
@@ -40,8 +40,7 @@ Dr. med. candidate
 Dr. med. candidate
 
 ### Open positions
-We currently have (one) open position for a postdoctoral fellow
-and (one) open position for a PhD student.
+We are currently seeking one motivated postdoctoral fellow and one graduate student to join our team!
 
 ## Publications
 
@@ -141,5 +140,5 @@ Institute for Immunology
 Im Neuenheimer Feld 305  
 69120 Heidelberg
 
-[Data processing policy / Datenschutzerklärung](https://www.heidelberg-university-hospital.com/data-protection-policy)  
-[Imprint / Impressum](https://www.heidelberg-university-hospital.com/imprint)
+[Data processing policy (Datenschutzerklärung)](https://www.heidelberg-university-hospital.com/data-protection-policy)  
+[Imprint (Impressum)](https://www.heidelberg-university-hospital.com/imprint)
