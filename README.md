@@ -16,6 +16,9 @@ Dr. med. candidate
 **Nicolaj S. Hackert**  
 Dr. med. candidate
 
+**Niklas R. Junker**  
+Dr. med. candidate
+
 **Sophie E. Leonhardt**  
 Research technician
 
@@ -136,5 +139,5 @@ Institute for Immunology
 Im Neuenheimer Feld 305  
 69120 Heidelberg
 
-[Data processing policy / Datenschutzerklärung](https://www.heidelberg-university-hospital.com/data-protection-policy)
+[Data processing policy / Datenschutzerklärung](https://www.heidelberg-university-hospital.com/data-protection-policy)  
 [Imprint / Impressum](https://www.heidelberg-university-hospital.com/imprint)
