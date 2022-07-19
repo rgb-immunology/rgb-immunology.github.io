@@ -14,12 +14,15 @@ Neutrophils are innate immune cells with diverse roles in homeostasis and immuno
 
 **Dr. med. Tarik Exner**  
 Postdoctoral fellow  
+[HBIGS fellow](http://www.hbigs.uni-heidelberg.de)
 
 **Mareike de Groot**  
-Dr. med. candidate
+Dr. med. candidate  
+[Peter-Scriba fellow (German Society of Internal Medicine)](https://www.dgim.de/en/the-gsim/)
 
 **Nicolaj S. Hackert**  
 Dr. med. candidate
+[Boehringer Ingelheim Fonds fellow](https://www.bifonds.de/index.html)
 
 **Niklas R. Junker**  
 Dr. med. candidate
@@ -35,12 +38,15 @@ Dr. med. candidate
 
 **Frank Y. Huang**  
 Dr. med. candidate
+[Boehringer Ingelheim Fonds fellow](https://www.bifonds.de/index.html)
 
 **Felix A. Radtke**  
-Dr. med. candidate
+Dr. med. candidate  
+[Boehringer Ingelheim Fonds fellow](https://www.bifonds.de/index.html)
 
 **Julia T. Schnell**  
-Dr. med. candidate
+Dr. med. candidate  
+[PROMOS fellow (German Academic Exchange Service, DAAD)](https://www.daad.de/de/)
 
 ### Open Positions
 We are currently seeking one motivated postdoctoral fellow and one graduate student to join our team!
