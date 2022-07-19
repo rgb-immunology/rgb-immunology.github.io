@@ -21,10 +21,10 @@ colors:
     link: "#1e6bb8" # this default to gradient_color
     section_title: "#155799" # this default to gradient_color
  buttons:
-      zip_url: http://rgb-lab.de/publications
+      zip_url: https://rgb-lab.de/publications
       zip_title: Publications
       zip_hide: false
-      tar_url: http://rgb-lab.de/team
+      tar_url: https://rgb-lab.de/team
       tar_title: Team
       tar_hide: false
-      github_hide: true # hides "View on Github"
+      github_hide: true
