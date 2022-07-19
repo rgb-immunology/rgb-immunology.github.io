@@ -6,11 +6,14 @@ Neutrophils are innate immune cells with diverse roles in homeostasis and immuno
 
 ## Team
 
-**Dr. med. Tarik Exner**  
-Postdoctoral fellow  
+### Principal Investigator
 
 **Dr. med. Ricardo Grieshaber-Bouyer**  
-Principal Investigator
+
+### Lab Members
+
+**Dr. med. Tarik Exner**  
+Postdoctoral fellow  
 
 **Mareike de Groot**  
 Dr. med. candidate
@@ -39,7 +42,7 @@ Dr. med. candidate
 **Julia T. Schnell**  
 Dr. med. candidate
 
-### Open positions
+### Open Positions
 We are currently seeking one motivated postdoctoral fellow and one graduate student to join our team!
 
 ## Publications
@@ -125,7 +128,10 @@ _Blood_ 2017
 _JBJS Case Connect_ 2017
 
 
-## News features
+## In The News
+
+[Personalisierte Therapieempfehlung bei Spondyloarthritiden](https://zpm-verbund.de/de/forschung/projekte/19-personalisierte-therapieempfehlung-bei-spondyloarthritiden)  
+Zentren für Personalisierte Medizin (ZPM), 2022
 
 [Tracking neutrophil development along a continuous spectrum with single cell analysis](https://www.10xgenomics.com/blog/tracking-neutrophil-development-along-a-continuous-spectrum-with-single-cell-analysis)  
 Jeanene Swanson, 10X Genomics, July 23, 2021
