@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Team
-description: This is just another page
+permalink: /about/
+# description: This is just another page
 ---
 
 
