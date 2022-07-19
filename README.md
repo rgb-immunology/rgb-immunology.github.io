@@ -21,7 +21,7 @@ Dr. med. candidate
 [Peter-Scriba fellow (German Society of Internal Medicine)](https://www.dgim.de/en/the-gsim/)
 
 **Nicolaj S. Hackert**  
-Dr. med. candidate
+Dr. med. candidate  
 [Boehringer Ingelheim Fonds fellow](https://www.bifonds.de/index.html)
 
 **Niklas R. Junker**  
@@ -37,7 +37,7 @@ Dr. med. candidate
 ### Alumni
 
 **Frank Y. Huang**  
-Dr. med. candidate
+Dr. med. candidate  
 [Boehringer Ingelheim Fonds fellow](https://www.bifonds.de/index.html)
 
 **Felix A. Radtke**  
