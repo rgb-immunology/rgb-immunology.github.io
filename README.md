@@ -1,16 +1,18 @@
 # The Grieshaber-Bouyer Laboratory
 
-## About
+# About
 We are a systems immunology laboratory in the [Division of Rheumatology](https://www.klinikum.uni-heidelberg.de/kliniken-institute/kliniken/zentrum-fuer-innere-medizin-krehl-klinik/innere-medizin-v-haematologie-onkologie-und-rheumatologie/behandlungsspektrum/rheumatologie) ([Department of Medicine V](https://www.klinikum.uni-heidelberg.de/kliniken-institute/kliniken/zentrum-fuer-innere-medizin-krehl-klinik/innere-medizin-v-haematologie-onkologie-und-rheumatologie)) and [Institute for Immunology](https://www.klinikum.uni-heidelberg.de/immunologie/willkommen).  
 Neutrophils are innate immune cells with diverse roles in homeostasis and immunopathology. They are paramount for a viable defense against invading pathogens, orchestrate immune responses with other immune cells and help repair tissues. In contrast, they are strong drivers of tissue damage in immune mediated diseases. Neutrophils are currently not directly being targeted therapeutically. Our overall research agenda is aimed at developing ways to selectively intervene with pathologic neutrophil functions without compromising host defense. We work towards this goal by studying neutrophil heterogeneity in both healthy tissues as well as pathologic inflammation in humans and mice. We study neutrophils on the systems immunology level using high dimensional technologies to understand the driving forces behind their fascinating adaptation to different tissues and inflammatory conditions.
 
-## Team
+![Team image](docs/assets/20220309_TeamGrieshaber_007_small.jpg)
 
-### Principal Investigator
+# Team
+
+## Principal Investigator
 
 **Dr. med. Ricardo Grieshaber-Bouyer**  
 
-### Lab Members
+## Lab Members
 
 **Dr. med. Tarik Exner**  
 Postdoctoral fellow  
@@ -34,7 +36,7 @@ Research technician
 Dr. med. candidate
 
 
-### Alumni
+## Alumni
 
 **Frank Y. Huang**  
 Dr. med. candidate  
@@ -48,10 +50,10 @@ Dr. med. candidate
 Dr. med. candidate  
 [PROMOS fellow (German Academic Exchange Service, DAAD)](https://www.daad.de/de/)
 
-### Open Positions
+## Open Positions
 We are currently seeking one motivated postdoctoral fellow and one graduate student to join our team!
 
-## Publications
+# Publications
 
 ### 2022
 
@@ -134,7 +136,7 @@ _Blood_ 2017
 _JBJS Case Connect_ 2017
 
 
-## In The News
+# In The News
 
 [Personalisierte Therapieempfehlung bei Spondyloarthritiden](https://zpm-verbund.de/de/forschung/projekte/19-personalisierte-therapieempfehlung-bei-spondyloarthritiden)  
 Zentren für Personalisierte Medizin (ZPM), 2022
@@ -147,7 +149,7 @@ Forschungsförderpreis der Deutschen Gesellschaft für Rheumatologie e.V.
 Universitätsklinikum Heidelberg, October 19, 2020
 
 
-## Directions
+# Directions
 Institute for Immunology  
 Im Neuenheimer Feld 305  
 69120 Heidelberg
