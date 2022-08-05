@@ -4,7 +4,12 @@
 
 # About
 We are a systems immunology laboratory in the [Division of Rheumatology](https://www.klinikum.uni-heidelberg.de/kliniken-institute/kliniken/zentrum-fuer-innere-medizin-krehl-klinik/innere-medizin-v-haematologie-onkologie-und-rheumatologie/behandlungsspektrum/rheumatologie) ([Department of Medicine V](https://www.klinikum.uni-heidelberg.de/kliniken-institute/kliniken/zentrum-fuer-innere-medizin-krehl-klinik/innere-medizin-v-haematologie-onkologie-und-rheumatologie)) and [Institute for Immunology](https://www.klinikum.uni-heidelberg.de/immunologie/willkommen).  
-Neutrophils are innate immune cells with diverse roles in homeostasis and immunopathology. They are paramount for a viable defense against invading pathogens, orchestrate immune responses with other immune cells and help repair tissues. In contrast, they are strong drivers of tissue damage in immune mediated diseases. Neutrophils are currently not directly being targeted therapeutically. Our overall research agenda is aimed at developing ways to selectively intervene with pathologic neutrophil functions without compromising host defense. We work towards this goal by studying neutrophil heterogeneity in both healthy tissues as well as pathologic inflammation in humans and mice. We study neutrophils on the systems immunology level using high dimensional technologies to understand the driving forces behind their fascinating adaptation to different tissues and inflammatory conditions.
+Our group investigates which mechanisms drive immune cell heterogeneity in tissues and inflammatory conditions and how it affects disease variation across individuals.  
+In recent work, using single cell RNA sequencing we demonstrated that neutrophils in homeostasis are organized a chronologically ordered main sequence, termed neutrotime. In experimental inflammation, neutrophils reach distinct polarization states driven by timepoint, tissue and stimulus.  
+To apply this principle to human rheumatic disease, we developed a method to jointly analyze murine and human transcriptomic data. Thereby, we identified a transcriptional program which characterizes neutrophils in the arthritic joint in both mice and humans. Functionally, this program was highly enriched for interferon gamma response genes, which we validated on the protein level and using in vitro models.  
+In ongoing work, we combine high dimensional discovery in patient samples with in vitro systems, CRISPR-mediated genetic perturbations and murine models to dissect how immune cells adapt to different tissues and inflammatory conditions.  
+We also develop novel analysis tools for high dimensional data.
+
 
 # Team
 
