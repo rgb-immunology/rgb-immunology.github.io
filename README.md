@@ -38,6 +38,10 @@ Dr. med. candidate
 
 ## Alumni
 
+**Dr. med. Cassian M. Afting**  
+Rotation student  
+Now [HBIGS fellow](http://www.hbigs.uni-heidelberg.de) in [Prof. Dr. Joachim Wittbrodt's Lab](https://www.cos.uni-heidelberg.de/en/research-groups/developmental-biologyphysiology)
+
 **Frank Y. Huang**  
 Dr. med. candidate  
 [Boehringer Ingelheim Fonds fellow](https://www.bifonds.de/index.html)
@@ -138,15 +142,15 @@ _JBJS Case Connect_ 2017
 
 # In The News
 
-[Personalisierte Therapieempfehlung bei Spondyloarthritiden](https://zpm-verbund.de/de/forschung/projekte/19-personalisierte-therapieempfehlung-bei-spondyloarthritiden)  
-Zentren für Personalisierte Medizin (ZPM), 2022
+[Personalized Treatment Recommendations for Spondyloarthropathies](https://zpm-verbund.de/de/forschung/projekte/19-personalisierte-therapieempfehlung-bei-spondyloarthritiden)  
+Centers for Personalized Medicine (ZPM), 2022
 
 [Tracking neutrophil development along a continuous spectrum with single cell analysis](https://www.10xgenomics.com/blog/tracking-neutrophil-development-along-a-continuous-spectrum-with-single-cell-analysis)  
 Jeanene Swanson, 10X Genomics, July 23, 2021
 
-[ANGEBORENE IMMUNITÄT IM FOKUS DER HEIDELBERGER RHEUMATOLOGIE](https://www.klinikum.uni-heidelberg.de/newsroom/angeborene-immunitaet-im-fokus-der-heidelberger-rheumatologie/)  
-Forschungsförderpreis der Deutschen Gesellschaft für Rheumatologie e.V.
-Universitätsklinikum Heidelberg, October 19, 2020
+[INNATE IMMUNITY IN THE FOCUS OF HEIDELBERG's RHEUMATOLOGY  
+Research Award by the German Society for Rheumatology (DGRh)](https://www.klinikum.uni-heidelberg.de/newsroom/angeborene-immunitaet-im-fokus-der-heidelberger-rheumatologie/)    
+Heidelberg University Hospital, October 19, 2020
 
 
 # Directions
