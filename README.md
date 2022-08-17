@@ -76,7 +76,7 @@ _Cell Reports_ 2022
 
 [Neutrophil transit time and localization within the megakaryocyte define morphologically distinct forms of emperipolesis](https://doi.org/10.1182/bloodadvances.2021005097)  
 Huang FY\*, Cunin P\*, Radtke FA, Darbousset R, **Grieshaber-Bouyer R**, Nigrovic PA  
-_Blood Advances_ 2021
+_Blood Advances_ 2022
 
 ### 2021
 
