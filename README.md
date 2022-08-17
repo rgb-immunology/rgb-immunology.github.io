@@ -74,6 +74,9 @@ _Ann Rheum Dis_ 2022
 Neuenfeldt F\*, Schumacher JC\*, **Grieshaber-Bouyer R**, Habicht J, Schröder-Braunstein J, Gauss A, Niesler B, Heineken N, Dalpke A, Gaida MM, Giese T, Meuer S, Samstag Y, Wabnitz G  
 _Cell Reports_ 2022
 
+[Neutrophil transit time and localization within the megakaryocyte define morphologically distinct forms of emperipolesis](https://doi.org/10.1182/bloodadvances.2021005097)  
+Huang FY\*, Cunin P\*, Radtke FA, Darbousset R, **Grieshaber-Bouyer R**, Nigrovic PA  
+_Blood Advances_ 2021
 
 ### 2021
 
@@ -81,17 +84,13 @@ _Cell Reports_ 2022
 **Grieshaber-Bouyer R**, Radtke FA, Cunin P, Stifano G, Levescot A, Vijaykumar B, Nelson-Maney N, Blaustein RB, Monach PA, Nigrovic PA; Immunological Genome Project Consortium  
 _Nature Communications_ 2021
 
-[Arthritis flares mediated by tissue-resident memory T cells in the joint](https://doi.org/10.1016/j.celrep.2021.109902)  
-Chang MH\*, Levescot A\*, Nelson-Maney N, Blaustein RB, Winden KD, Morris A, Wactor A, Balu S, **Grieshaber-Bouyer R**, Wei K, Henderson LA, Iwakura Y, Clark RA, Rao DA, Fuhlbrigge RC<sup>#</sup>, Nigrovic PA<sup>#</sup>  
-_Cell Reports_ 2021
-
-[Neutrophil transit time and localization within the megakaryocyte define morphologically distinct forms of emperipolesis](https://doi.org/10.1182/bloodadvances.2021005097)  
-Huang FY\*, Cunin P\*, Radtke FA, Darbousset R, **Grieshaber-Bouyer R**, Nigrovic PA  
-_Blood Advances_ 2021
-
 [JAK inhibition prevents the induction of pro-inflammatory HLA-DR+ CD90+ RA synovial fibroblasts by IFNɣ](https://doi.org/10.1002/art.41958)  
 Zhao S, **Grieshaber-Bouyer R**, Rao DA, Kolb P, Chen H, Andreeva I, Tretter T, Lorenz HM, Watzl C, Wabnitz G, Tykocinski LO, Merkt W  
 _Arthritis Rheumatol_ 2021
+
+[Arthritis flares mediated by tissue-resident memory T cells in the joint](https://doi.org/10.1016/j.celrep.2021.109902)  
+Chang MH\*, Levescot A\*, Nelson-Maney N, Blaustein RB, Winden KD, Morris A, Wactor A, Balu S, **Grieshaber-Bouyer R**, Wei K, Henderson LA, Iwakura Y, Clark RA, Rao DA, Fuhlbrigge RC<sup>#</sup>, Nigrovic PA<sup>#</sup>  
+_Cell Reports_ 2021
 
 [IL-1β-driven osteoclastogenic Tregs accelerate bone erosion in arthritis](https://doi.org/10.1172/JCI141008)  
 Levescot A, Chang MH, Schnell J, Nelson-Maney N, Yan J, Martínez-Bonet M, **Grieshaber-Bouyer R**, Lee PY, Wei K, Blaustein RB, Morris A, Wactor A, Iwakura Y, Lederer JA, Rao DA, Charles JF, Nigrovic PA  
