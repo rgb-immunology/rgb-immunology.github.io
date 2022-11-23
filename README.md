@@ -66,6 +66,12 @@ We are currently seeking one motivated postdoctoral fellow and one graduate stud
 
 ### 2022
 
+
+
+[Human and murine neutrophils share core transcriptional programs in both homeostatic and inflamed contexts](https://doi.org/10.1101/2022.11.13.516246)  
+Hackert NS\*, Radtke FA\*, Exner T, Lorenz HM, Mueller-Tidow C, Nigrovic PA, Wabnitz G, **Grieshaber-Bouyer R**  
+_bioRxiv_ 2022
+
 [Ageing and interferon gamma response drive the phenotype of neutrophils in the inflamed joint](https://doi.org/10.1136/annrheumdis-2021-221866)  
 **Grieshaber-Bouyer R<sup>#</sup>**, Exner T, Hackert NS, Radtke FA, Jelinsky SA, Halyabar O, Wactor A, Karimizadeh E, Brennan J, Schettini J, Jonsson AH, Rao DA, Henderson LA, Mueller-Tidow C, Lorenz HM, Wabnitz G, Lederer JA, Hadjipanayis A, Nigrovic PA<sup>#</sup>. <sup>#</sup>Corresponding authors  
 _Ann Rheum Dis_ 2022
