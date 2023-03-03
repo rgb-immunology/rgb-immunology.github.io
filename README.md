@@ -19,6 +19,12 @@ We also develop novel analysis tools for high dimensional data.
 
 ## Lab Members
 
+**Selina Belghalem**  
+Research technician (in training)
+
+**Dr. rer. nat. Filip Durco**  
+Postdoctoral fellow
+
 **Dr. med. Tarik Exner**  
 Postdoctoral fellow  
 [HBIGS fellow](http://www.hbigs.uni-heidelberg.de)
