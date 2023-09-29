@@ -3,7 +3,7 @@
 ![Team image](docs/assets/20220309_TeamGrieshaber_007_small.jpg)
 
 # About
-We are a systems immunology laboratory originally in the [Division of Rheumatology](https://www.klinikum.uni-heidelberg.de/kliniken-institute/kliniken/zentrum-fuer-innere-medizin-krehl-klinik/innere-medizin-v-haematologie-onkologie-und-rheumatologie/behandlungsspektrum/rheumatologie) ([Department of Medicine V](https://www.klinikum.uni-heidelberg.de/kliniken-institute/kliniken/zentrum-fuer-innere-medizin-krehl-klinik/innere-medizin-v-haematologie-onkologie-und-rheumatologie)) and [Institute for Immunology](https://www.klinikum.uni-heidelberg.de/immunologie/willkommen) and currently moving to the [Department of Internal Medicine 3 – Rheumatology and Immunology at Erlangen University Hospital](https://www.medizin3.uk-erlangen.de/en/)  
+We are a systems immunology laboratory originally in the [Division of Rheumatology](https://www.klinikum.uni-heidelberg.de/kliniken-institute/kliniken/zentrum-fuer-innere-medizin-krehl-klinik/innere-medizin-v-haematologie-onkologie-und-rheumatologie/behandlungsspektrum/rheumatologie) ([Department of Medicine V](https://www.klinikum.uni-heidelberg.de/kliniken-institute/kliniken/zentrum-fuer-innere-medizin-krehl-klinik/innere-medizin-v-haematologie-onkologie-und-rheumatologie)) and [Institute for Immunology](https://www.klinikum.uni-heidelberg.de/immunologie/willkommen) at Heidelberg University Hospital and currently moving to the [Department of Internal Medicine 3 – Rheumatology and Immunology at Erlangen University Hospital](https://www.medizin3.uk-erlangen.de/en/).  
 Our group investigates which mechanisms drive immune cell heterogeneity in tissues and inflammatory conditions and how it affects disease variation across individuals.  
 In recent work, using single cell RNA sequencing we demonstrated that neutrophils in homeostasis are organized a chronologically ordered main sequence, termed neutrotime. In experimental inflammation, neutrophils reach distinct polarization states driven by timepoint, tissue and stimulus.  
 To apply this principle to human rheumatic disease, we developed a method to jointly analyze murine and human transcriptomic data. Thereby, we identified a transcriptional program which characterizes neutrophils in the arthritic joint in both mice and humans. Functionally, this program was highly enriched for interferon gamma response genes, which we validated on the protein level and using in vitro models.  
@@ -26,22 +26,19 @@ Research technician (Heidelberg)
 **Dr. med. Tarik Exner**  
 Postdoctoral fellow/PhD candidate in the [HBIGS MD/PhD program](http://www.hbigs.uni-heidelberg.de) (Heidelberg)
 
-**Dr. Panagiotis Garantziotis, PhD**
+**Dr. Panagiotis Garantziotis, PhD**  
 Physician Scientist (Erlangen)
 
 **Mareike de Groot**  
-Dr. med. candidate  (Heidelberg)
+Dr. med. candidate (Heidelberg)  
 [Peter-Scriba fellow (German Society of Internal Medicine)](https://www.dgim.de/en/the-gsim/)
 
 **Nicolaj S. Hackert**  
-Dr. med. candidate  (Heidelberg)
+Dr. med. candidate (Heidelberg)  
 [Boehringer Ingelheim Fonds fellow](https://www.bifonds.de/index.html)
 
 **Niklas R. Junker**  
 Dr. med. candidate (Heidelberg)
-
-**Sophie E. Leonhardt**  
-Research technician (Heidelberg)
 
 **Görkem Osmanusta**  
 Dr. med. candidate (Heidelberg)
@@ -53,20 +50,24 @@ Dr. med. candidate (Heidelberg)
 Rotation student  
 Now [HBIGS fellow](http://www.hbigs.uni-heidelberg.de) in [Prof. Dr. Joachim Wittbrodt's Lab](https://www.cos.uni-heidelberg.de/en/research-groups/developmental-biologyphysiology)
 
-**Frank Y. Huang**  
-Dr. med. candidate  
-[Boehringer Ingelheim Fonds fellow](https://www.bifonds.de/index.html)
+**Dr. med. Frank Y. Huang**  
+Dr. med. candidate and [Boehringer Ingelheim Fonds fellow](https://www.bifonds.de/index.html)  
+Now [HBIGS fellow](http://www.hbigs.uni-heidelberg.de) in [Prof. Dr. Andreas Trumpp's Lab](https://www.hi-stem.de/research-trumpp)
+
+**Sophie E. Leonhardt**  
+Research technician  
+Now Medical Student at [Saarland University](https://www.uni-saarland.de/en/home.html)
 
 **Felix A. Radtke**  
-Dr. med. candidate  
-[Boehringer Ingelheim Fonds fellow](https://www.bifonds.de/index.html)
+Dr. med. candidate and [Boehringer Ingelheim Fonds fellow](https://www.bifonds.de/index.html)  
+Now DPhil Student in [Professor Paresh Vyas' Group](https://www.imm.ox.ac.uk/research/research-groups/vyas-group-normal-and-malignant-haematopoiesis-lab) at [University of Oxford](https://www.ox.ac.uk)
 
 **Julia T. Schnell**  
 Dr. med. candidate  
 [PROMOS fellow (German Academic Exchange Service, DAAD)](https://www.daad.de/de/)
 
 ## Open Positions
-We are currently seeking one motivated postdoctoral fellow and one graduate student to join our team in Erlangen!
+We are currently seeking Immunology and Data Science enthusiasts to join our team in Erlangen!
 
 # Publications
 
