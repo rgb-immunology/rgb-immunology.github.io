@@ -3,7 +3,7 @@
 ![Team image](docs/assets/20220309_TeamGrieshaber_007_small.jpg)
 
 # About
-We are a systems immunology laboratory in the [Division of Rheumatology](https://www.klinikum.uni-heidelberg.de/kliniken-institute/kliniken/zentrum-fuer-innere-medizin-krehl-klinik/innere-medizin-v-haematologie-onkologie-und-rheumatologie/behandlungsspektrum/rheumatologie) ([Department of Medicine V](https://www.klinikum.uni-heidelberg.de/kliniken-institute/kliniken/zentrum-fuer-innere-medizin-krehl-klinik/innere-medizin-v-haematologie-onkologie-und-rheumatologie)) and [Institute for Immunology](https://www.klinikum.uni-heidelberg.de/immunologie/willkommen).  
+We are a systems immunology laboratory originally in the [Division of Rheumatology](https://www.klinikum.uni-heidelberg.de/kliniken-institute/kliniken/zentrum-fuer-innere-medizin-krehl-klinik/innere-medizin-v-haematologie-onkologie-und-rheumatologie/behandlungsspektrum/rheumatologie) ([Department of Medicine V](https://www.klinikum.uni-heidelberg.de/kliniken-institute/kliniken/zentrum-fuer-innere-medizin-krehl-klinik/innere-medizin-v-haematologie-onkologie-und-rheumatologie)) and [Institute for Immunology](https://www.klinikum.uni-heidelberg.de/immunologie/willkommen) and currently moving to the [Department of Internal Medicine 3 – Rheumatology and Immunology at Erlangen University Hospital](https://www.medizin3.uk-erlangen.de/en/)  
 Our group investigates which mechanisms drive immune cell heterogeneity in tissues and inflammatory conditions and how it affects disease variation across individuals.  
 In recent work, using single cell RNA sequencing we demonstrated that neutrophils in homeostasis are organized a chronologically ordered main sequence, termed neutrotime. In experimental inflammation, neutrophils reach distinct polarization states driven by timepoint, tissue and stimulus.  
 To apply this principle to human rheumatic disease, we developed a method to jointly analyze murine and human transcriptomic data. Thereby, we identified a transcriptional program which characterizes neutrophils in the arthritic joint in both mice and humans. Functionally, this program was highly enriched for interferon gamma response genes, which we validated on the protein level and using in vitro models.  
@@ -15,36 +15,36 @@ We also develop novel analysis tools for high dimensional data.
 
 ## Principal Investigator
 
-**Dr. med. Ricardo Grieshaber-Bouyer**  
+**Prof. Dr. med. Ricardo Grieshaber-Bouyer**  
+Professor of Clinical Systems Immunology
 
 ## Lab Members
 
 **Selina Belghalem**  
-Research technician (in training)
-
-**Dr. rer. nat. Filip Durco**  
-Postdoctoral fellow
+Research technician (Heidelberg)
 
 **Dr. med. Tarik Exner**  
-Postdoctoral fellow  
-[HBIGS fellow](http://www.hbigs.uni-heidelberg.de)
+Postdoctoral fellow/PhD candidate in the [HBIGS MD/PhD program](http://www.hbigs.uni-heidelberg.de) (Heidelberg)
+
+**Dr. Panagiotis Garantziotis, PhD**
+Physician Scientist (Erlangen)
 
 **Mareike de Groot**  
-Dr. med. candidate  
+Dr. med. candidate  (Heidelberg)
 [Peter-Scriba fellow (German Society of Internal Medicine)](https://www.dgim.de/en/the-gsim/)
 
 **Nicolaj S. Hackert**  
-Dr. med. candidate  
+Dr. med. candidate  (Heidelberg)
 [Boehringer Ingelheim Fonds fellow](https://www.bifonds.de/index.html)
 
 **Niklas R. Junker**  
-Dr. med. candidate
+Dr. med. candidate (Heidelberg)
 
 **Sophie E. Leonhardt**  
-Research technician
+Research technician (Heidelberg)
 
 **Görkem Osmanusta**  
-Dr. med. candidate
+Dr. med. candidate (Heidelberg)
 
 
 ## Alumni
@@ -66,7 +66,7 @@ Dr. med. candidate
 [PROMOS fellow (German Academic Exchange Service, DAAD)](https://www.daad.de/de/)
 
 ## Open Positions
-We are currently seeking one motivated postdoctoral fellow and one graduate student to join our team!
+We are currently seeking one motivated postdoctoral fellow and one graduate student to join our team in Erlangen!
 
 # Publications
 
@@ -170,6 +170,12 @@ Heidelberg University Hospital, October 19, 2020
 
 
 # Directions
+
+Erlangen:  
+Glückstraße 6  
+91054 Erlangen
+
+Heidelberg:  
 Institute for Immunology  
 Im Neuenheimer Feld 305  
 69120 Heidelberg
