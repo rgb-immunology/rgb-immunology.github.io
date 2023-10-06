@@ -3,7 +3,7 @@ plugins:
 - jekyll-remote-theme
 
 title: The Grieshaber-Bouyer Laboratory
-description: Systems Immunology at Heidelberg University Hospital
+description: Clinical Systems Immunology at FAU Erlangen-Nürnberg
 
 show_downloads: false
 # google_analytics: [Google Analytics tracking ID]
