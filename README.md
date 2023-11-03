@@ -87,9 +87,8 @@ We are currently seeking Immunology and Data Science enthusiasts to join our tea
 
 ### 2023
 
-[PDF] from biorxiv.org
-[Distinct Functional States of Neutrophils by Actin Disassembly and NF-kB/STAT3 Signaling]([https://doi.org/](https://doi.org/10.1101/2023.07.14.548975)
-Heineken N, Schumacher JC, Exner T, Neuenfeldt F, Habicht J, Kahlich F, Platzer H, Merle U, Renkawitz T, Samstag Y, **Grieshaber-Bouyer R**, Autenrieth S, Wabnitz GH
+[Distinct Functional States of Neutrophils by Actin Disassembly and NF-kB/STAT3 Signaling](https://doi.org/10.1101/2023.07.14.548975)  
+Heineken N, Schumacher JC, Exner T, Neuenfeldt F, Habicht J, Kahlich F, Platzer H, Merle U, Renkawitz T, Samstag Y, **Grieshaber-Bouyer R**, Autenrieth S, Wabnitz GH  
 _bioRxiv_ 2023
 
 ### 2022
