@@ -3,7 +3,7 @@
 ![Team image](docs/assets/20220309_TeamGrieshaber_007_small.jpg)
 
 # About
-We are a systems immunology laboratory originally in the [Division of Rheumatology](https://www.klinikum.uni-heidelberg.de/kliniken-institute/kliniken/zentrum-fuer-innere-medizin-krehl-klinik/innere-medizin-v-haematologie-onkologie-und-rheumatologie/behandlungsspektrum/rheumatologie) ([Department of Medicine V](https://www.klinikum.uni-heidelberg.de/kliniken-institute/kliniken/zentrum-fuer-innere-medizin-krehl-klinik/innere-medizin-v-haematologie-onkologie-und-rheumatologie)) and [Institute for Immunology](https://www.klinikum.uni-heidelberg.de/immunologie/willkommen) at Heidelberg University Hospital and currently moving to the [Department of Internal Medicine 3 – Rheumatology and Immunology at Erlangen University Hospital](https://www.medizin3.uk-erlangen.de/en/).  
+We are a systems immunology laboratory in the [Department of Internal Medicine 3 – Rheumatology and Immunology at Erlangen University Hospital](https://www.medizin3.uk-erlangen.de/en/).  
 Our group investigates which mechanisms drive immune cell heterogeneity in tissues and inflammatory conditions and how it affects disease variation across individuals.  
 In recent work, using single cell RNA sequencing we demonstrated that neutrophils in homeostasis are organized a chronologically ordered main sequence, termed neutrotime. In experimental inflammation, neutrophils reach distinct polarization states driven by timepoint, tissue and stimulus.  
 To apply this principle to human rheumatic disease, we developed a method to jointly analyze murine and human transcriptomic data. Thereby, we identified a transcriptional program which characterizes neutrophils in the arthritic joint in both mice and humans. Functionally, this program was highly enriched for interferon gamma response genes, which we validated on the protein level and using in vitro models.  
@@ -18,30 +18,41 @@ We also develop novel analysis tools for high dimensional data.
 **Prof. Dr. med. Ricardo Grieshaber-Bouyer**  
 Professor of Clinical Systems Immunology
 
-## Lab Members
+## Lab Members – Erlangen
 
-**Selina Belghalem**  
-Research technician (Heidelberg)
+**Laura Bucci, MD**  
+Physician Scientist
 
-**Dr. med. Tarik Exner**  
-Postdoctoral fellow/PhD candidate in the [HBIGS MD/PhD program](http://www.hbigs.uni-heidelberg.de) (Heidelberg)
+**Elaine Degen**  
+Dr. med. candidate
 
 **Dr. Panagiotis Garantziotis, PhD**  
-Physician Scientist (Erlangen)
+Physician Scientist
+
+**Dr. rer. nat. Tobias Rothe**  
+Postdoctoral fellow
+
+## Lab Members – Heidelberg
+
+**Dr. med. Tarik Exner**  
+Postdoctoral fellow/PhD candidate in the [HBIGS MD/PhD program](http://www.hbigs.uni-heidelberg.de)
 
 **Mareike de Groot**  
-Dr. med. candidate (Heidelberg)  
+Dr. med. candidate 
 [Peter-Scriba fellow (German Society of Internal Medicine)](https://www.dgim.de/en/the-gsim/)
 
 **Nicolaj S. Hackert**  
-Dr. med. candidate (Heidelberg)  
+Dr. med. candidate  
 [Boehringer Ingelheim Fonds fellow](https://www.bifonds.de/index.html)
 
 **Niklas R. Junker**  
-Dr. med. candidate (Heidelberg)
+Dr. med. candidate
 
 **Görkem Osmanusta**  
-Dr. med. candidate (Heidelberg)
+Dr. med. candidate
+
+**Frederic S. Pohl**  
+Dr. med. candidate
 
 
 ## Alumni
@@ -49,6 +60,9 @@ Dr. med. candidate (Heidelberg)
 **Dr. med. Cassian M. Afting**  
 Rotation student  
 Now [HBIGS fellow](http://www.hbigs.uni-heidelberg.de) in [Prof. Dr. Joachim Wittbrodt's Lab](https://www.cos.uni-heidelberg.de/en/research-groups/developmental-biologyphysiology)
+
+**Selina Belghalem**  
+Research technician
 
 **Dr. med. Frank Y. Huang**  
 Dr. med. candidate and [Boehringer Ingelheim Fonds fellow](https://www.bifonds.de/index.html)  
@@ -71,9 +85,14 @@ We are currently seeking Immunology and Data Science enthusiasts to join our tea
 
 # Publications
 
+### 2023
+
+[PDF] from biorxiv.org
+[Distinct Functional States of Neutrophils by Actin Disassembly and NF-kB/STAT3 Signaling]([https://doi.org/](https://doi.org/10.1101/2023.07.14.548975)
+Heineken N, Schumacher JC, Exner T, Neuenfeldt F, Habicht J, Kahlich F, Platzer H, Merle U, Renkawitz T, Samstag Y, **Grieshaber-Bouyer R**, Autenrieth S, Wabnitz GH
+_bioRxiv_ 2023
+
 ### 2022
-
-
 
 [Human and murine neutrophils share core transcriptional programs in both homeostatic and inflamed contexts](https://doi.org/10.1101/2022.11.13.516246)  
 Hackert NS\*, Radtke FA\*, Exner T, Lorenz HM, Mueller-Tidow C, Nigrovic PA, Wabnitz G, **Grieshaber-Bouyer R**  
@@ -173,7 +192,7 @@ Heidelberg University Hospital, October 19, 2020
 # Directions
 
 Erlangen:  
-Glückstraße 6  
+Glückstraße 4A  
 91054 Erlangen
 
 Heidelberg:  
