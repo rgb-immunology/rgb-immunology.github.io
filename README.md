@@ -5,9 +5,9 @@
 # About
 We are a systems immunology laboratory in the [Department of Internal Medicine 3 – Rheumatology and Immunology at Erlangen University Hospital](https://www.medizin3.uk-erlangen.de/en/).  
 Our group investigates which mechanisms drive immune cell heterogeneity in tissues and inflammatory conditions and how it affects disease variation across individuals.  
-In recent work, using single cell RNA sequencing we demonstrated that neutrophils in homeostasis are organized a chronologically ordered main sequence, termed neutrotime. In experimental inflammation, neutrophils reach distinct polarization states driven by timepoint, tissue and stimulus.  
-To apply this principle to human rheumatic disease, we developed a method to jointly analyze murine and human transcriptomic data. Thereby, we identified a transcriptional program which characterizes neutrophils in the arthritic joint in both mice and humans. Functionally, this program was highly enriched for interferon gamma response genes, which we validated on the protein level and using in vitro models.  
-In ongoing work, we combine high dimensional discovery in patient samples with in vitro systems, CRISPR-mediated genetic perturbations and murine models to dissect how immune cells adapt to different tissues and inflammatory conditions.  
+We demonstrated that neutrophils in homeostasis are organized a chronologically ordered main sequence, termed neutrotime. In experimental inflammation, neutrophils reach distinct polarization states driven by timepoint, tissue and stimulus.  
+To apply this principle to human immune-mediated disease, we developed a method to jointly analyze murine and human transcriptomic data. Thereby, we identified a transcriptional program which characterizes neutrophils in the arthritic joint in both mice and humans. Functionally, this program was highly enriched for interferon gamma response genes, which we validated on the protein level and using in vitro models.  
+In ongoing work, we combine high dimensional discovery in patient samples (in particular in the context of innovative therapies such as CAR-T cells) with in vitro systems, CRISPR-mediated genetic perturbations and murine models to dissect how immune cells adapt to different tissues and inflammatory conditions.  
 We also develop novel analysis tools for high dimensional data.
 
 
@@ -16,9 +16,13 @@ We also develop novel analysis tools for high dimensional data.
 ## Principal Investigator
 
 **Prof. Dr. med. Ricardo Grieshaber-Bouyer**  
-Professor of Clinical Systems Immunology
+Professor of Clinical Systems Immunology  
+Director, Center of Systems Immunology (CSI) Erlangen [(FOCIS Center of Excellence)](https://www.focisnet.org/communities/fces/)
 
 ## Lab Members – Erlangen
+
+**Dr. Kirill Anoshkin, PhD**  
+Postdoctoral fellow
 
 **Laura Bucci, MD**  
 Physician Scientist
@@ -31,6 +35,13 @@ Physician Scientist
 
 **Dr. rer. nat. Tobias Rothe**  
 Postdoctoral fellow
+
+**Peter Scheuerlein**  
+Research technician
+
+**Janina Schoen**  
+Dr. rer. nat. candidate
+
 
 ## Lab Members – Heidelberg
 
@@ -87,15 +98,15 @@ We are currently seeking Immunology and Data Science enthusiasts to join our tea
 
 ### 2023
 
+[Human and mouse neutrophils share core transcriptional programs in both homeostatic and inflamed contexts](https://doi.org/10.1038/s41467-023-43573-9)  
+Hackert NS\*, Radtke FA\*, Exner T\*, Lorenz HM, Mueller-Tidow C, Nigrovic PA, Wabnitz G, **Grieshaber-Bouyer R**  
+_Nature Communications_ 2023
+
 [Distinct Functional States of Neutrophils by Actin Disassembly and NF-kB/STAT3 Signaling](https://doi.org/10.1101/2023.07.14.548975)  
 Heineken N, Schumacher JC, Exner T, Neuenfeldt F, Habicht J, Kahlich F, Platzer H, Merle U, Renkawitz T, Samstag Y, **Grieshaber-Bouyer R**, Autenrieth S, Wabnitz GH  
 _bioRxiv_ 2023
 
 ### 2022
-
-[Human and murine neutrophils share core transcriptional programs in both homeostatic and inflamed contexts](https://doi.org/10.1101/2022.11.13.516246)  
-Hackert NS\*, Radtke FA\*, Exner T, Lorenz HM, Mueller-Tidow C, Nigrovic PA, Wabnitz G, **Grieshaber-Bouyer R**  
-_bioRxiv_ 2022
 
 [Ageing and interferon gamma response drive the phenotype of neutrophils in the inflamed joint](https://doi.org/10.1136/annrheumdis-2021-221866)  
 **Grieshaber-Bouyer R<sup>#</sup>**, Exner T, Hackert NS, Radtke FA, Jelinsky SA, Halyabar O, Wactor A, Karimizadeh E, Brennan J, Schettini J, Jonsson AH, Rao DA, Henderson LA, Mueller-Tidow C, Lorenz HM, Wabnitz G, Lederer JA, Hadjipanayis A, Nigrovic PA<sup>#</sup>. <sup>#</sup>Corresponding authors  
