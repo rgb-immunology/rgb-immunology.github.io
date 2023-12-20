@@ -102,6 +102,10 @@ We are currently seeking Immunology and Data Science enthusiasts to join our tea
 Hackert NS\*, Radtke FA\*, Exner T\*, Lorenz HM, Mueller-Tidow C, Nigrovic PA, Wabnitz G, **Grieshaber-Bouyer R**  
 _Nature Communications_ 2023
 
+[CD19 CAR-T cell treatment: Unraveling the role of B cells in Systemic Lupus Erythematosus](https://acrjournals.onlinelibrary.wiley.com/doi/abs/10.1002/art.42784)  
+Taubmann J, Müller F, Mutlu MY, Völkl S, Aigner M, Bozec A, Mackensen A, **Grieshaber-Bouyer R\***, Schett G\*  
+_Arthritis Rheumatol_ 2023
+
 [Distinct Functional States of Neutrophils by Actin Disassembly and NF-kB/STAT3 Signaling](https://doi.org/10.1101/2023.07.14.548975)  
 Heineken N, Schumacher JC, Exner T, Neuenfeldt F, Habicht J, Kahlich F, Platzer H, Merle U, Renkawitz T, Samstag Y, **Grieshaber-Bouyer R**, Autenrieth S, Wabnitz GH  
 _bioRxiv_ 2023
