@@ -1,14 +1,13 @@
 # The Grieshaber-Bouyer Laboratory
 
-![Team image](docs/assets/20220309_TeamGrieshaber_007_small.jpg)
+![Team image](docs/assets/Team_Prof_Grieshaber_UKER.jpg)
+(c) SIMOarts / Simone Kessler
 
 # About
 We are a systems immunology laboratory in the [Department of Internal Medicine 3 – Rheumatology and Immunology at Erlangen University Hospital](https://www.medizin3.uk-erlangen.de/en/).  
-Our group investigates which mechanisms drive immune cell heterogeneity in tissues and inflammatory conditions and how it affects disease variation across individuals.  
-We demonstrated that neutrophils in homeostasis are organized a chronologically ordered main sequence, termed neutrotime. In experimental inflammation, neutrophils reach distinct polarization states driven by timepoint, tissue and stimulus.  
+Our group investigates the mechanisms driving immune cell heterogeneity in tissues and inflammatory conditions and the links to disease variation across individuals. Our approach is characterized by a combination of high dimensional discovery in patient samples (in particular in the context of innovative therapies such as CAR-T cells) with in vitro systems, CRISPR-mediated genetic perturbations and murine models. We also develop novel analysis tools for high dimensional data.  
+In published work, we demonstrated that neutrophils in homeostasis are organized a chronologically ordered main sequence, termed neutrotime. In experimental inflammation, neutrophils reach distinct polarization states driven by timepoint, tissue and stimulus.  
 To apply this principle to human immune-mediated disease, we developed a method to jointly analyze murine and human transcriptomic data. Thereby, we identified a transcriptional program which characterizes neutrophils in the arthritic joint in both mice and humans. Functionally, this program was highly enriched for interferon gamma response genes, which we validated on the protein level and using in vitro models.  
-In ongoing work, we combine high dimensional discovery in patient samples (in particular in the context of innovative therapies such as CAR-T cells) with in vitro systems, CRISPR-mediated genetic perturbations and murine models to dissect how immune cells adapt to different tissues and inflammatory conditions.  
-We also develop novel analysis tools for high dimensional data.
 
 
 # Team
@@ -40,6 +39,9 @@ Postdoctoral fellow
 Research technician
 
 **Janina Schoen**  
+Dr. rer. nat. candidate
+
+**Liang Zhang**  
 Dr. rer. nat. candidate
 
 
@@ -92,9 +94,16 @@ Dr. med. candidate
 [PROMOS fellow (German Academic Exchange Service, DAAD)](https://www.daad.de/de/)
 
 ## Open Positions
-We are currently seeking Immunology and Data Science enthusiasts to join our team in Erlangen!
+We welcome applications by enthusiasts across wet and dry immunology, bioinformatics and data science enthusiasts!
 
 # Publications
+
+### 2024
+
+[CD19 CAR T-Cell Therapy in Autoimmune Disease — A Case Series with Follow-up](https://www.nejm.org/doi/full/10.1056/NEJMoa2308917)  
+Müller F, Taubmann J, Bucci L, Wilhelm A, Bergmann C, Völkl S, Aigner M, Rothe T, Minopoulou I, Tur C, Knitza J, Kharboutli S, Kretschmann S, Vasova I, Spoerl S, Reimann H, Munoz L, Gerlach RG, Schäfer S, **Grieshaber-Bouyer R**, Korganow AS, Farge-Bancel D, Mougiakakos D, Bozec A, Winkler T, Krönke G, Mackensen A, Schett G  
+_New Engl J Med_ 2024
+
 
 ### 2023
 
@@ -202,6 +211,10 @@ Jeanene Swanson, 10X Genomics, July 23, 2021
 Research Award by the German Society for Rheumatology (DGRh)](https://www.klinikum.uni-heidelberg.de/newsroom/angeborene-immunitaet-im-fokus-der-heidelberger-rheumatologie/)    
 Heidelberg University Hospital, October 19, 2020
 
+
+# Teaching
+
+We are integrated in the [iImmune](https://www.iimmune.nat.fau.de/) Integrated Immunology M.Sc. programme @FAU Erlangen
 
 # Directions
 
