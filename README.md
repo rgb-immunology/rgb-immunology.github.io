@@ -16,6 +16,7 @@ To apply this principle to human immune-mediated disease, we developed a method 
 
 **Prof. Dr. med. Ricardo Grieshaber-Bouyer**  
 Professor of Clinical Systems Immunology  
+Head of the Clinical Trial Unit  
 Director, Center of Systems Immunology (CSI) Erlangen [(FOCIS Center of Excellence)](https://www.focisnet.org/communities/fces/)
 
 ## Lab Members – Erlangen
@@ -23,14 +24,27 @@ Director, Center of Systems Immunology (CSI) Erlangen [(FOCIS Center of Excellen
 **Dr. Kirill Anoshkin, PhD**  
 Postdoctoral fellow
 
+**Sebastian Böltz, MD**  
+Physician scientist
+
 **Laura Bucci, MD**  
-Physician Scientist
+Physician scientist
 
 **Elaine Degen**  
 Dr. med. candidate
 
 **Dr. Panagiotis Garantziotis, PhD**  
-Physician Scientist
+Physician scientist
+
+**Sanjukta Gubbi**  
+Dr. rer. nat. candidate
+
+**Dr. med. Melanie Hagen**  
+Physician scientist  
+Head of the Clinical Trial Unit
+
+**Nicolas J. Nitsche**  
+M.Sc. student
 
 **Dr. rer. nat. Tobias Rothe**  
 Postdoctoral fellow
@@ -38,31 +52,13 @@ Postdoctoral fellow
 **Peter Scheuerlein**  
 Research technician
 
-**Janina Schoen**  
-Dr. rer. nat. candidate
-
 **Liang Zhang**  
 Dr. rer. nat. candidate
-
 
 ## Lab Members – Heidelberg
 
 **Dr. med. Tarik Exner**  
 Postdoctoral fellow/PhD candidate in the [HBIGS MD/PhD program](http://www.hbigs.uni-heidelberg.de)
-
-**Mareike de Groot**  
-Dr. med. candidate 
-[Peter-Scriba fellow (German Society of Internal Medicine)](https://www.dgim.de/en/the-gsim/)
-
-**Nicolaj S. Hackert**  
-Dr. med. candidate  
-[Boehringer Ingelheim Fonds fellow](https://www.bifonds.de/index.html)
-
-**Niklas R. Junker**  
-Dr. med. candidate
-
-**Görkem Osmanusta**  
-Dr. med. candidate
 
 **Frederic S. Pohl**  
 Dr. med. candidate
@@ -81,9 +77,23 @@ Research technician
 Dr. med. candidate and [Boehringer Ingelheim Fonds fellow](https://www.bifonds.de/index.html)  
 Now [HBIGS fellow](http://www.hbigs.uni-heidelberg.de) in [Prof. Dr. Andreas Trumpp's Lab](https://www.hi-stem.de/research-trumpp)
 
+**Mareike de Groot**  
+Dr. med. candidate 
+[Peter-Scriba fellow (German Society of Internal Medicine)](https://www.dgim.de/en/the-gsim/)
+
+**Nicolaj S. Hackert**  
+Dr. med. candidate  
+[Boehringer Ingelheim Fonds fellow](https://www.bifonds.de/index.html)
+
+**Niklas R. Junker**  
+Dr. med. candidate
+
 **Sophie E. Leonhardt**  
 Research technician  
 Now Medical Student at [Saarland University](https://www.uni-saarland.de/en/home.html)
+
+**Görkem Osmanusta**  
+Dr. med. candidate
 
 **Felix A. Radtke**  
 Dr. med. candidate and [Boehringer Ingelheim Fonds fellow](https://www.bifonds.de/index.html)  
@@ -100,10 +110,13 @@ We welcome applications by enthusiasts across wet and dry immunology, bioinforma
 
 ### 2024
 
+[Bispecific T cell engager therapy for refractory rheumatoid arthritis.](https://www.nature.com/articles/s41591-024-02964-1)  
+Bucci L, Hagen M, Rothe T, Raimondo MG, Fagni F, Tur C, Wirsching A, Wacker J, Wilhelm A, Auger JP, Pachowsky M, Eckstein M, Alivernini S, Zoli A, Krönke G, Uderhardt S, Bozec A, D’Agostino MA, Schett G, **Grieshaber-Bouyer R**
+_Nature Medicine_ 2024
+
 [CD19 CAR T-Cell Therapy in Autoimmune Disease — A Case Series with Follow-up](https://www.nejm.org/doi/full/10.1056/NEJMoa2308917)  
 Müller F, Taubmann J, Bucci L, Wilhelm A, Bergmann C, Völkl S, Aigner M, Rothe T, Minopoulou I, Tur C, Knitza J, Kharboutli S, Kretschmann S, Vasova I, Spoerl S, Reimann H, Munoz L, Gerlach RG, Schäfer S, **Grieshaber-Bouyer R**, Korganow AS, Farge-Bancel D, Mougiakakos D, Bozec A, Winkler T, Krönke G, Mackensen A, Schett G  
 _New Engl J Med_ 2024
-
 
 ### 2023
 
@@ -200,6 +213,50 @@ _JBJS Case Connect_ 2017
 
 
 # In The News
+
+[How a “date” between immune cells makes rheumatism disappear
+](https://www.bionity.com/en/news/1183376/how-a-date-between-immune-cells-makes-rheumatism-disappear.html)  
+Bionity, May 06, 2024
+
+[Artrite reumatoide, l’impiego di anticorpi monoclonali rivoluziona la terapia dei casi gravi
+](https://www.insalutenews.it/in-salute/artrite-reumatoide-limpiego-di-anticorpi-monoclonali-rivoluziona-la-terapia-dei-casi-gravi/)  
+insalute news, May 02, 2024
+
+[FAU team develops new approach for treating autoimmune diseases 
+](https://www.fau.eu/2024/05/02/news/fau-team-develops-new-approach-for-treating-autoimmune-diseases/)  
+Friedrich-Alexander-Universität Erlangen-Nürnberg, May 02, 2024
+
+[Clinical report: Academic trials signal autoimmune opportunities for T cell engagers
+](https://www.biocentury.com/article/652286/clinical-report-academic-trials-signal-autoimmune-opportunities-for-t-cell-engagers)  
+BioCentury, May 01, 2024
+
+[Rheuma: T- trifft B-Zelle
+](https://www.mtdialog.de/news/artikel/rheuma-t-gegen-b-zelle)  
+MT im Dialog, April 30, 2024
+
+[Wie ein „Date“ von Immunzellen Rheuma verschwinden lässt
+](https://idw-online.de/de/news832692)  
+Informationsdienst Wissenschaft e.V., April 26, 2024
+
+[Rheuma schon vor dem Ausbruch verhindern?
+](https://www.tagesschau.de/wissen/gesundheit/rheuma-forschung-100.html)  
+Tagesschau, March 12, 2024
+
+[Studie: Rheuma kann schon vor dem Ausbruch verhindert werden
+](https://www.br.de/nachrichten/wissen/studie-rheuma-kann-schon-vor-dem-ausbruch-verhindert-werden,U5nSoUu)  
+Bayerischer Rundfunk, March 05, 2024
+
+[Central inflammation system discovered
+](https://www.msn.com/en-us/health/other/central-inflammation-system-discovered/ar-BB1hyrmG)  
+MSN news, January 31, 2024
+
+[Super code cracked: Central inflammation system discovered
+](https://www.fau.eu/2024/01/31/news/research/super-code-cracked-central-inflammation-system-discovered/)  
+Friedrich-Alexander-Universität Erlangen-Nürnberg, January 31, 2024
+
+[Neu an der Uni: Prof. Dr. med. Ricardo Grieshaber-Bouyer
+](https://www.fau.de/2023/10/news/neu-an-der-uni-prof-dr-med-ricardo-grieshaber-bouyer-rodrigues/)  
+Friedrich-Alexander-Universität Erlangen-Nürnberg, October 01, 2023
 
 [Personalized Treatment Recommendations for Spondyloarthropathies](https://zpm-verbund.de/de/forschung/projekte/19-personalisierte-therapieempfehlung-bei-spondyloarthritiden)  
 Centers for Personalized Medicine (ZPM), 2022
