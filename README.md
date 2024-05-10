@@ -110,8 +110,8 @@ We welcome applications by enthusiasts across wet and dry immunology, bioinforma
 
 ### 2024
 
-[Bispecific T cell engager therapy for refractory rheumatoid arthritis.](https://www.nature.com/articles/s41591-024-02964-1)  
-Bucci L, Hagen M, Rothe T, Raimondo MG, Fagni F, Tur C, Wirsching A, Wacker J, Wilhelm A, Auger JP, Pachowsky M, Eckstein M, Alivernini S, Zoli A, Krönke G, Uderhardt S, Bozec A, D’Agostino MA, Schett G, **Grieshaber-Bouyer R**
+[Bispecific T cell engager therapy for refractory rheumatoid arthritis](https://www.nature.com/articles/s41591-024-02964-1)  
+Bucci L, Hagen M, Rothe T, Raimondo MG, Fagni F, Tur C, Wirsching A, Wacker J, Wilhelm A, Auger JP, Pachowsky M, Eckstein M, Alivernini S, Zoli A, Krönke G, Uderhardt S, Bozec A, D’Agostino MA, Schett G, **Grieshaber-Bouyer R**  
 _Nature Medicine_ 2024
 
 [CD19 CAR T-Cell Therapy in Autoimmune Disease — A Case Series with Follow-up](https://www.nejm.org/doi/full/10.1056/NEJMoa2308917)  
