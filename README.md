@@ -16,7 +16,7 @@ To apply this principle to human immune-mediated disease, we developed a method 
 
 **Prof. Dr. med. Ricardo Grieshaber-Bouyer**  
 Professor of Clinical Systems Immunology  
-Head of the Clinical Trial Unit  
+Head of the [Clinical Trial Unit](https://www.medizin3.uk-erlangen.de/en/patients/clinical-trials-unit/)  
 Director, Center of Systems Immunology (CSI) Erlangen [(FOCIS Center of Excellence)](https://www.focisnet.org/communities/fces/)
 
 ## Lab Members – Erlangen
@@ -31,6 +31,9 @@ Physician scientist
 Physician scientist
 
 **Elaine Degen**  
+Dr. med. candidate
+
+**Sonia Dresel**  
 Dr. med. candidate
 
 **Dr. Panagiotis Garantziotis, PhD**  
@@ -117,6 +120,14 @@ _Nature Medicine_ 2024
 [CD19 CAR T-Cell Therapy in Autoimmune Disease — A Case Series with Follow-up](https://www.nejm.org/doi/full/10.1056/NEJMoa2308917)  
 Müller F, Taubmann J, Bucci L, Wilhelm A, Bergmann C, Völkl S, Aigner M, Rothe T, Minopoulou I, Tur C, Knitza J, Kharboutli S, Kretschmann S, Vasova I, Spoerl S, Reimann H, Munoz L, Gerlach RG, Schäfer S, **Grieshaber-Bouyer R**, Korganow AS, Farge-Bancel D, Mougiakakos D, Bozec A, Winkler T, Krönke G, Mackensen A, Schett G  
 _New Engl J Med_ 2024
+
+[Selective CAR-T cell mediated B cell depletion suppresses interferon signature in SLE](https://insight.jci.org/articles/view/179433)  
+Wilhelm A, Chambers D, Müller F, Bozec A, **Grieshaber-Bouyer R**, Winkler T, Mougiakakos D, Mackensen A, Schett G, Krönke G  
+_JCI Insight_ 2024
+
+[CAR T-cell therapy in rheumatology-What we know so far?](https://link.springer.com/article/10.1007/s00393-024-01514-x)  
+Hagen M, Wirsching A, Bohr D, Taubmann J, Müller F, Mackensen A, **Grieshaber-Bouyer R\***, Schett G\*  
+_Z Rheumatol_ 2024
 
 ### 2023
 
@@ -214,8 +225,13 @@ _JBJS Case Connect_ 2017
 
 # In The News
 
-[How a “date” between immune cells makes rheumatism disappear
-](https://www.bionity.com/en/news/1183376/how-a-date-between-immune-cells-makes-rheumatism-disappear.html)  
+[Ein Rheumawirkstoff aus der Krebsmedizin](https://www.faz.net/aktuell/wissen/medizin-ernaehrung/rheumabehandlung-wie-ein-krebsmedikament-helfen-koennte-19717102.html)  
+FAZ, May 16, 2024
+
+[Mit T-Zell-Engagern gegen Rheuma](https://www.tagesschau.de/wissen/gesundheit/rheuma-t-cell-engager-100.html)  
+Tagesschau, May 13, 2024
+
+[How a “date” between immune cells makes rheumatism disappear](https://www.bionity.com/en/news/1183376/how-a-date-between-immune-cells-makes-rheumatism-disappear.html)  
 Bionity, May 06, 2024
 
 [Artrite reumatoide, l’impiego di anticorpi monoclonali rivoluziona la terapia dei casi gravi
@@ -262,20 +278,26 @@ Friedrich-Alexander-Universität Erlangen-Nürnberg, October 01, 2023
 Centers for Personalized Medicine (ZPM), 2022
 
 [Tracking neutrophil development along a continuous spectrum with single cell analysis](https://www.10xgenomics.com/blog/tracking-neutrophil-development-along-a-continuous-spectrum-with-single-cell-analysis)  
-Jeanene Swanson, 10X Genomics, July 23, 2021
+10X Genomics, July 23, 2021
 
 [INNATE IMMUNITY IN THE FOCUS OF HEIDELBERG's RHEUMATOLOGY  
 Research Award by the German Society for Rheumatology (DGRh)](https://www.klinikum.uni-heidelberg.de/newsroom/angeborene-immunitaet-im-fokus-der-heidelberger-rheumatologie/)    
 Heidelberg University Hospital, October 19, 2020
 
 
+
+# Research Support
+
+We are deeply grateful to all our funders for enabling our research, in particular the [Deutsche Forschungsgemeinschaft](https://www.dfg.de/en), the [Else Kröner-Fresenius Stiftung](https://www.ekfs.de/) and the [Interdisciplinary Center for Clinical Research (IZKF) Erlangen](https://www.izkf.med.fau.de/en/).
+
 # Teaching
 
-We are integrated in the [iImmune](https://www.iimmune.nat.fau.de/) Integrated Immunology M.Sc. programme @FAU Erlangen
+We are integrated in the [Medical curriculum](https://www.med.fau.de/studium/), [IZKF scientist training programs](https://www.izkf.med.fau.de/en/) and the [iImmune](https://www.iimmune.nat.fau.de/) Integrated Immunology M.Sc. programme @FAU Erlangen-Nürnberg.
 
 # Directions
 
 Erlangen:  
+Professorship for Clinical Systems Immunology  
 Glückstraße 4A  
 91054 Erlangen
 
