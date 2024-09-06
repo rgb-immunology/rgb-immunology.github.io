@@ -49,16 +49,25 @@ Head of the Clinical Trial Unit
 **Nicolas J. Nitsche**  
 M.Sc. student
 
+**Danae-Mona Nöthling, MD**  
+Physician scientist
+
 **Dr. rer. nat. Tobias Rothe**  
 Postdoctoral fellow
 
 **Peter Scheuerlein**  
 Research technician
 
-**Liang Zhang**  
-Dr. rer. nat. candidate
+**Jana Ullmann**  
+Research technician
+
+**Dr. rer. nat. Liang Zhang**  
+Postdoctoral fellow
 
 ## Lab Members – Heidelberg
+
+**Nicole Brosch**  
+Research technician
 
 **Dr. med. Tarik Exner**  
 Postdoctoral fellow/PhD candidate in the [HBIGS MD/PhD program](http://www.hbigs.uni-heidelberg.de)
@@ -113,13 +122,29 @@ We welcome applications by enthusiasts across wet and dry immunology, bioinforma
 
 ### 2024
 
+[BCMA-Targeted T-Cell-Engager Therapy for Autoimmune Disease](https://www.nejm.org/doi/10.1056/NEJMc2408786?url_ver=Z39.88-2003)  
+Hagen M, Bucci L, Böltz S, Nöthling DM, Rothe T, Anoshkin K, Raimondo MG, Tur C, Wirsching A, Wacker J, Düsing C, Distler JHW, Kuwert T, Bozec A, Ramming A, Schett G, **Grieshaber-Bouyer R**  
+_N Engl J Med_ 2024
+
 [Bispecific T cell engager therapy for refractory rheumatoid arthritis](https://www.nature.com/articles/s41591-024-02964-1)  
 Bucci L, Hagen M, Rothe T, Raimondo MG, Fagni F, Tur C, Wirsching A, Wacker J, Wilhelm A, Auger JP, Pachowsky M, Eckstein M, Alivernini S, Zoli A, Krönke G, Uderhardt S, Bozec A, D’Agostino MA, Schett G, **Grieshaber-Bouyer R**  
 _Nature Medicine_ 2024
 
+[Accurate, fast and memory efficient quantification of immune cell phenotypes in cytometry using machine learning](https://doi.org/10.1101/2024.07.26.605341)  
+Exner T, Hackert NS, Pohl F, Osmanusta G, Schmitt F, Lorenz HM, Wabnitz G, Schett G, Graw F, Henes J, **Grieshaber-Bouyer R**  
+_bioRxiv_ 2024
+
+[CytoNormPy enables a fast and scalable removal of batch effects in cytometry datasets](https://doi.org/10.1101/2024.07.19.604225)
+Exner T, Hackert N, Leomazzi L, Van Gassen S, Saeys Y, Lorenz HM, **Grieshaber-Bouyer R**  
+_bioRxiv_ 2024
+
 [CD19 CAR T-Cell Therapy in Autoimmune Disease — A Case Series with Follow-up](https://www.nejm.org/doi/full/10.1056/NEJMoa2308917)  
 Müller F, Taubmann J, Bucci L, Wilhelm A, Bergmann C, Völkl S, Aigner M, Rothe T, Minopoulou I, Tur C, Knitza J, Kharboutli S, Kretschmann S, Vasova I, Spoerl S, Reimann H, Munoz L, Gerlach RG, Schäfer S, **Grieshaber-Bouyer R**, Korganow AS, Farge-Bancel D, Mougiakakos D, Bozec A, Winkler T, Krönke G, Mackensen A, Schett G  
 _New Engl J Med_ 2024
+
+[CD19-CAR T-cell therapy induces deep tissue depletion of B cells](https://ard.bmj.com/content/early/2024/08/16/ard-2024-226142.long)  
+Tur C, Eckstein M, Velden J, Rauber S, Bergmann C, Auth J, Bucci L, Corte G, Hagen M, Wirsching A, **Grieshaber-Bouyer R**, Reis P, Kittan N, Wacker J, Rius Rigau A, Ramming A, D’Agostino MA, Hartmann A, Müller F, Mackensen A, Bozec A, Schett G, Raimondo MG  
+_Ann Rheum Dis_ 2024
 
 [Selective CAR-T cell mediated B cell depletion suppresses interferon signature in SLE](https://insight.jci.org/articles/view/179433)  
 Wilhelm A, Chambers D, Müller F, Bozec A, **Grieshaber-Bouyer R**, Winkler T, Mougiakakos D, Mackensen A, Schett G, Krönke G  
