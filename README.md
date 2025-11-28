@@ -150,6 +150,79 @@ We welcome applications by enthusiasts across wet and dry immunology, bioinforma
 
 ### 2025
 
+*Safety and preliminary efficacy of zorpocabtagene-autoleucel in systemic autoimmune diseases*  
+Müller F, Hagen M, Wirsching A, Kharboutli S, Aigner M, Völkl S, Kretschmann S, Tascilar K, Taubmann J, Bucci L, Raimondo MG, Bergmann C, Rothe T, Tur C, Muñoz L, Böltz S, Schuster L, Hartmann F, Garantziotis P, Spörl S, Vasova I, Gerbitz A, Spriewald B, Kiener H, Giannarelli D, Locatelli F, D´Agostino MA, Hanssens L, Miltenyi S, Bozec A, **Grieshaber-Bouyer R**, Mackensen A, Schett G  
+_Nature Medicine_ 2025 (in press)
+
+*Bispecific T cell engagers for the treatment of severe, treatment-refractory autoimmunemediated connective tissue diseases*  
+Düsing C, Györfi AH, Stütz AN, Lahu LM, Deicher FS, Li YN, Bruch PM, Matei AE, Micu A, Filla T, Koziel S, Hölscher AS, Röhrich M, Lorenz HM, Cramer M, Antoch G, Timm J, Abusabha Y, Ruck T, Homey B, Kreuter A, Bühring B, Radujkovic A, Hagen M, **Grieshaber-Bouyer R**, Schett G, Brunn A, Dietrich S, Merkt W, Distler JHW  
+_Nature Medicine_ 2025 (in press)
+
+Roads and detours for CAR T cell therapy in autoimmune diseases  
+Radic M, Avouac J, Barzel A, Davis R, Caiati D, Gottschalk S, **Grieshaber-Bouyer R**, Mao X, Luning-Prak N, Scherlinger M, Suneja Y, Talleur A, Thacker A, Unutmaz D  
+_Nature Reviews Drug Discovery_ (in press)
+
+Multiple Recent Approvals Establish T Cell Engaging Antibodies as a Compelling Therapeutic Modality  
+Baeuerle P, Sauer K, **Grieshaber-Bouyer R**, Michaelson J  
+_J Exp Med_ 2025 (in press)
+
+Soluble BDCA-2 as a potential biomarker for rheumatoid arthritis and its role in enhancing IFN-α production through nucleic acid binding  
+Mainieri L, Kaufmann A, Bucci L, **Grieshaber-Bouyer R***, Bauer S*, Venegas S*  
+_Rheumatology (Oxford)_ 2025
+
+BCMA T cell engager therapy in patients with refractory autoimmune disease  
+Bucci L, Böltz S, Hagen M, Tur C, Noethling D, Rothe T, Wirsching A, Auth J, Wacker J, Eckstein M, Alivernini S, Bozec A, Bergmann C, D'Agostino MA, Munoz L, Rech J, Kihm L, Raimondo MG, Schett G, **Grieshaber-Bouyer R**  
+_N Engl J Med_ 2025
+
+Neutrophil heterogeneity identifies an association of LAMP1 with proliferative lupus nephritis  
+Ostendorf L, Garantziotis P, Huang FY, Schett G, Accelerating Medicines Partnership: RA/SLE Network, Lederer JA, Fava A, Rao DA, **Grieshaber-Bouyer R**  
+_Eur J Immunol_ 2025
+
+CytoNormPy Enables a Fast and Scalable Removal of Batch Effects in Cytometry Datasets  
+Exner T, Hackert N, Leomazzi L, Van Gassen S, Saeys Y, Lorenz HM, **Grieshaber-Bouyer R**  
+Cytometry A 2025 (IF = 2.1)
+
+From complexity to consensus: A roadmap for neutrophil classification  
+Ng LG, Ballesteros I, Cassatella MA, Egeblad M, Fridlender ZG, Gabrilovich D, Gao Q, Granot Z, **Grieshaber-Bouyer R**, Grimes HL, Hedrick CC, Hidalgo A, Kaplan MJ, Kubes P, Ling GS, Lu L, Luo HR, Mayadas TN, Moutsopoulos NM, Ng M, Nigrovic PA, Ostuni R, Pittet MJ, Quail DF, Silvestre-Roig C, Soehnlein O, Udalova IA, Xue R, Zhang N, Kwok I  
+_Immunity_ 2025
+
+Effects of CD19 CAR T-cell therapy on quality of life and direct health care costs in SLE: a preliminary analysis  
+Taubmann J, Hagen M, Müller F, Wirsching A, Temiz A, Völkl S, Aigner M, **Grieshaber-Bouyer R**, Mackensen A, Schett G  
+_J Rheumatol_ 2025
+
+Long-term follow up of efficiency and safety of CD19-CAR T-cell treatment of systemic lupus erythematosus  
+Taubmann J, Böltz S, Hagen M, Wirsching A, Müller F, Völkl S, Kharboutli S, Spörl S, Garantziotis P, Aigner M, **Grieshaber-Bouyer R**, Mackensen A, Schett G  
+_Z Rheumatol_ 2025
+
+Differential molecular signatures in response to CD19-CAR T cell therapy compared with conventional pharmacotherapy in systemic lupus erythematosus  
+Garantziotis P, Beretta L, Lindblom J, Moysidou GS, Nikolopoulos D, **Grieshaber-Bouyer R**, Hagen M, Bergmann C, Wirsching A, Bozec A; PRECISESADS Clinical Consortium; Schneider M, Barturen G, Bertsias G, Boumpas DT, Alarcón-Riquelme ME, Mackensen A, Schett G, Parodis I  
+_Ann Rheum Dis_ 2025
+
+Effects of different B-cell-depleting strategies on the lymphatic tissue  
+Tur C, Eckstein M, Bucci L, Auth J, Bergmann C, Rauber S, Hagen M, Nöthling DM, Böltz S, Wirsching A, Tascilar K, Fagni F, Corte G, Rius Rigau A, Qin Y, Garantziotis P, Taubmann J, Wacker J, Ramming A, D Agostino MA, Rauch S, Hartmann A, Müller F, Mackensen A, Grieshaber-Bouyer R, Schett G, Bozec A, Raimondo MG  
+Ann Rheum Dis 2025 (IF = 20.3)
+
+Comparison of the safety profiles of CD19-targeting CAR T-cell therapy in patients with SLE and B-cell lymphoma  
+Müller F, Schwingen NR, Hagen M, Scholz JK, Aigner M, Wirsching A, Taubmann J, Kretschmann S, Kharboutli S, Krickau T, Naumann-Bartsch N, Benintende G, Spoerl S, Rothe T, Bruns H, Grieshaber-Bouyer R, Metzler M, Blumenthal DB, Graw F, Schett G, Mackensen A, Völkl S  
+_Blood_ 2025
+
+Local Immune effector Cell-Associated Toxicity Syndrome (LICATS) in CAR T-cell treated patients with autoimmune disease – an observational study  
+Hagen M, Müller F, Wirsching A, Kharboutli S,  Spoerl S, Düsing C, Krickau T, Metzler M, Völkl S, Aigner M, Kretschmann S, Vasova I, Saake M, Schliep S, Kubacki T, Hunzelmann N, Bucci L, Taubmann J, Bergmann C, Györfi H, Dietrich S, Distler JHW, **Grieshaber-Bouyer R**,
+Mackensen A, Schett G  
+Lancet Rheumatol 2025
+
+BCMA-CAR T-cells in a patient with relapsing idiopathic inflammatory myositis after CD19-CAR T-cells  
+Müller F, Wirsching A, Hagen M, Völkl S, Tur C, Raimondo MG, Taubmann J, Bucci L, Zhang L, Kretschmann S, Aigner M, Eckstein M, Spörl S, Kharboutli S, Böltz S, Atzinger A, Munoz L,c Schett G, Mackensen A, **Grieshaber-Bouyer R**  
+_Nature Medicine_ 2025
+
+[CD19-CAR T-cell therapy induces deep tissue depletion of B cells](https://ard.bmj.com/content/early/2024/09/11/ard-2024-226142)  
+Tur C, Eckstein M, Velden J, Rauber S, Bergmann C, Auth J, Bucci L, Corte G, Hagen M, Wirsching A, **Grieshaber-Bouyer R**, Reis P, Kittan N, Wacker J, Rius Rigau A, Ramming A, D'Agostino MA, Hartmann A, Müller F, Mackensen A, Bozec A, Schett G, Raimondo MG  
+_Ann Rheum Dis_ 2025
+
+[CD19-targeting CAR T-cell therapy in patients with diffuse systemic sclerosis: a case series](https://www.thelancet.com/journals/lanrhe/article/PIIS2665-9913(24)00282-0)  
+Auth J, Müller F, Völkl S, Bayerl N, Distler JHW, Tur C, Raimondo MG, Chenguiti Fakhouri S, Atzinger A, Coppers B, Eckstein M, Liphardt AM, Bäuerle T, Tascilar K, Aigner M, Kretschmann S, Wirsching A, Taubmann J, Hagen M, Györfi AH, Kharboutli S, Krickau T, Dees C, Spörl S, Rothe T, Harrer T, Bozec A, **Grieshaber-Bouyer R**, Fuchs F, Kuwert T, Berking C, Horch RE, Uder M, Mackensen A, Schett G, Bergmann C  
+_Lancet Rheumatol_ 2025
+
 
 ### 2024
 
@@ -352,15 +425,9 @@ We are integrated in the [Medical curriculum](https://www.med.fau.de/studium/), 
 
 # Directions
 
-Erlangen:  
 Professorship for Clinical Systems Immunology  
 Glückstraße 4A  
 91054 Erlangen
 
-Heidelberg:  
-Institute for Immunology  
-Im Neuenheimer Feld 305  
-69120 Heidelberg
-
-[Data processing policy (Datenschutzerklärung)](https://www.heidelberg-university-hospital.com/data-protection-policy)  
-[Imprint (Impressum)](https://www.heidelberg-university-hospital.com/imprint)
+[Data processing policy (Datenschutzerklärung)](https://www.uk-erlangen.de/en/data-protection/)  
+[Imprint (Impressum)](https://www.uk-erlangen.de/en/imprint/)
