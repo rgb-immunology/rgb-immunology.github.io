@@ -14,12 +14,26 @@ To apply this principle to human immune-mediated disease, we developed a method 
 
 ## Principal Investigator
 
-**Prof. Dr. med. Ricardo Grieshaber-Bouyer**  
+**Prof. Dr. med. Ricardo Grieshaber-Bouyer, MHBA**  
+Physician-scientist, clinical leader, and entrepreneur with a proven track record of translating breakthrough immunology into curative therapies.  
+
+As Professor of Clinical Systems Immunology and Head of the Clinical Trial Unit, I lead a dynamic clinical and translational research team.  
+My team has pioneered the first-in-patient applications of T-cell redirecting therapies for autoimmune diseases, with seminal studies published in the New England Journal of Medicine and Nature Medicine.  
+I serve as a Global Principal Investigator for innovative, early-phase trials and manage a portfolio of cutting edge immunology studies focused on precision cell depletion.  
+Academically, I lead a 15-member research group that works on developing new precision cell depleting therapies and understanding immunological hallmarks of therapy response and relapse.  
+This research program is supported by nearly $10 million in secured PI funding.  
+Bridging academia and industry, I leverage my dual background in medicine and business to drive the development of innovative therapeutics by serving on Scientific Advisory Boards and advising on preclinical benchmarking, asset acquisition and clinical strategy.  
+For my impact at the intersect of clinical, scientific, and private sectors to build programs that deliver cures for autoimmunity, I was honored as Forbes 30 Under 30.  
+
 Professor of Clinical Systems Immunology  
 Head of the [Clinical Trial Unit](https://www.medizin3.uk-erlangen.de/en/patients/clinical-trials-unit/)  
-Director, Center of Systems Immunology (CSI) Erlangen [(FOCIS Center of Excellence)](https://www.focisnet.org/communities/fces/)
+Director, Center of Systems Immunology (CSI) Erlangen [(FOCIS Center of Excellence)](https://www.focisnet.org/communities/fces/)  
 
-## Lab Members – Erlangen
+**Personal Assistant: Lisa Fischer, MSc**  
+lisa.fischer@uk-erlangen.de  
++49 9131 85-39379  
+
+## Lab Members
 
 **Dr. Kirill Anoshkin, PhD**  
 Postdoctoral fellow
@@ -39,15 +53,29 @@ Dr. med. candidate
 **Dr. Panagiotis Garantziotis, PhD**  
 Physician scientist
 
-**Sanjukta Gubbi**  
+**Ann-Kathrin Götz**  
+Dr. med. candidate  
+Currently a visiting scholar at the [Deepak Rao Lab](https://raolab.bwh.harvard.edu/) at the [Brigham and Women's Hospital](https://www.brighamandwomens.org/)/[Harvard Medical School](https://hms.harvard.edu/)
+
+**Sanjukta Gubbi Praveen**  
 Dr. rer. nat. candidate
 
 **Dr. med. Melanie Hagen**  
 Physician scientist  
 Head of the Clinical Trial Unit
 
+**Dr. Futoshi Iwata, MD**  
+Rheumatologist  
+Postdoctoral fellow
+
+**Silke Johann**  
+Research technician
+
 **Nicolas J. Nitsche**  
 M.Sc. student
+
+**Dr. Zahra Moslehi, PhD**  
+Postdoctoral fellow
 
 **Danae-Mona Nöthling, MD**  
 Physician scientist
@@ -55,25 +83,11 @@ Physician scientist
 **Dr. rer. nat. Tobias Rothe**  
 Postdoctoral fellow
 
-**Peter Scheuerlein**  
-Research technician
-
 **Jana Ullmann**  
 Research technician
 
-**Dr. rer. nat. Liang Zhang**  
+**Dr. rer. nat. Liang Zhang, PhD**  
 Postdoctoral fellow
-
-## Lab Members – Heidelberg
-
-**Nicole Brosch**  
-Research technician
-
-**Dr. med. Tarik Exner**  
-Postdoctoral fellow/PhD candidate in the [HBIGS MD/PhD program](http://www.hbigs.uni-heidelberg.de)
-
-**Frederic S. Pohl**  
-Dr. med. candidate
 
 
 ## Alumni
@@ -85,13 +99,21 @@ Now [HBIGS fellow](http://www.hbigs.uni-heidelberg.de) in [Prof. Dr. Joachim Wit
 **Selina Belghalem**  
 Research technician
 
+**Nicole Brosch**  
+Research technician
+
+**Dr. med. Tarik Exner**  
+Postdoctoral fellow/PhD candidate in the [HBIGS MD/PhD program](http://www.hbigs.uni-heidelberg.de)
+Now Rheumatology Fellow and Group Leader at [Heidelberg University Hospital](https://www.klinikum.uni-heidelberg.de/kliniken-institute/kliniken/zentrum-fuer-innere-medizin-krehl-klinik/innere-medizin-v-haematologie-onkologie-und-rheumatologie/behandlungsspektrum/rheumatologie)
+
 **Dr. med. Frank Y. Huang**  
 Dr. med. candidate and [Boehringer Ingelheim Fonds fellow](https://www.bifonds.de/index.html)  
 Now [HBIGS fellow](http://www.hbigs.uni-heidelberg.de) in [Prof. Dr. Andreas Trumpp's Lab](https://www.hi-stem.de/research-trumpp)
 
 **Mareike de Groot**  
 Dr. med. candidate 
-[Peter-Scriba fellow (German Society of Internal Medicine)](https://www.dgim.de/en/the-gsim/)
+[Peter-Scriba fellow (German Society of Internal Medicine)](https://www.dgim.de/en/the-gsim/)  
+Now Internal Medicine Resident
 
 **Nicolaj S. Hackert**  
 Dr. med. candidate  
@@ -107,9 +129,15 @@ Now Medical Student at [Saarland University](https://www.uni-saarland.de/en/home
 **Görkem Osmanusta**  
 Dr. med. candidate
 
+**Frederic S. Pohl**  
+Dr. med. candidate
+
 **Felix A. Radtke**  
 Dr. med. candidate and [Boehringer Ingelheim Fonds fellow](https://www.bifonds.de/index.html)  
 Now DPhil Student in [Professor Paresh Vyas' Group](https://www.imm.ox.ac.uk/research/research-groups/vyas-group-normal-and-malignant-haematopoiesis-lab) at [University of Oxford](https://www.ox.ac.uk)
+
+**Peter Scheuerlein**  
+Research technician
 
 **Julia T. Schnell**  
 Dr. med. candidate  
@@ -119,6 +147,9 @@ Dr. med. candidate
 We welcome applications by enthusiasts across wet and dry immunology, bioinformatics and data science enthusiasts!
 
 # Publications
+
+### 2025
+
 
 ### 2024
 
