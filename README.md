@@ -23,11 +23,12 @@ I serve as a Global Principal Investigator for innovative, early-phase trials an
 Academically, I lead a 15-member research group that works on developing new precision cell depleting therapies and understanding immunological hallmarks of therapy response and relapse.  
 This research program is supported by nearly $10 million in secured PI funding.  
 Bridging academia and industry, I leverage my dual background in medicine and business to drive the development of innovative therapeutics by serving on Scientific Advisory Boards and advising on preclinical benchmarking, asset acquisition and clinical strategy.  
-For my impact at the intersect of clinical, scientific, and private sectors to build programs that deliver cures for autoimmunity, I was honored as Forbes 30 Under 30.  
+For my impact at the intersect of clinical, scientific, and private sectors to build programs that deliver cures for autoimmunity, I was honored as [Forbes 30 Under 30](https://www.forbes.com/profile/ricardo-grieshaber-bouyer/).  
 
-Professor of Clinical Systems Immunology  
-Head of the [Clinical Trial Unit](https://www.medizin3.uk-erlangen.de/en/patients/clinical-trials-unit/)  
-Director, Center of Systems Immunology (CSI) Erlangen [(FOCIS Center of Excellence)](https://www.focisnet.org/communities/fces/)  
+- Board Certified in Internal Medicine, Rheumatology and Immunology  
+- Professor of Clinical Systems Immunology  
+- Head of the [Clinical Trial Unit](https://www.medizin3.uk-erlangen.de/en/patients/clinical-trials-unit/)  
+- Director, Center of Systems Immunology (CSI) Erlangen [(FOCIS Center of Excellence)](https://www.focisnet.org/communities/fces/)  
 
 **Personal Assistant: Lisa Fischer, MSc**  
 lisa.fischer@uk-erlangen.de  
@@ -354,6 +355,9 @@ _JBJS Case Connect_ 2017
 
 # In The News
 
+[A cup with the President – Episode 28: Prof. Dr. Grieshaber-Bouyer
+](https://www.fau.eu/2025/08/news/a-cup-with-the-president-episode-28-prof-dr-grieshaber-bouyer/)
+
 [Ein Rheumawirkstoff aus der Krebsmedizin](https://www.faz.net/aktuell/wissen/medizin-ernaehrung/rheumabehandlung-wie-ein-krebsmedikament-helfen-koennte-19717102.html)  
 FAZ, May 16, 2024
 
@@ -417,7 +421,7 @@ Heidelberg University Hospital, October 19, 2020
 
 # Research Support
 
-We are deeply grateful to all our funders for enabling our research, in particular the [Deutsche Forschungsgemeinschaft](https://www.dfg.de/en), the [Else Kröner-Fresenius Stiftung](https://www.ekfs.de/) and the [Interdisciplinary Center for Clinical Research (IZKF) Erlangen](https://www.izkf.med.fau.de/en/).
+We are deeply grateful to all our funders for enabling our research, in particular the [Deutsche Forschungsgemeinschaft](https://www.dfg.de/en), the [Else Kröner-Fresenius Stiftung](https://www.ekfs.de/), the [Boehringer Ingelheim Stiftung](https://boehringer-ingelheim-stiftung.de/en/index.html),  the [Lupus Research Alliance](https://www.lupusresearch.org/) and the [Interdisciplinary Center for Clinical Research (IZKF) Erlangen](https://www.izkf.med.fau.de/en/).
 
 # Teaching
 
