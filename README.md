@@ -26,9 +26,11 @@ Bridging academia and industry, I leverage my dual background in medicine and bu
 For my impact at the intersect of clinical, scientific, and private sectors to build programs that deliver cures for autoimmunity, I was honored as [Forbes 30 Under 30](https://www.forbes.com/profile/ricardo-grieshaber-bouyer/).  
 
 - Board Certified in Internal Medicine, Rheumatology and Immunology  
-- Professor of Clinical Systems Immunology  
+- [Professor of Clinical Systems Immunology](https://www.medizin3.uk-erlangen.de/forschung/arbeitgruppen/ag-prof-dr-r-griesshaber-bouyer/)  
 - Head of the [Clinical Trial Unit](https://www.medizin3.uk-erlangen.de/en/patients/clinical-trials-unit/)  
-- Director, Center of Systems Immunology (CSI) Erlangen [(FOCIS Center of Excellence)](https://www.focisnet.org/communities/fces/)  
+- Director, [Center of Systems Immunology (CSI) Erlangen](https://focisnet.org/whats-new-with-focis-centers-of-excellence-fces/) [(FOCIS Center of Excellence)](https://www.focisnet.org/communities/fces/)
+- Member, [FAU Profile Center for Medical Engineering](https://www.medtech.fau.eu/speakers/prof-dr-med-ricardo-grieshaber-bouyer/)
+- Member, [FAU Profile Center Immunomedicine](https://www.immunology.fau.de/)
 
 **Personal Assistant: Lisa Fischer, MSc**  
 lisa.fischer@uk-erlangen.de  
@@ -151,24 +153,24 @@ We welcome applications by enthusiasts across wet and dry immunology, bioinforma
 
 ### 2025
 
-[Safety and preliminary efficacy of zorpocabtagene-autoleucel in systemic autoimmune diseases]  
-Müller F, Hagen M, Wirsching A, Kharboutli S, Aigner M, Völkl S, Kretschmann S, Tascilar K, Taubmann J, Bucci L, Raimondo MG, Bergmann C, Rothe T, Tur C, Muñoz L, Böltz S, Schuster L, Hartmann F, Garantziotis P, Spörl S, Vasova I, Gerbitz A, Spriewald B, Kiener H, Giannarelli D, Locatelli F, D´Agostino MA, Hanssens L, Miltenyi S, Bozec A, **Grieshaber-Bouyer R**, Mackensen A, Schett G  
+Safety and preliminary efficacy of zorpocabtagene-autoleucel in systemic autoimmune diseases  
+Müller F*, Hagen M*, Wirsching A*, Kharboutli S, Aigner M, Völkl S, Kretschmann S, Tascilar K, Taubmann J, Bucci L, Raimondo MG, Bergmann C, Rothe T, Tur C, Muñoz L, Böltz S, Schuster L, Hartmann F, Garantziotis P, Spörl S, Vasova I, Gerbitz A, Spriewald B, Kiener H, Giannarelli D, Locatelli F, D´Agostino MA, Hanssens L, Miltenyi S, Bozec A, **Grieshaber-Bouyer R**, Mackensen A*, Schett G*  
 _Nature Medicine_ 2025 (in press)
 
-[Bispecific T cell engagers for the treatment of severe, treatment-refractory autoimmunemediated connective tissue diseases]  
+Bispecific T cell engagers for the treatment of severe, treatment-refractory autoimmunemediated connective tissue diseases  
 Düsing C, Györfi AH, Stütz AN, Lahu LM, Deicher FS, Li YN, Bruch PM, Matei AE, Micu A, Filla T, Koziel S, Hölscher AS, Röhrich M, Lorenz HM, Cramer M, Antoch G, Timm J, Abusabha Y, Ruck T, Homey B, Kreuter A, Bühring B, Radujkovic A, Hagen M, **Grieshaber-Bouyer R**, Schett G, Brunn A, Dietrich S, Merkt W, Distler JHW  
 _Nature Medicine_ 2025 (in press)
 
-[Roads and detours for CAR T cell therapy in autoimmune diseases]  
+Roads and detours for CAR T cell therapy in autoimmune diseases  
 Radic M, Avouac J, Barzel A, Davis R, Caiati D, Gottschalk S, **Grieshaber-Bouyer R**, Mao X, Luning-Prak N, Scherlinger M, Suneja Y, Talleur A, Thacker A, Unutmaz D  
 _Nature Reviews Drug Discovery_ (in press)
 
-[Multiple Recent Approvals Establish T Cell Engaging Antibodies as a Compelling Therapeutic Modality]  
+Multiple Recent Approvals Establish T Cell Engaging Antibodies as a Compelling Therapeutic Modality  
 Baeuerle P, Sauer K, **Grieshaber-Bouyer R**, Michaelson J  
 _J Exp Med_ 2025 (in press)
 
 [Soluble BDCA-2 as a potential biomarker for rheumatoid arthritis and its role in enhancing IFN-α production through nucleic acid binding](https://academic.oup.com/rheumatology/advance-article/doi/10.1093/rheumatology/keaf537/8287650)  
-Mainieri L, Kaufmann A, Bucci L, **Grieshaber-Bouyer R***, Bauer S*, Venegas S*  
+Mainieri L, Kaufmann A, Bucci L, **Grieshaber-Bouyer R\***, Bauer S*, Venegas S*  
 _Rheumatology_ 2025
 
 [BCMA T cell engager therapy in patients with refractory autoimmune disease](https://www.nejm.org/doi/full/10.1056/NEJMc2506740)  
@@ -201,7 +203,7 @@ _Ann Rheum Dis_ 2025
 
 [Effects of different B-cell-depleting strategies on the lymphatic tissue](https://ard.eular.org/article/S0003-4967(25)04174-3)  
 Tur C, Eckstein M, Bucci L, Auth J, Bergmann C, Rauber S, Hagen M, Nöthling DM, Böltz S, Wirsching A, Tascilar K, Fagni F, Corte G, Rius Rigau A, Qin Y, Garantziotis P, Taubmann J, Wacker J, Ramming A, D Agostino MA, Rauch S, Hartmann A, Müller F, Mackensen A, **Grieshaber-Bouyer R**, Schett G, Bozec A, Raimondo MG  
-Ann Rheum Dis 2025 (IF = 20.3)
+_Ann Rheum Dis_ 2025
 
 [Comparison of the safety profiles of CD19-targeting CAR T-cell therapy in patients with SLE and B-cell lymphoma](https://ashpublications.org/blood/article-abstract/146/9/1088/537757/Comparison-of-the-safety-profiles-of-CD19)  
 Müller F, Schwingen NR, Hagen M, Scholz JK, Aigner M, Wirsching A, Taubmann J, Kretschmann S, Kharboutli S, Krickau T, Naumann-Bartsch N, Benintende G, Spoerl S, Rothe T, Bruns H, **Grieshaber-Bouyer R**, Metzler M, Blumenthal DB, Graw F, Schett G, Mackensen A, Völkl S  
@@ -355,8 +357,10 @@ _JBJS Case Connect_ 2017
 
 # In The News
 
-[A cup with the President – Episode 28: Prof. Dr. Grieshaber-Bouyer
-](https://www.fau.eu/2025/08/news/a-cup-with-the-president-episode-28-prof-dr-grieshaber-bouyer/)
+[A cup with the President – Episode 28: Prof. Dr. Grieshaber-Bouyer](https://www.fau.eu/2025/08/news/a-cup-with-the-president-episode-28-prof-dr-grieshaber-bouyer/)
+
+[FAU professor among Forbes’ “30 under 30”](https://www.fau.eu/2025/04/news/fau-professor-among-forbes-30-under-30/)  
+April 25, 2025
 
 [Ein Rheumawirkstoff aus der Krebsmedizin](https://www.faz.net/aktuell/wissen/medizin-ernaehrung/rheumabehandlung-wie-ein-krebsmedikament-helfen-koennte-19717102.html)  
 FAZ, May 16, 2024
