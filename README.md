@@ -74,6 +74,9 @@ Postdoctoral fellow
 **Silke Johann**  
 Research technician
 
+**Jara Leta**  
+M.Sc. student
+
 **Nicolas J. Nitsche**  
 M.Sc. student
 
