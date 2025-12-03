@@ -174,7 +174,7 @@ _J Exp Med_ 2025 (in press)
 
 [Reprogrammed T Cells for the Treatment of Rheumatoid Arthritis](https://link.springer.com/article/10.1007/s12688-025-00910-8)  
 Baeuerle PA & **Grieshaber-Bouyer R**  
-_rheuma plus__ 2025
+_rheuma plus_ 2025
 
 [Soluble BDCA-2 as a potential biomarker for rheumatoid arthritis and its role in enhancing IFN-α production through nucleic acid binding](https://academic.oup.com/rheumatology/advance-article/doi/10.1093/rheumatology/keaf537/8287650)  
 Mainieri L, Kaufmann A, Bucci L, **Grieshaber-Bouyer R\***, Bauer S*, Venegas S*  
