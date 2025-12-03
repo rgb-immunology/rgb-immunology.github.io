@@ -157,7 +157,7 @@ We welcome applications by enthusiasts across wet and dry immunology, bioinforma
 ### 2025
 
 Safety and preliminary efficacy of zorpocabtagene-autoleucel in systemic autoimmune diseases  
-Müller F*, Hagen M*, Wirsching A*, Kharboutli S, Aigner M, Völkl S, Kretschmann S, Tascilar K, Taubmann J, Bucci L, Raimondo MG, Bergmann C, Rothe T, Tur C, Muñoz L, Böltz S, Schuster L, Hartmann F, Garantziotis P, Spörl S, Vasova I, Gerbitz A, Spriewald B, Kiener H, Giannarelli D, Locatelli F, D´Agostino MA, Hanssens L, Miltenyi S, Bozec A, **Grieshaber-Bouyer R**, Mackensen A*, Schett G*  
+Müller F\*, Hagen M\*, Wirsching A\*, Kharboutli S, Aigner M, Völkl S, Kretschmann S, Tascilar K, Taubmann J, Bucci L, Raimondo MG, Bergmann C, Rothe T, Tur C, Muñoz L, Böltz S, Schuster L, Hartmann F, Garantziotis P, Spörl S, Vasova I, Gerbitz A, Spriewald B, Kiener H, Giannarelli D, Locatelli F, D´Agostino MA, Hanssens L, Miltenyi S, Bozec A, **Grieshaber-Bouyer R**, Mackensen A\*, Schett G\*  
 _Nature Medicine_ 2025 (in press)
 
 Bispecific T cell engagers for the treatment of severe, treatment-refractory autoimmunemediated connective tissue diseases  
@@ -165,7 +165,7 @@ Düsing C, Györfi AH, Stütz AN, Lahu LM, Deicher FS, Li YN, Bruch PM, Matei AE
 _Nature Medicine_ 2025 (in press)
 
 Roads and detours for CAR T cell therapy in autoimmune diseases  
-Radic M, Avouac J, Barzel A, Davis R, Caiati D, Gottschalk S, **Grieshaber-Bouyer R**, Mao X, Luning-Prak N, Scherlinger M, Suneja Y, Talleur A, Thacker A, Unutmaz D  
+Avouac J, Barzel A, Davis R, Caiati D, Gottschalk S, **Grieshaber-Bouyer R**, Mao X, Luning-Prak N, Radic M\*, Scherlinger M, Suneja Y, Talleur A, Thacker A, Unutmaz D (Authors in alphabetical order)   
 _Nature Reviews Drug Discovery_ (in press)
 
 Multiple Recent Approvals Establish T Cell Engaging Antibodies as a Compelling Therapeutic Modality  
