@@ -1,7 +1,7 @@
 # The Grieshaber-Bouyer Laboratory
 
-![Team image](docs/assets/Team_Prof_Grieshaber_UKER.jpg)
-(c) SIMOarts / Simone Kessler
+![Team image](docs/assets/IMG_9699 (2).jpeg)
+🇩🇪 🇪🇺 🇨🇳 🇮🇳 🇧🇷 🇪🇹 🇷🇺 🇮🇷 🇮🇹 🇯🇵 🇻🇳 🇬🇷
 
 # About
 We are a systems immunology laboratory in the [Department of Internal Medicine 3 – Rheumatology and Immunology at Erlangen University Hospital](https://www.medizin3.uk-erlangen.de/en/).  
@@ -44,7 +44,7 @@ Postdoctoral fellow
 **Sebastian Böltz, MD**  
 Physician scientist
 
-**Laura Bucci, MD**  
+**Dr. med. Laura Bucci, MD**  
 Physician scientist
 
 **Elaine Degen**  
@@ -53,7 +53,7 @@ Dr. med. candidate
 **Sonia Dresel**  
 Dr. med. candidate
 
-**Dr. Panagiotis Garantziotis, PhD**  
+**Dr. Panagiotis Garantziotis, MD PhD**  
 Physician scientist
 
 **Ann-Kathrin Götz**  
@@ -63,7 +63,7 @@ Currently a visiting scholar at the [Deepak Rao Lab](https://raolab.bwh.harvard.
 **Sanjukta Gubbi Praveen**  
 Dr. rer. nat. candidate
 
-**Dr. med. Melanie Hagen**  
+**Dr. med. Melanie Hagen, MD**  
 Physician scientist  
 Head of the Clinical Trial Unit
 
@@ -154,23 +154,30 @@ We welcome applications by enthusiasts across wet and dry immunology, bioinforma
 
 # Publications
 
-### 2025
-
-Safety and preliminary efficacy of zorpocabtagene-autoleucel in systemic autoimmune diseases  
-Müller F\*, Hagen M\*, Wirsching A\*, Kharboutli S, Aigner M, Völkl S, Kretschmann S, Tascilar K, Taubmann J, Bucci L, Raimondo MG, Bergmann C, Rothe T, Tur C, Muñoz L, Böltz S, Schuster L, Hartmann F, Garantziotis P, Spörl S, Vasova I, Gerbitz A, Spriewald B, Kiener H, Giannarelli D, Locatelli F, D´Agostino MA, Hanssens L, Miltenyi S, Bozec A, **Grieshaber-Bouyer R**, Mackensen A\*, Schett G\*  
-_Nature Medicine_ 2025 (in press)
+### 2026
 
 Bispecific T cell engagers for the treatment of severe, treatment-refractory autoimmunemediated connective tissue diseases  
 Düsing C, Györfi AH, Stütz AN, Lahu LM, Deicher FS, Li YN, Bruch PM, Matei AE, Micu A, Filla T, Koziel S, Hölscher AS, Röhrich M, Lorenz HM, Cramer M, Antoch G, Timm J, Abusabha Y, Ruck T, Homey B, Kreuter A, Bühring B, Radujkovic A, Hagen M, **Grieshaber-Bouyer R**, Schett G, Brunn A, Dietrich S, Merkt W, Distler JHW  
-_Nature Medicine_ 2025 (in press)
+_Nature Medicine_ 2026 (in press)
 
-Roads and detours for CAR T cell therapy in autoimmune diseases  
-Avouac J, Barzel A, Davis R, Caiati D, Gottschalk S, **Grieshaber-Bouyer R**, Mao X, Luning-Prak N, Radic M\*, Scherlinger M, Suneja Y, Talleur A, Thacker A, Unutmaz D (Authors in alphabetical order)   
-_Nature Reviews Drug Discovery_ (in press)
+[CD19 CAR-T cells for treatment-refractory autoimmune diseases: the phase 1/2 CASTLE basket trial](https://www.nature.com/articles/s41591-025-04185-6)  
+Müller F\*, Hagen M\*, Wirsching A\*, Kharboutli S, Aigner M, Völkl S, Kretschmann S, Tascilar K, Taubmann J, Bucci L, Raimondo MG, Bergmann C, Rothe T, Tur C, Muñoz L, Böltz S, Schuster L, Hartmann F, Garantziotis P, Spörl S, Vasova I, Gerbitz A, Spriewald B, Kiener H, Giannarelli D, Locatelli F, D´Agostino MA, Hanssens L, Miltenyi S, Bozec A, **Grieshaber-Bouyer R**, Mackensen A\*, Schett G\*  
+_Nature Medicine_ 2026
 
-Multiple Recent Approvals Establish T Cell Engaging Antibodies as a Compelling Therapeutic Modality  
+[Roads and detours for CAR T cell therapy in autoimmune diseases](https://www.nature.com/articles/s41573-025-01349-4)  
+Avouac J, Barzel A, Davis R, Caiati D, Gottschalk S, **Grieshaber-Bouyer R**, Mao X, Luning-Prak N, Radic M\*, Scherlinger M, Suneja Y, Talleur A, Thacker A, Unutmaz D (Authors in alphabetical order)  
+_Nature Reviews Drug Discovery_ 2026
+
+[Multiple Recent Approvals Establish T Cell Engaging Antibodies as a Compelling Therapeutic Modality](https://rupress.org/jem/article/223/2/e20251652/278749/T-cell-engagers-emerge-as-a-compelling-therapeutic)  
 Baeuerle P, Sauer K, **Grieshaber-Bouyer R**, Michaelson J  
-_J Exp Med_ 2025 (in press)
+_J Exp Med_ 2026
+
+
+### 2025
+
+[Fcγ-receptor-activation by circulating immune complexes in systemic autoimmune diseases and its reduction by CD19-CAR T-cell therapy](https://academic.oup.com/rheumatology/advance-article/doi/10.1093/rheumatology/keaf627/8363895)  
+Freitag M, Kolb P, Falcone V, Claus M, Schröder P, Andreeva I, Rodon L, Ewald M, Deicher FS, Stütz AN, Distler JHW, Blank N, **Grieshaber-Bouyer R**, Muñoz LE, Lorenz HM, Schett G, Merkt W  
+_Rheumatology (Oxford)_ 2025
 
 [Reprogrammed T Cells for the Treatment of Rheumatoid Arthritis](https://link.springer.com/article/10.1007/s12688-025-00910-8)  
 Baeuerle PA & **Grieshaber-Bouyer R**  
