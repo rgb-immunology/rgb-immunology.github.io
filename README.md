@@ -1,6 +1,6 @@
 # The Grieshaber-Bouyer Laboratory
 
-![Team image](docs/assets/IMG_9699 (2).jpeg)
+![Team image](docs/assets/IMG_9699.jpeg)
 🇩🇪 🇪🇺 🇨🇳 🇮🇳 🇧🇷 🇪🇹 🇷🇺 🇮🇷 🇮🇹 🇯🇵 🇻🇳 🇬🇷
 
 # About
