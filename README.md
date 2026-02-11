@@ -156,7 +156,7 @@ We welcome applications by enthusiasts across wet and dry immunology, bioinforma
 
 ### 2026
 
-Bispecific T cell engagers for the treatment of severe, treatment-refractory autoimmunemediated connective tissue diseases  
+Bispecific T cell engagers for the treatment of severe, treatment-refractory autoimmune mediated connective tissue diseases  
 Düsing C, Györfi AH, Stütz AN, Lahu LM, Deicher FS, Li YN, Bruch PM, Matei AE, Micu A, Filla T, Koziel S, Hölscher AS, Röhrich M, Lorenz HM, Cramer M, Antoch G, Timm J, Abusabha Y, Ruck T, Homey B, Kreuter A, Bühring B, Radujkovic A, Hagen M, **Grieshaber-Bouyer R**, Schett G, Brunn A, Dietrich S, Merkt W, Distler JHW  
 _Nature Medicine_ 2026 (in press)
 
@@ -184,7 +184,7 @@ Baeuerle PA & **Grieshaber-Bouyer R**
 _rheuma plus_ 2025
 
 [Soluble BDCA-2 as a potential biomarker for rheumatoid arthritis and its role in enhancing IFN-α production through nucleic acid binding](https://academic.oup.com/rheumatology/advance-article/doi/10.1093/rheumatology/keaf537/8287650)  
-Mainieri L, Kaufmann A, Bucci L, **Grieshaber-Bouyer R\***, Bauer S*, Venegas S*  
+Mainieri L, Kaufmann A, Bucci L, **Grieshaber-Bouyer R\***, Bauer S\*, Venegas S\*  
 _Rheumatology_ 2025
 
 [BCMA T cell engager therapy in patients with refractory autoimmune disease](https://www.nejm.org/doi/full/10.1056/NEJMc2506740)  
