@@ -156,13 +156,13 @@ We welcome applications by enthusiasts across wet and dry immunology, bioinforma
 
 ### 2026
 
-Bispecific T cell engagers for the treatment of severe, treatment-refractory autoimmune mediated connective tissue diseases  
-Düsing C, Györfi AH, Stütz AN, Lahu LM, Deicher FS, Li YN, Bruch PM, Matei AE, Micu A, Filla T, Koziel S, Hölscher AS, Röhrich M, Lorenz HM, Cramer M, Antoch G, Timm J, Abusabha Y, Ruck T, Homey B, Kreuter A, Bühring B, Radujkovic A, Hagen M, **Grieshaber-Bouyer R**, Schett G, Brunn A, Dietrich S, Merkt W, Distler JHW  
-_Nature Medicine_ 2026 (in press)
-
 MorphoMapping identifies redox-dependent control of NETotic states in primed neutrophils  
 Bauerdick A, Exner T, Jagoditsch G, Habicht J, Nakchbandi I, Konstandin M, Grieshaber-Bouyer R, Wabnitz G  
 _J Immunol_ 2026 (in press)
+
+[Bispecific T cell engagers for the treatment of severe, treatment-refractory autoimmune mediated connective tissue diseases](https://www.nature.com/articles/s41591-026-04238-4)  
+Düsing C, Györfi AH, Stütz AN, Lahu LM, Deicher FS, Li YN, Bruch PM, Matei AE, Micu A, Filla T, Koziel S, Hölscher AS, Röhrich M, Lorenz HM, Cramer M, Antoch G, Timm J, Abusabha Y, Ruck T, Homey B, Kreuter A, Bühring B, Radujkovic A, Hagen M, **Grieshaber-Bouyer R**, Schett G, Brunn A, Dietrich S, Merkt W, Distler JHW  
+_Nature Medicine_ 2026
 
 [CD19 CAR-T cells for treatment-refractory autoimmune diseases: the phase 1/2 CASTLE basket trial](https://www.nature.com/articles/s41591-025-04185-6)  
 Müller F\*, Hagen M\*, Wirsching A\*, Kharboutli S, Aigner M, Völkl S, Kretschmann S, Tascilar K, Taubmann J, Bucci L, Raimondo MG, Bergmann C, Rothe T, Tur C, Muñoz L, Böltz S, Schuster L, Hartmann F, Garantziotis P, Spörl S, Vasova I, Gerbitz A, Spriewald B, Kiener H, Giannarelli D, Locatelli F, D´Agostino MA, Hanssens L, Miltenyi S, Bozec A, **Grieshaber-Bouyer R**, Mackensen A\*, Schett G\*  
