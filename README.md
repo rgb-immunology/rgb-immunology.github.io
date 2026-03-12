@@ -160,6 +160,14 @@ MorphoMapping identifies redox-dependent control of NETotic states in primed neu
 Bauerdick A, Exner T, Jagoditsch G, Habicht J, Nakchbandi I, Konstandin M, Grieshaber-Bouyer R, Wabnitz G  
 _J Immunol_ 2026 (in press)
 
+[B cell depletion in autoimmune disease: in vivo CAR-T or T cell engagers?](https://www.nature.com/articles/s41587-026-03069-5)  
+Senior M, **Grieshaber-Bouyer R**  
+_Nature Biotechnology_ 2026
+
+[Tiny warriors, big impact: Targeted immunotherapy in kidney diseases](https://www.kidney-international.org/article/S0085-2538(26)00145-6/)  
+Kurzhagen JT, Laqua W, Schett G, **Grieshaber-Bouyer R**, Rabb H, Noel S, Schiffer M  
+_Kidney Int_ 2026
+
 [Bispecific T cell engagers for the treatment of severe, treatment-refractory autoimmune mediated connective tissue diseases](https://www.nature.com/articles/s41591-026-04238-4)  
 Düsing C, Györfi AH, Stütz AN, Lahu LM, Deicher FS, Li YN, Bruch PM, Matei AE, Micu A, Filla T, Koziel S, Hölscher AS, Röhrich M, Lorenz HM, Cramer M, Antoch G, Timm J, Abusabha Y, Ruck T, Homey B, Kreuter A, Bühring B, Radujkovic A, Hagen M, **Grieshaber-Bouyer R**, Schett G, Brunn A, Dietrich S, Merkt W, Distler JHW  
 _Nature Medicine_ 2026
@@ -169,7 +177,7 @@ Müller F\*, Hagen M\*, Wirsching A\*, Kharboutli S, Aigner M, Völkl S, Kretsch
 _Nature Medicine_ 2026
 
 [Roads and detours for CAR T cell therapy in autoimmune diseases](https://www.nature.com/articles/s41573-025-01349-4)  
-Avouac J, Barzel A, Davis R, Caiati D, Gottschalk S, **Grieshaber-Bouyer R**, Mao X, Luning-Prak N, Radic M\*, Scherlinger M, Suneja Y, Talleur A, Thacker A, Unutmaz D (Authors in alphabetical order)  
+Avouac J\*, Barzel A\*, Davis R\*, Caiati D\*, Gottschalk S\*, **Grieshaber-Bouyer R\***, Mao X\*, Luning-Prak N\*, Radic M\*, Scherlinger M\*, Suneja Y\*, Talleur A\*, Thacker A\*, Unutmaz D\* (\*Authors in alphabetical order)  
 _Nature Reviews Drug Discovery_ 2026
 
 [Multiple Recent Approvals Establish T Cell Engaging Antibodies as a Compelling Therapeutic Modality](https://rupress.org/jem/article/223/2/e20251652/278749/T-cell-engagers-emerge-as-a-compelling-therapeutic)  
