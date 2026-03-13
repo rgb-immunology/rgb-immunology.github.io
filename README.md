@@ -160,6 +160,10 @@ MorphoMapping identifies redox-dependent control of NETotic states in primed neu
 Bauerdick A, Exner T, Jagoditsch G, Habicht J, Nakchbandi I, Konstandin M, Grieshaber-Bouyer R, Wabnitz G  
 _J Immunol_ 2026 (in press)
 
+Aligning Approaches to Rheumatoid Arthritis Drug Development: An Expert Comparison of FDA and EMA Guidance  
+Ciancio A, Amati A, Gandolfo S, **Grieshaber-Bouyer R**, Thomas R, Liew R, Valenzuela G, Gossec L, Manara M, Kim TH, Szekanecz Z, Taylor P, Mariette X, Caporali R, Ciccia F  
+_Lancet Rheumatology_ 2026 (in press)
+
 [B cell depletion in autoimmune disease: in vivo CAR-T or T cell engagers?](https://www.nature.com/articles/s41587-026-03069-5)  
 Senior M, **Grieshaber-Bouyer R**  
 _Nature Biotechnology_ 2026
