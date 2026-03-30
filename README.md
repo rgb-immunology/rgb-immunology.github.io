@@ -156,8 +156,16 @@ We welcome applications by enthusiasts across wet and dry immunology, bioinforma
 
 ### 2026
 
+T Cell Engagers in Autoimmune Diseases  
+**Grieshaber-Bouyer R**, Wu L, Schett G, Baeuerle PA  
+_Nature Reviews Immunology_ 2026 (in press)
+
+T-Cell Engagers Mediate Deep Cell Depletion Beyond Autoimmunity  
+Kurzhagen JT, Laqua W, Schiffer M, **Grieshaber-Bouyer R**  
+_Kidney Int_ 2026 (in press)
+
 MorphoMapping identifies redox-dependent control of NETotic states in primed neutrophils  
-Bauerdick A, Exner T, Jagoditsch G, Habicht J, Nakchbandi I, Konstandin M, Grieshaber-Bouyer R, Wabnitz G  
+Bauerdick A, Exner T, Jagoditsch G, Habicht J, Nakchbandi I, Konstandin M, **Grieshaber-Bouyer R**, Wabnitz G  
 _J Immunol_ 2026 (in press)
 
 Aligning Approaches to Rheumatoid Arthritis Drug Development: An Expert Comparison of FDA and EMA Guidance  
