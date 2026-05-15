@@ -4,7 +4,7 @@
 🇩🇪 🇪🇺 🇨🇳 🇮🇳 🇧🇷 🇪🇹 🇷🇺 🇮🇷 🇮🇹 🇯🇵 🇻🇳 🇬🇷
 
 # About
-We are a systems immunology laboratory in the [Department of Internal Medicine 3 – Rheumatology and Immunology at Erlangen University Hospital](https://www.medizin3.uk-erlangen.de/en/).  
+We are a translationally oriented systems immunology laboratory at FAU.  
 Our group investigates the mechanisms driving immune cell heterogeneity in tissues and inflammatory conditions and the links to disease variation across individuals. Our approach is characterized by a combination of high dimensional discovery in patient samples (in particular in the context of innovative therapies such as CAR-T cells) with in vitro systems, CRISPR-mediated genetic perturbations and murine models. We also develop novel analysis tools for high dimensional data.  
 In published work, we demonstrated that neutrophils in homeostasis are organized a chronologically ordered main sequence, termed neutrotime. In experimental inflammation, neutrophils reach distinct polarization states driven by timepoint, tissue and stimulus.  
 To apply this principle to human immune-mediated disease, we developed a method to jointly analyze murine and human transcriptomic data. Thereby, we identified a transcriptional program which characterizes neutrophils in the arthritic joint in both mice and humans. Functionally, this program was highly enriched for interferon gamma response genes, which we validated on the protein level and using in vitro models.  
@@ -28,7 +28,7 @@ For my impact at the intersect of clinical, scientific, and private sectors to b
 - Board Certified in Internal Medicine, Rheumatology and Immunology  
 - [Professor of Clinical Systems Immunology](https://www.medizin3.uk-erlangen.de/forschung/arbeitgruppen/ag-prof-dr-r-griesshaber-bouyer/)  
 - Head of the [Clinical Trial Unit](https://www.medizin3.uk-erlangen.de/en/patients/clinical-trials-unit/)  
-- Director, [Center of Systems Immunology (CSI) Erlangen](https://focisnet.org/whats-new-with-focis-centers-of-excellence-fces/) [(FOCIS Center of Excellence)](https://www.focisnet.org/communities/fces/)
+- Director, [Center of Systems Immunology (CSI) Erlangen](https://focisnet.org/whats-new-with-focis-centers-of-excellence-fces/)
 - Member, [FAU Profile Center for Medical Engineering](https://www.medtech.fau.eu/speakers/prof-dr-med-ricardo-grieshaber-bouyer/)
 - Member, [FAU Profile Center Immunomedicine](https://www.immunology.fau.de/)
 
@@ -74,12 +74,6 @@ Postdoctoral fellow
 **Silke Johann**  
 Research technician
 
-**Jara Leta**  
-M.Sc. student
-
-**Nicolas J. Nitsche**  
-M.Sc. student
-
 **Dr. Zahra Moslehi, PhD**  
 Postdoctoral fellow
 
@@ -91,6 +85,9 @@ Postdoctoral fellow
 
 **Jana Ullmann**  
 Research technician
+
+**Dr. Giang Vu, PhD**  
+Postdoctoral fellow
 
 **Dr. rer. nat. Liang Zhang, PhD**  
 Postdoctoral fellow
@@ -132,6 +129,14 @@ Dr. med. candidate
 Research technician  
 Now Medical Student at [Saarland University](https://www.uni-saarland.de/en/home.html)
 
+**Jara Leta**  
+M.Sc. student  
+Now Ph.D. student at the [Institute of Microbiology at Erlangen University Hospital](https://www.mikrobiologie.uk-erlangen.de/en/)
+
+**Nicolas J. Nitsche**  
+M.Sc. student  
+Now Ph.D. student in Cellular Immunology in [Federica Sallusto's lab at the Istituto di Ricerca in Biomedicina in Bellinzona](https://irb.usi.ch/cellular-immunology/)
+
 **Görkem Osmanusta**  
 Dr. med. candidate
 
@@ -164,9 +169,6 @@ T-Cell Engagers Mediate Deep Cell Depletion Beyond Autoimmunity
 Kurzhagen JT, Laqua W, Schiffer M, **Grieshaber-Bouyer R**  
 _Kidney Int_ 2026 (in press)
 
-MorphoMapping identifies redox-dependent control of NETotic states in primed neutrophils  
-Bauerdick A, Exner T, Jagoditsch G, Habicht J, Nakchbandi I, Konstandin M, **Grieshaber-Bouyer R**, Wabnitz G  
-_J Immunol_ 2026 (in press)
 
 Aligning Approaches to Rheumatoid Arthritis Drug Development: An Expert Comparison of FDA and EMA Guidance  
 Ciancio A, Amati A, Gandolfo S, **Grieshaber-Bouyer R**, Thomas R, Liew R, Valenzuela G, Gossec L, Manara M, Kim TH, Szekanecz Z, Taylor P, Mariette X, Caporali R, Ciccia F  
@@ -175,6 +177,10 @@ _Lancet Rheumatology_ 2026 (in press)
 [B cell depletion in autoimmune disease: in vivo CAR-T or T cell engagers?](https://www.nature.com/articles/s41587-026-03069-5)  
 Senior M, **Grieshaber-Bouyer R**  
 _Nature Biotechnology_ 2026
+
+[MorphoMapping identifies redox-dependent control of NETotic states in primed neutrophils](https://doi.org/10.1093/jimmun/vkag061)  
+Bauerdick A, Exner T, Jagoditsch G, Habicht J, Nakchbandi I, Konstandin M, **Grieshaber-Bouyer R**, Wabnitz G  
+_J Immunol_ 2026
 
 [Tiny warriors, big impact: Targeted immunotherapy in kidney diseases](https://www.kidney-international.org/article/S0085-2538(26)00145-6/)  
 Kurzhagen JT, Laqua W, Schett G, **Grieshaber-Bouyer R**, Rabb H, Noel S, Schiffer M  
