@@ -154,8 +154,10 @@ Research technician
 Dr. med. candidate  
 [PROMOS fellow (German Academic Exchange Service, DAAD)](https://www.daad.de/de/)
 
+
 ## Open Positions
 We welcome applications by enthusiasts across wet and dry immunology, bioinformatics and data science enthusiasts!
+
 
 # Publications
 
@@ -308,6 +310,7 @@ _JCI Insight_ 2024
 Hagen M, Wirsching A, Bohr D, Taubmann J, Müller F, Mackensen A, **Grieshaber-Bouyer R\***, Schett G\*  
 _Z Rheumatol_ 2024
 
+
 ### 2023
 
 [Human and mouse neutrophils share core transcriptional programs in both homeostatic and inflamed contexts](https://doi.org/10.1038/s41467-023-43573-9)  
@@ -322,6 +325,7 @@ _Arthritis Rheumatol_ 2023
 Heineken N, Schumacher JC, Exner T, Neuenfeldt F, Habicht J, Kahlich F, Platzer H, Merle U, Renkawitz T, Samstag Y, **Grieshaber-Bouyer R**, Autenrieth S, Wabnitz GH  
 _bioRxiv_ 2023
 
+
 ### 2022
 
 [Ageing and interferon gamma response drive the phenotype of neutrophils in the inflamed joint](https://doi.org/10.1136/annrheumdis-2021-221866)  
@@ -335,6 +339,7 @@ _Cell Reports_ 2022
 [Neutrophil transit time and localization within the megakaryocyte define morphologically distinct forms of emperipolesis](https://doi.org/10.1182/bloodadvances.2021005097)  
 Huang FY\*, Cunin P\*, Radtke FA, Darbousset R, **Grieshaber-Bouyer R**, Nigrovic PA  
 _Blood Advances_ 2022
+
 
 ### 2021
 
@@ -373,6 +378,7 @@ _Nature Immunology_ 2020
 **Grieshaber-Bouyer R<sup>#</sup>**, Lorenz HM  
 _Internist (Berl)_ 2020
 
+
 ### 2019
 
 [Divergent mononuclear cell participation and cytokine release profiles define hip and knee osteoarthritis](https://doi.org/10.3390/jcm8101631)  
@@ -402,12 +408,46 @@ _Blood_ 2017
 _JBJS Case Connect_ 2017
 
 
+# Videos
+
+[Lupus and T Cell Engagers: What You Should Know](https://www.youtube.com/watch?v=qrnhsuXBZuc)  
+Lupus Research Alliance, Apr 9, 2026  
+
+[BioVerse #28 - China's Early-Stage Clinical Development is Rewriting R&D Playbook](https://www.youtube.com/watch?v=yAShMQt-kAk)  
+BioVerse, Feb 25, 2026  
+
+[Inside the Science—Understanding T Cell Engagers and CLN-978 for Autoimmune Diseases](https://www.youtube.com/watch?v=mKEdlICC-o4)  
+CreakyJoints, Feb 18, 2026  
+
+[Practical Questions about Clinical Trials with T Cell Engagers](https://www.youtube.com/watch?v=PrSVRgavxJ0)  
+CreakyJoints, Jan 16, 2026  
+
+[Redefining Autoimmune Treatment with CLN-978](https://www.youtube.com/watch?v=J-Uq8RCLdpU)  
+CreakyJoints, Oct 22, 2025  
+
+[Sweet and Sour (Ep 77: CAR-T cells in autoimmunity)](https://www.youtube.com/watch?v=4cCO_QpLKHI)  
+European Society for Dermatological Research (ESDR) Association, Jul 9, 2025  
+
+[Advances in Autoimmune Diseases: A Conversation with Dr. Ricardo Grieshaber-Bouyer](https://www.youtube.com/watch?v=Ne6SfUVmuSU)  
+Cullinan Therapeutics, Oct 29, 2024  
+
+
 # In The News
+
+[Lifelong drugs for autoimmune diseases don't work well. Now scientists are trying something new](https://www.timesfreepress.com/news/2025/nov/15/lifelong-drugs-for-autoimmune-diseases-dont-work-well-now-scientists-are-trying-something-new/)  
+November 15, 2025  
+
+[Myeloma Drug Performs Well in Autoimmune Diseases](https://www.medpagetoday.com/rheumatology/generalrheumatology/117966)  
+MedPage Today, Oct 15, 2025
+
 
 [A cup with the President – Episode 28: Prof. Dr. Grieshaber-Bouyer](https://www.fau.eu/2025/08/news/a-cup-with-the-president-episode-28-prof-dr-grieshaber-bouyer/)
 
 [FAU professor among Forbes’ “30 under 30”](https://www.fau.eu/2025/04/news/fau-professor-among-forbes-30-under-30/)  
 April 25, 2025
+
+[Forbes 30 under 30](https://www.forbes.com/profile/ricardo-grieshaber-bouyer/)  
+2025
 
 [Ein Rheumawirkstoff aus der Krebsmedizin](https://www.faz.net/aktuell/wissen/medizin-ernaehrung/rheumabehandlung-wie-ein-krebsmedikament-helfen-koennte-19717102.html)  
 FAZ, May 16, 2024
@@ -469,14 +509,15 @@ Research Award by the German Society for Rheumatology (DGRh)](https://www.klinik
 Heidelberg University Hospital, October 19, 2020
 
 
-
 # Research Support
 
 We are deeply grateful to all our funders for enabling our research, in particular the [Deutsche Forschungsgemeinschaft](https://www.dfg.de/en), the [Else Kröner-Fresenius Stiftung](https://www.ekfs.de/), the [Boehringer Ingelheim Stiftung](https://boehringer-ingelheim-stiftung.de/en/index.html),  the [Lupus Research Alliance](https://www.lupusresearch.org/) and the [Interdisciplinary Center for Clinical Research (IZKF) Erlangen](https://www.izkf.med.fau.de/en/).
 
+
 # Teaching
 
 We are integrated in the [Medical curriculum](https://www.med.fau.de/studium/), [IZKF scientist training programs](https://www.izkf.med.fau.de/en/) and the [iImmune](https://www.iimmune.nat.fau.de/) Integrated Immunology M.Sc. programme @FAU Erlangen-Nürnberg.
+
 
 # Directions
 
