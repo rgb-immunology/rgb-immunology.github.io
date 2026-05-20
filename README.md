@@ -165,14 +165,13 @@ T Cell Engagers in Autoimmune Diseases
 **Grieshaber-Bouyer R**, Wu L, Schett G, Baeuerle PA  
 _Nature Reviews Immunology_ 2026 (in press)
 
-T-Cell Engagers Mediate Deep Cell Depletion Beyond Autoimmunity  
-Kurzhagen JT, Laqua W, Schiffer M, **Grieshaber-Bouyer R**  
-_Kidney Int_ 2026 (in press)
-
-
 Aligning Approaches to Rheumatoid Arthritis Drug Development: An Expert Comparison of FDA and EMA Guidance  
 Ciancio A, Amati A, Gandolfo S, **Grieshaber-Bouyer R**, Thomas R, Liew R, Valenzuela G, Gossec L, Manara M, Kim TH, Szekanecz Z, Taylor P, Mariette X, Caporali R, Ciccia F  
 _Lancet Rheumatology_ 2026 (in press)
+
+[T-Cell Engagers Mediate Deep Cell Depletion Beyond Autoimmunity](https://www.kidney-international.org/article/S0085-2538(26)00244-9/)  
+Kurzhagen JT, Laqua W, Schiffer M, **Grieshaber-Bouyer R**  
+_Kidney Int_ 2026
 
 [B cell depletion in autoimmune disease: in vivo CAR-T or T cell engagers?](https://www.nature.com/articles/s41587-026-03069-5)  
 Senior M, **Grieshaber-Bouyer R**  
@@ -201,6 +200,10 @@ _Nature Reviews Drug Discovery_ 2026
 [Multiple Recent Approvals Establish T Cell Engaging Antibodies as a Compelling Therapeutic Modality](https://rupress.org/jem/article/223/2/e20251652/278749/T-cell-engagers-emerge-as-a-compelling-therapeutic)  
 Baeuerle P, Sauer K, **Grieshaber-Bouyer R**, Michaelson J  
 _J Exp Med_ 2026
+
+[Improvement of skin manifestations of refractory connective tissue diseases by T-cell engager treatment](https://skindeep.skinonline.org/article/188493/)  
+Schett A, Wirsching A, **Grieshaber-Bouyer R**, Hagen M, Schett G
+_SKINdeep_ 2026
 
 
 ### 2025
