@@ -183,6 +183,10 @@ _Nature Biotechnology_ 2026
 Bauerdick A, Exner T, Jagoditsch G, Habicht J, Nakchbandi I, Konstandin M, **Grieshaber-Bouyer R**, Wabnitz G  
 _J Immunol_ 2026
 
+[Deep phenotyping of skin tissue remodeling in patients with systemic sclerosis treated with CD19-CAR T cells](https://www.nature.com/articles/s41467-026-72817-7)  
+Rius Rigau A, Xu M, Liu Z, Chenguiti Fakhouri S, Auth J, Garantziotis P, Zoli A, Kumar M, Raimondo MG, Tur C, Filla T, Gehringer P, Eckstein M, Müller F, Atzinger A, Ronicke M, Ekici A, Schmid R, Wirsching A, Hagen M, Böltz S, Krickau T, Horch RE, Berking C, **Grieshaber-Bouyer R**, Ramming A, Gupta P, Bozec A, Mackensen A, Distler JHW, Schett G, Li YN, Bergmann C  
+_Nature Communications_ 2026
+
 [Tiny warriors, big impact: Targeted immunotherapy in kidney diseases](https://www.kidney-international.org/article/S0085-2538(26)00145-6/)  
 Kurzhagen JT, Laqua W, Schett G, **Grieshaber-Bouyer R**, Rabb H, Noel S, Schiffer M  
 _Kidney Int_ 2026
@@ -209,6 +213,10 @@ _SKINdeep_ 2026
 
 
 ### 2025
+
+[Local immune effector cell-associated toxicity syndrome in CAR T-cell treated patients with refractory systemic lupus erythematosus – Authors' reply](https://www.thelancet.com/journals/lanrhe/article/PIIS2665-9913(25)00222-X/)  
+Hagen M, Müller F, Wirsching A, Kharboutli S, Spoerl S, Düsing C, Krickau T, Metzler M, Völkl S, Aigner M, Kretschmann S, Vasova I, Saake M, Schliep S, Kubacki T, Hunzelmann N, Bucci L, Taubmann J, Bergmann C, Györfi AH, Dietrich S, Distler JHW, **Grieshaber-Bouyer R**, Mackensen A, Schett G  
+_Lancet Rheumatol_ 2025
 
 [Fcγ-receptor-activation by circulating immune complexes in systemic autoimmune diseases and its reduction by CD19-CAR T-cell therapy](https://academic.oup.com/rheumatology/advance-article/doi/10.1093/rheumatology/keaf627/8363895)  
 Freitag M, Kolb P, Falcone V, Claus M, Schröder P, Andreeva I, Rodon L, Ewald M, Deicher FS, Stütz AN, Distler JHW, Blank N, **Grieshaber-Bouyer R**, Muñoz LE, Lorenz HM, Schett G, Merkt W  
@@ -297,6 +305,10 @@ _bioRxiv_ 2024
 [CD19 CAR T-Cell Therapy in Autoimmune Disease — A Case Series with Follow-up](https://www.nejm.org/doi/full/10.1056/NEJMoa2308917)  
 Müller F, Taubmann J, Bucci L, Wilhelm A, Bergmann C, Völkl S, Aigner M, Rothe T, Minopoulou I, Tur C, Knitza J, Kharboutli S, Kretschmann S, Vasova I, Spoerl S, Reimann H, Munoz L, Gerlach RG, Schäfer S, **Grieshaber-Bouyer R**, Korganow AS, Farge-Bancel D, Mougiakakos D, Bozec A, Winkler T, Krönke G, Mackensen A, Schett G  
 _New Engl J Med_ 2024
+
+[Treatment of CNS systemic lupus erythematosus with CD19 CAR T cells](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(24)02265-7/)  
+Hagen M, Müller F, Wirsching A, Kharboutli S, Spörl S, Aigner M, Völkl S, Köhler B, Dörfler A, **Grieshaber-Bouyer R**, Mackensen A, Schett G  
+_Lancet_ 2024
 
 [CD19-CAR T-cell therapy induces deep tissue depletion of B cells](https://ard.bmj.com/content/early/2024/08/16/ard-2024-226142.long)  
 Tur C, Eckstein M, Velden J, Rauber S, Bergmann C, Auth J, Bucci L, Corte G, Hagen M, Wirsching A, **Grieshaber-Bouyer R**, Reis P, Kittan N, Wacker J, Rius Rigau A, Ramming A, D’Agostino MA, Hartmann A, Müller F, Mackensen A, Bozec A, Schett G, Raimondo MG  
