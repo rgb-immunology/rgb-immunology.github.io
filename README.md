@@ -167,9 +167,9 @@ T Cell Engagers in Autoimmune Diseases
 **Grieshaber-Bouyer R**, Wu L, Schett G, Baeuerle PA  
 _Nature Reviews Immunology_ 2026 (in press)
 
-Aligning Approaches to Rheumatoid Arthritis Drug Development: An Expert Comparison of FDA and EMA Guidance  
+[Aligning Approaches to Rheumatoid Arthritis Drug Development: An Expert Comparison of FDA and EMA Guidance](https://doi.org/10.1016/S2665-9913(26)00086-X)  
 Ciancio A, Amati A, Gandolfo S, **Grieshaber-Bouyer R**, Thomas R, Liew R, Valenzuela G, Gossec L, Manara M, Kim TH, Szekanecz Z, Taylor P, Mariette X, Caporali R, Ciccia F  
-_Lancet Rheumatology_ 2026 (in press)
+_Lancet Rheumatology_ 2026
 
 [T-Cell Engagers Mediate Deep Cell Depletion Beyond Autoimmunity](https://www.kidney-international.org/article/S0085-2538(26)00244-9/)  
 Kurzhagen JT, Laqua W, Schiffer M, **Grieshaber-Bouyer R**  
