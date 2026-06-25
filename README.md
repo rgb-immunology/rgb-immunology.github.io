@@ -167,13 +167,17 @@ A Feed-Forward Loop Between Extrafollicular B Cell Differentiation and the Infla
 Nöthling DM, Anoshkin K, Gavin PG, Rothe T, Bucci L, Iwata F, Garantziotis P, Ferrari N, Clarke SLN, Hagen M, Wirsching A, Bachl J, Tur C, Böltz S, Kretschmann S, Aigner M, Völkl S, Munoz L, Müller F, Mackensen A, Eckstein M, Raimondo MG, Bozec A, Schett G, **Grieshaber-Bouyer R**  
 (under review)
 
+BCMA-targeted Tcell engager therapy for refractory pemphigus  
+Ronicke M#, Rothe T, Müller F, Berking C, Schett G, **Grieshaber-Bouyer R\*#**, Sticherling M\*  
+_JAMA Dermatology_ 2026 (in press)
+
 T Cell Engagers in Autoimmune Diseases  
 **Grieshaber-Bouyer R**, Wu L, Schett G, Baeuerle PA  
 _Nature Reviews Immunology_ 2026 (in press)
 
-The cell cloud: Adopting systems biology concepts in the era of single-cell immunology  
+[The cell cloud: Adopting systems biology concepts in the era of single-cell immunology](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003853)  
 Shay O, Benoist CB, **Grieshaber-Bouyer R**  
-_PLOS Biology_ 2026 (in press)
+_PLOS Biology_ 2026
 
 [Aligning Approaches to Rheumatoid Arthritis Drug Development: An Expert Comparison of FDA and EMA Guidance](https://doi.org/10.1016/S2665-9913(26)00086-X)  
 Ciancio A, Amati A, Gandolfo S, **Grieshaber-Bouyer R**, Thomas R, Liew R, Valenzuela G, Gossec L, Manara M, Kim TH, Szekanecz Z, Taylor P, Mariette X, Caporali R, Ciccia F  
