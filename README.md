@@ -171,9 +171,9 @@ BCMA-targeted Tcell engager therapy for refractory pemphigus
 Ronicke M#, Rothe T, Müller F, Berking C, Schett G, **Grieshaber-Bouyer R\*#**, Sticherling M\*  
 _JAMA Dermatology_ 2026 (in press)
 
-T Cell Engagers in Autoimmune Diseases  
+[T Cell Engagers in Autoimmune Diseases](https://www.nature.com/articles/s41577-026-01318-x)  
 **Grieshaber-Bouyer R**, Wu L, Schett G, Baeuerle PA  
-_Nature Reviews Immunology_ 2026 (in press)
+_Nature Reviews Immunology_ 2026
 
 [The cell cloud: Adopting systems biology concepts in the era of single-cell immunology](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003853)  
 Shay O, Benoist CB, **Grieshaber-Bouyer R**  
