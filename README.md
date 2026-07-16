@@ -156,16 +156,16 @@ Dr. med. candidate
 
 
 ## Open Positions
-We welcome applications by enthusiasts across wet and dry immunology, bioinformatics and data science enthusiasts!
+We welcome applications by creative, entrepreneurially-minded candidates across wet and dry immunology, bioinformatics and data science. Applicants are encouraged to reach out with a concrete area of interest and two references.
 
 
 # Publications
 
 ### 2026
 
-A Feed-Forward Loop Between Extrafollicular B Cell Differentiation and the Inflammatory Milieu Governs Remission and Relapse in Systemic Lupus Erythematosus  
+[A Feed-Forward Loop Between Extrafollicular B Cell Differentiation and the Inflammatory Milieu Governs Remission and Relapse in Systemic Lupus Erythematosus](https://www.medrxiv.org/content/10.64898/2026.07.03.26356448v2)  
 Nöthling DM, Anoshkin K, Gavin PG, Rothe T, Bucci L, Iwata F, Garantziotis P, Ferrari N, Clarke SLN, Hagen M, Wirsching A, Bachl J, Tur C, Böltz S, Kretschmann S, Aigner M, Völkl S, Munoz L, Müller F, Mackensen A, Eckstein M, Raimondo MG, Bozec A, Schett G, **Grieshaber-Bouyer R**  
-(under review)
+_medRxiv_ 2026 (under review)
 
 BCMA-targeted Tcell engager therapy for refractory pemphigus  
 Ronicke M#, Rothe T, Müller F, Berking C, Schett G, **Grieshaber-Bouyer R\*#**, Sticherling M\*  
@@ -178,6 +178,10 @@ _Nature Reviews Immunology_ 2026
 [The cell cloud: Adopting systems biology concepts in the era of single-cell immunology](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003853)  
 Shay O, Benoist CB, **Grieshaber-Bouyer R**  
 _PLOS Biology_ 2026
+
+[Mapping the synovial immune ecosystem in rheumatoid arthritis: cellular cartography and pathotype-guided immune restoration](https://doi.org/10.1016/j.coi.2026.102811)  
+Du F, Xin W, Li T, **Grieshaber-Bouyer R**, Ye S  
+_Curr Opin Immunol_ 2026
 
 [Aligning Approaches to Rheumatoid Arthritis Drug Development: An Expert Comparison of FDA and EMA Guidance](https://doi.org/10.1016/S2665-9913(26)00086-X)  
 Ciancio A, Amati A, Gandolfo S, **Grieshaber-Bouyer R**, Thomas R, Liew R, Valenzuela G, Gossec L, Manara M, Kim TH, Szekanecz Z, Taylor P, Mariette X, Caporali R, Ciccia F  
@@ -220,7 +224,7 @@ Baeuerle P, Sauer K, **Grieshaber-Bouyer R**, Michaelson J
 _J Exp Med_ 2026
 
 [Improvement of skin manifestations of refractory connective tissue diseases by T-cell engager treatment](https://skindeep.skinonline.org/article/188493/)  
-Schett A, Wirsching A, **Grieshaber-Bouyer R**, Hagen M, Schett G
+Schett A, Wirsching A, **Grieshaber-Bouyer R**, Hagen M, Schett G  
 _SKINdeep_ 2026
 
 
@@ -308,10 +312,6 @@ _Nature Medicine_ 2024
 
 [Accurate, fast and memory efficient quantification of immune cell phenotypes in cytometry using machine learning](https://doi.org/10.1101/2024.07.26.605341)  
 Exner T, Hackert NS, Pohl F, Osmanusta G, Schmitt F, Lorenz HM, Wabnitz G, Schett G, Graw F, Henes J, **Grieshaber-Bouyer R**  
-_bioRxiv_ 2024
-
-[CytoNormPy enables a fast and scalable removal of batch effects in cytometry datasets](https://doi.org/10.1101/2024.07.19.604225)
-Exner T, Hackert N, Leomazzi L, Van Gassen S, Saeys Y, Lorenz HM, **Grieshaber-Bouyer R**  
 _bioRxiv_ 2024
 
 [CD19 CAR T-Cell Therapy in Autoimmune Disease — A Case Series with Follow-up](https://www.nejm.org/doi/full/10.1056/NEJMoa2308917)  
