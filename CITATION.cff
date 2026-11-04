@@ -9,11 +9,11 @@ authors:
   - family-names: "Grieshaber-Bouyer"
     given-names: "Ricardo"
     affiliation: "Universitätsklinikum Erlangen / FAU Erlangen-Nürnberg"
-repository-code: "https://github.com/rgb-lab/rgb-lab-website"
+repository-code: "https://github.com/rgb-immunology/rgb-immunology.github.io"
 url: "https://rgb-lab.de"
 license: MIT
 version: "1.0.0"
-date-released: "2026-10-07"
+date-released: "2026-11-04"
 keywords:
   - lab website
   - static site
