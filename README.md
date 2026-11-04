@@ -1,553 +1,285 @@
-# The Grieshaber-Bouyer Laboratory
+# RGB lab website
 
-![Team image](docs/assets/IMG_9699.jpeg)
-🇩🇪 🇪🇺 🇨🇳 🇮🇳 🇧🇷 🇪🇹 🇷🇺 🇮🇷 🇮🇹 🇯🇵 🇻🇳 🇬🇷
+Website of the RGB lab (Clinical Systems Immunology, Universitätsklinikum Erlangen / FAU).
 
-# About
-We are a translationally oriented systems immunology laboratory at FAU.  
-Our group investigates the mechanisms driving immune cell heterogeneity in tissues and inflammatory conditions and the links to disease variation across individuals. Our approach is characterized by a combination of high dimensional discovery in patient samples (in particular in the context of innovative therapies such as CAR-T cells) with in vitro systems, CRISPR-mediated genetic perturbations and murine models. We also develop novel analysis tools for high dimensional data.  
-In published work, we demonstrated that neutrophils in homeostasis are organized a chronologically ordered main sequence, termed neutrotime. In experimental inflammation, neutrophils reach distinct polarization states driven by timepoint, tissue and stimulus.  
-To apply this principle to human immune-mediated disease, we developed a method to jointly analyze murine and human transcriptomic data. Thereby, we identified a transcriptional program which characterizes neutrophils in the arthritic joint in both mice and humans. Functionally, this program was highly enriched for interferon gamma response genes, which we validated on the protein level and using in vitro models.  
+The site is plain HTML: no build step and no installation. **All content you would normally change lives in the
+`content/` folder**, in six small text files. You do not need to touch `index.html`.
 
+| File | What it controls |
+|---|---|
+| `content/site.js` | Logo, browser-tab icon, Home picture with its headline and text, Team group photo, Lab Life photos |
+| `content/team.js` | Lab members (with optional profile pages) and alumni |
+| `content/contacts.js` | The people shown under "Get in touch" (Funding page), "Write to us" (Team page, when hiring) and "How to apply" (Open positions) |
+| `content/publications.js` | Papers, the 3 Featured papers, journal logos |
+| `content/news.js` | Press articles, outlet logos, videos & talks |
+| `content/positions.js` | Open positions (the "Open positions" tab appears only when there are positions) |
 
-# Team
+Pictures go in these folders:
 
-## Principal Investigator
+| Folder | What goes there |
+|---|---|
+| `images/people/` | Photos of lab members and alumni |
+| `images/team/` | The group photo on the Team page |
+| `images/lab-life/` | Lab Life photos |
+| `images/` | An optional Home picture (none at the moment) |
+| `logo/` | Lab logo (`rgb-lab-mark.svg`), browser-tab icon (`rgb-lab-icon.svg`), FAU and UKER logos |
+| `images/journal-logos/`, `images/press-logos/`, `images/video-thumbs/` | Logos and thumbnails for Publications and Press & Media |
+| `images/funders/`, `images/teaching-logos/` | Funder logos (Home, Funding) and programme/fellowship logos (Teaching & Mentorship) |
+| `files/positions/` | Optional PDF announcements for open positions (create the folder when needed) |
 
-**Prof. Dr. med. Ricardo Grieshaber-Bouyer, MHBA**  
-Physician-scientist, clinical leader, and entrepreneur with a proven track record of translating breakthrough immunology into curative therapies.  
+---
 
-As Professor of Clinical Systems Immunology and Head of the Clinical Trial Unit, I lead a dynamic clinical and translational research team.  
-My team has pioneered the first-in-patient applications of T-cell redirecting therapies for autoimmune diseases, with seminal studies published in the New England Journal of Medicine and Nature Medicine.  
-I serve as a Global Principal Investigator for innovative, early-phase trials and manage a portfolio of cutting edge immunology studies focused on precision cell depletion.  
-Academically, I lead a 15-member research group that works on developing new precision cell depleting therapies and understanding immunological hallmarks of therapy response and relapse.  
-This research program is supported by nearly $10 million in secured PI funding.  
-Bridging academia and industry, I leverage my dual background in medicine and business to drive the development of innovative therapeutics by serving on Scientific Advisory Boards and advising on preclinical benchmarking, asset acquisition and clinical strategy.  
-For my impact at the intersect of clinical, scientific, and private sectors to build programs that deliver cures for autoimmunity, I was honored as [Forbes 30 Under 30](https://www.forbes.com/profile/ricardo-grieshaber-bouyer/).  
+## View the site
 
-- Board Certified in Internal Medicine, Rheumatology and Immunology  
-- [Professor of Clinical Systems Immunology](https://www.medizin3.uk-erlangen.de/forschung/arbeitgruppen/ag-prof-dr-r-griesshaber-bouyer/)  
-- Head of the [Clinical Trial Unit](https://www.medizin3.uk-erlangen.de/en/patients/clinical-trials-unit/)  
-- Director, [Center of Systems Immunology (CSI) Erlangen](https://focisnet.org/whats-new-with-focis-centers-of-excellence-fces/)
-- Member, [FAU Profile Center for Medical Engineering](https://www.medtech.fau.eu/speakers/prof-dr-med-ricardo-grieshaber-bouyer/)
-- Member, [FAU Profile Center Immunomedicine](https://www.immunology.fau.de/)
+- **On your computer:** download or clone the repository and double-click `index.html`.
+  Keep the folders next to it; the page loads its pictures from them.
+- **Online with GitHub Pages (only after the repository is made public at launch; while it's private, use "On your computer" above):** in the repository go to **Settings → Pages**, choose
+  **Deploy from a branch**, branch **main**, folder **/ (root)**, and save. After a minute the site is live at
+  `https://<github-user-or-organisation>.github.io/<repository-name>/`. Every change you commit appears there
+  automatically within a minute or two.
 
-**Personal Assistant: Lisa Fischer, MSc**  
-lisa.fischer@uk-erlangen.de  
-+49 9131 85-39379  
+## Edit on github.com (no software needed)
 
-## Lab Members
+1. Open the file (for example `content/team.js`) and click the **pencil icon** (Edit).
+2. Make the change, then click **Commit changes…** and write a short note such as "Add Jane Doe".
+3. To add a picture: open the folder (for example `images/people`), click **Add file → Upload files**,
+   drag the picture in and commit. Then write its path in the content file (see below).
 
-**Dr. Kirill Anoshkin, PhD**  
-Postdoctoral fellow
+**Rules that keep the site working**
 
-**Sebastian Böltz, MD**  
-Physician scientist
+- Text goes between "double quotes". If the text itself needs a quote, write `\"`.
+- Entries in a list are separated by commas. A comma after the last entry is fine.
+- File names: use lowercase letters, numbers and dashes, no spaces (for example `jane-doe.jpg`).
+  Paths are case-sensitive on GitHub Pages: `Jane-Doe.JPG` and `jane-doe.jpg` are different files.
+- If the page turns blank after an edit, a quote or comma is missing. Open the file's **History** on GitHub,
+  compare with the previous version, or revert the last commit.
 
-**Dr. med. Laura Bucci, MD**  
-Physician scientist
+---
 
-**Elaine Degen**  
-Dr. med. candidate
+## Common tasks
 
-**Sonia Dresel**  
-Dr. med. candidate
+### Add a lab member
 
-**Dr. Panagiotis Garantziotis, MD PhD**  
-Physician scientist
+In `content/team.js`, copy a line inside `members` and change it:
 
-**Ann-Kathrin Götz**  
-Dr. med. candidate  
-Currently a visiting scholar at the [Deepak Rao Lab](https://raolab.bwh.harvard.edu/) at the [Brigham and Women's Hospital](https://www.brighamandwomens.org/)/[Harvard Medical School](https://hms.harvard.edu/)
+```js
+{ name: "Jane Doe", role: "Postdoctoral fellow", area: "Wet lab", photo: "" },
+```
 
-**Sanjukta Gubbi Praveen**  
-Dr. rer. nat. candidate
+- `positions` (optional) is a list of positions shown on the person's profile page, under the photo.
+- `area` is the small label under the role: `"Dry lab"`, `"Wet lab"`, `"Clinical"`, `"Administration"`.
+- Members and alumni are sorted automatically by family name (the last word of the name, ignoring titles),
+  so the order in the file does not matter.
+- A role can have a line break: `role: "Rheumatologist,\npostdoctoral fellow"`.
+- In a `bio`, `\n\n` inside the quotes starts a new paragraph (no spaces around it).
 
-**Dr. med. Melanie Hagen, MD**  
-Physician scientist  
-Head of the Clinical Trial Unit
+Every member automatically gets a profile page. To fill it, add a `profile` (see Zahra Moslehi's entry):
 
-**Dr. Futoshi Iwata, MD**  
-Rheumatologist  
-Postdoctoral fellow
+```js
+{ name: "Jane Doe", role: "Postdoctoral fellow", area: "Wet lab", photo: "",
+  profile: {
+    affiliation: "Universitätsklinikum Erlangen", email: "", linkedin: "https://…", scholar: "https://…", twitter: null,
+    bio: "First paragraph.\n\nSecond paragraph.",
+    interests: ["Single-cell genomics", "Autoimmunity"],
+    education: [{ degree: "PhD in Immunology", year: "2020", school: "University of …" }]
+  } },
+```
 
-**Silke Johann**  
-Research technician
+### Remove a lab member, or move them to the alumni
 
-**Dr. Zahra Moslehi, PhD**  
-Postdoctoral fellow
+Delete their line from `members`. To keep them as alumni, add a line to `alumni` in the same file:
 
-**Danae-Mona Nöthling, MD**  
-Physician scientist
+```js
+{ name: "Jane Doe", role: "Postdoctoral fellow", now: "Group leader, University of …", photo: "", bio: "" },
+```
 
-**Dr. rer. nat. Tobias Rothe**  
-Postdoctoral fellow
+`bio` is a short text shown when a visitor clicks the alumnus' row (no LinkedIn / Scholar buttons for alumni).
 
-**Jana Ullmann**  
-Research technician
+### Add or change a person's photo
 
-**Dr. Giang Vu, PhD**  
-Postdoctoral fellow
+1. Upload the photo to `images/people/` (square, about 800 × 800 px and under 300 KB, e.g. `jane-doe.jpg`).
+   Crop and shrink camera photos first: a full-size photo looks blurry on the site and loads slowly.
+2. In `content/team.js`, set `photo: "images/people/jane-doe.jpg"` on that person.
+   Leave `photo: ""` to show the blue silhouette.
+
+Only publish photos of people who have agreed to it in writing.
+
+### Change the logo
+
+Upload the new logo to `logo/`, then in `content/site.js` change `logo` (top bar) and `favicon` (browser tab).
+An SVG or PNG that looks good on the dark blue bar works best.
+If the new logo already contains the words "RGB lab", set `showLabName: false`.
+
+### Change the main (Home) picture and its text
+
+`heroTitle` and `heroText` in `content/site.js` are the headline and paragraph at the top of Home, which fills
+the first screen. Below them, `heroJournals` lists the journals after "Recent work published in" and `heroNote` is
+the short line under them (currently "Forbes 30 Under 30 · 2025"); use `[]` / `""` to hide them. The soft
+blurred circles on the right are the logo's three circles, drawn by the page itself (no image file).
+At the moment there is no picture (`heroImage: ""`). To add a picture behind the text instead, upload a wide
+picture (about 5:2, at least 1600 px wide) to `images/` and set `heroImage` and `heroImageAlt` (a short
+description for screen readers); the text then sits in a blue box.
 
-**Dr. rer. nat. Liang Zhang, PhD**  
-Postdoctoral fellow
+### Change the Team group photo
 
+Upload it to `images/team/` and change `teamPhoto`, `teamPhotoAlt` and `teamPhotoCaption` in `content/site.js`.
 
-## Alumni
+### Add or remove a contact ("Write to us" / "Get in touch")
 
-**Dr. med. Cassian M. Afting**  
-Rotation student  
-Now [HBIGS fellow](http://www.hbigs.uni-heidelberg.de) in [Prof. Dr. Joachim Wittbrodt's Lab](https://www.cos.uni-heidelberg.de/en/research-groups/developmental-biologyphysiology)
+In `content/contacts.js`, copy a line to add a contact, or delete a line to remove one:
 
-**Selina Belghalem**  
-Research technician
+```js
+{ name: "Lisa Fischer", role: "Lab coordinator", email: "lisa.fischer@uk-erlangen.de" },
+```
 
-**Nicole Brosch**  
-Research technician
+### Add a paper
 
-**Dr. med. Tarik Exner**  
-Postdoctoral fellow/PhD candidate in the [HBIGS MD/PhD program](http://www.hbigs.uni-heidelberg.de)
-Now Rheumatology Fellow and Group Leader at [Heidelberg University Hospital](https://www.klinikum.uni-heidelberg.de/kliniken-institute/kliniken/zentrum-fuer-innere-medizin-krehl-klinik/innere-medizin-v-haematologie-onkologie-und-rheumatologie/behandlungsspektrum/rheumatologie)
+In `content/publications.js`, copy a block in `list` (newest first) and fill it in. The year buttons are
+created automatically from the years. To show a journal logo, the `journal` name must match a name in
+`journalLogos` (add the logo file to `images/journal-logos/` and a line to `journalLogos` if needed).
+Use journal **logos** only, never cover images (covers are copyrighted).
+To change the 3 large Featured cards, put a piece of each paper's title in `featured`.
 
-**Dr. med. Frank Y. Huang**  
-Dr. med. candidate and [Boehringer Ingelheim Fonds fellow](https://www.bifonds.de/index.html)  
-Now [HBIGS fellow](http://www.hbigs.uni-heidelberg.de) in [Prof. Dr. Andreas Trumpp's Lab](https://www.hi-stem.de/research-trumpp)
+### Add a news article or video
 
-**Mareike de Groot**  
-Dr. med. candidate 
-[Peter-Scriba fellow (German Society of Internal Medicine)](https://www.dgim.de/en/the-gsim/)  
-Now Internal Medicine Resident
+In `content/news.js`, copy a block in `press` or `videos` (newest first). The first 4 press items also
+appear on the Home page. For a logo, the `outlet` must match a name in `outletLogos`.
 
-**Nicolaj S. Hackert**  
-Dr. med. candidate  
-[Boehringer Ingelheim Fonds fellow](https://www.bifonds.de/index.html)
+### Announce an open position
 
-**Niklas R. Junker**  
-Dr. med. candidate
+Open positions live in `content/positions.js`. While its `list` is empty, the website shows nothing about open
+positions. As soon as the list has a position, the site shows it automatically:
 
-**Sophie E. Leonhardt**  
-Research technician  
-Now Medical Student at [Saarland University](https://www.uni-saarland.de/en/home.html)
+- an **Open positions** tab appears in the menu (after Team), with one card per position;
+- the Team page shows a **"We are hiring – 1 open position"** panel with **See open positions →** and
+  **Write to us →** buttons;
+- the Open positions page ends with **How to apply** (the `howToApply` text) and the contacts from
+  `content/contacts.js`.
 
-**Jara Leta**  
-M.Sc. student  
-Now Ph.D. student at the [Institute of Microbiology at Erlangen University Hospital](https://www.mikrobiologie.uk-erlangen.de/en/)
+**To add a position**
 
-**Nicolas J. Nitsche**  
-M.Sc. student  
-Now Ph.D. student in Cellular Immunology in [Federica Sallusto's lab at the Istituto di Ricerca in Biomedicina in Bellinzona](https://irb.usi.ch/cellular-immunology/)
+1. Open `content/positions.js` (on GitHub: click the file, then the pencil icon).
+2. Find the empty list near the end of the file:
 
-**Görkem Osmanusta**  
-Dr. med. candidate
+   ```js
+     list: [
+     ]
+   ```
 
-**Frederic S. Pohl**  
-Dr. med. candidate
+3. Put the position between the two brackets. A complete example:
 
-**Felix A. Radtke**  
-Dr. med. candidate and [Boehringer Ingelheim Fonds fellow](https://www.bifonds.de/index.html)  
-Now DPhil Student in [Professor Paresh Vyas' Group](https://www.imm.ox.ac.uk/research/research-groups/vyas-group-normal-and-malignant-haematopoiesis-lab) at [University of Oxford](https://www.ox.ac.uk)
+   ```js
+     list: [
+       {
+         title: "PhD student in computational immunology",
+         type: "PhD position",
+         area: "Dry lab",
+         start: "As soon as possible",
+         deadline: "Applications until 30 November 2026",
+         summary: "You will develop machine-learning methods for high-dimensional single-cell and cytometry data from our clinical trials of T cell engager and CAR T-cell therapies, working closely with clinicians and wet-lab scientists.",
+         requirements: [
+           "Master's degree in bioinformatics, computer science, statistics or a related field",
+           "Programming experience in Python or R",
+           "Interest in immunology and clinical translation",
+           "Good command of English"
+         ],
+         link: ""
+       }
+     ]
+   ```
 
-**Peter Scheuerlein**  
-Research technician
+4. Commit (or save and reload `index.html` on your computer). The tab and the Team panel appear immediately.
 
-**Julia T. Schnell**  
-Dr. med. candidate  
-[PROMOS fellow (German Academic Exchange Service, DAAD)](https://www.daad.de/de/)
+| Field | What to write |
+|---|---|
+| `title` | Title of the position |
+| `type` | Short label shown as a dark tag: `"PhD position"`, `"Postdoc"`, `"Dr. med. thesis"`, `"Master's thesis"`, `"Technician"`, … |
+| `area` | Light tag: `"Dry lab"`, `"Wet lab"`, `"Clinical"`, `"Administration"`, or `""` for none |
+| `start` | Shown as "Start: …", e.g. `"As soon as possible"`; `""` to leave out |
+| `deadline` | Shown after the start, e.g. `"Applications until 30 November 2026"`; `""` to leave out |
+| `summary` | A few sentences about the project and the role |
+| `requirements` | List shown under "What we are looking for"; `[]` to leave out |
+| `link` | Optional "Full announcement ↗" link: a web address, or a PDF uploaded to `files/positions/` (e.g. `"files/positions/phd-2026.pdf"`); `""` for none |
 
+**More than one position:** put a comma after the closing `}` of the first one and add the next `{ … }` below it.
+The Team panel then says "2 open positions".
 
-## Open Positions
-We welcome applications by creative, entrepreneurially-minded candidates across wet and dry immunology, bioinformatics and data science. Applicants are encouraged to reach out with a concrete area of interest and two references.
+**To remove a position** when it is filled: delete its `{ … }` block (including the comma between blocks, if
+there is one). When the list is empty again (`list: [ ]`), the tab and the Team panel disappear.
 
+The texts `intro` (top of the Open positions page) and `howToApply` (the How to apply box) are at the top of the
+same file. The page address is `…/#/positions`.
 
-# Publications
+### Add a Lab Life photo
 
-### 2026
+Upload it to `images/lab-life/` and copy a block in `labLife` in `content/site.js`.
 
-[A Feed-Forward Loop Between Extrafollicular B Cell Differentiation and the Inflammatory Milieu Governs Remission and Relapse in Systemic Lupus Erythematosus](https://www.medrxiv.org/content/10.64898/2026.07.03.26356448v2)  
-Nöthling DM, Anoshkin K, Gavin PG, Rothe T, Bucci L, Iwata F, Garantziotis P, Ferrari N, Clarke SLN, Hagen M, Wirsching A, Bachl J, Tur C, Böltz S, Kretschmann S, Aigner M, Völkl S, Munoz L, Müller F, Mackensen A, Eckstein M, Raimondo MG, Bozec A, Schett G, **Grieshaber-Bouyer R**  
-_medRxiv_ 2026 (under review)
+### Hide empty social buttons on profile pages
 
-BCMA-targeted Tcell engager therapy for refractory pemphigus  
-Ronicke M#, Rothe T, Müller F, Berking C, Schett G, **Grieshaber-Bouyer R\*#**, Sticherling M\*  
-_JAMA Dermatology_ 2026 (in press)
+Profile pages show LinkedIn / Google Scholar / X buttons; without a link they appear faded. Set
+`hideEmptyLinks: true` in `content/site.js` to hide them. In a profile, `twitter: null` (etc.) never shows that button.
 
-[T Cell Engagers in Autoimmune Diseases](https://www.nature.com/articles/s41577-026-01318-x)  
-**Grieshaber-Bouyer R**, Wu L, Schett G, Baeuerle PA  
-_Nature Reviews Immunology_ 2026
+---
 
-[The cell cloud: Adopting systems biology concepts in the era of single-cell immunology](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003853)  
-Shay O, Benoist CB, **Grieshaber-Bouyer R**  
-_PLOS Biology_ 2026
+## What is not in the content files
 
-[Mapping the synovial immune ecosystem in rheumatoid arthritis: cellular cartography and pathotype-guided immune restoration](https://doi.org/10.1016/j.coi.2026.102811)  
-Du F, Xin W, Li T, **Grieshaber-Bouyer R**, Ye S  
-_Curr Opin Immunol_ 2026
+The texts of the Funding and Teaching & Mentorship pages, the page intros and the footer are in `index.html`
+(search for the text you want to change). Ask before restructuring `index.html`; the content files are the
+safe place for everyday updates.
 
-[Aligning Approaches to Rheumatoid Arthritis Drug Development: An Expert Comparison of FDA and EMA Guidance](https://doi.org/10.1016/S2665-9913(26)00086-X)  
-Ciancio A, Amati A, Gandolfo S, **Grieshaber-Bouyer R**, Thomas R, Liew R, Valenzuela G, Gossec L, Manara M, Kim TH, Szekanecz Z, Taylor P, Mariette X, Caporali R, Ciccia F  
-_Lancet Rheumatology_ 2026
+## Pages and addresses
 
-[T-Cell Engagers Mediate Deep Cell Depletion Beyond Autoimmunity](https://www.kidney-international.org/article/S0085-2538(26)00244-9/)  
-Kurzhagen JT, Laqua W, Schiffer M, **Grieshaber-Bouyer R**  
-_Kidney Int_ 2026
+Every page has its own address, so links can be shared and the browser's Back button works:
+Home `/`, Team `#/team`, Open positions `#/positions`, Publications `#/publications`, Funding `#/funding`,
+Teaching & Mentorship `#/teaching`, Lab Life `#/lab-life`, Press & Media `#/press`, and a profile page for every
+member at `#/people/<name>` (e.g. `#/people/zahra-moslehi`, made automatically from the name).
 
-[B cell depletion in autoimmune disease: in vivo CAR-T or T cell engagers?](https://www.nature.com/articles/s41587-026-03069-5)  
-Senior M, **Grieshaber-Bouyer R**  
-_Nature Biotechnology_ 2026
+## Privacy and rights
 
-[MorphoMapping identifies redox-dependent control of NETotic states in primed neutrophils](https://doi.org/10.1093/jimmun/vkag061)  
-Bauerdick A, Exner T, Jagoditsch G, Habicht J, Nakchbandi I, Konstandin M, **Grieshaber-Bouyer R**, Wabnitz G  
-_J Immunol_ 2026
+- **No third-party requests.** The site loads its font, scripts and pictures from this repository and contacts no
+  other website (no Google Fonts, no YouTube embeds, no trackers). Keep it that way: embedding Google Fonts, Google
+  Maps or YouTube videos sends visitors' IP addresses to those services and must then be covered in the privacy
+  policy. Link to videos instead of embedding them, as the Press & Media page does.
+- **Photos and profiles:** only publish photos, bios, education and links of people who have agreed to it
+  (in writing for photos). This also applies to alumni bios.
+- **Logos** of journals, news outlets, funders, programmes and FAU/UKER are trademarks of their owners and are
+  used to identify them. Use logos only, never journal cover images (covers are copyrighted artwork).
+- **YouTube thumbnails** in `images/video-thumbs/` belong to the channels that published the videos.
 
-[Deep phenotyping of skin tissue remodeling in patients with systemic sclerosis treated with CD19-CAR T cells](https://www.nature.com/articles/s41467-026-72817-7)  
-Rius Rigau A, Xu M, Liu Z, Chenguiti Fakhouri S, Auth J, Garantziotis P, Zoli A, Kumar M, Raimondo MG, Tur C, Filla T, Gehringer P, Eckstein M, Müller F, Atzinger A, Ronicke M, Ekici A, Schmid R, Wirsching A, Hagen M, Böltz S, Krickau T, Horch RE, Berking C, **Grieshaber-Bouyer R**, Ramming A, Gupta P, Bozec A, Mackensen A, Distler JHW, Schett G, Li YN, Bergmann C  
-_Nature Communications_ 2026
+## Design reference
 
-[Tiny warriors, big impact: Targeted immunotherapy in kidney diseases](https://www.kidney-international.org/article/S0085-2538(26)00145-6/)  
-Kurzhagen JT, Laqua W, Schett G, **Grieshaber-Bouyer R**, Rabb H, Noel S, Schiffer M  
-_Kidney Int_ 2026
+Keep new content consistent with the existing look.
 
-[Bispecific T cell engagers for the treatment of severe, treatment-refractory autoimmune mediated connective tissue diseases](https://www.nature.com/articles/s41591-026-04238-4)  
-Düsing C, Györfi AH, Stütz AN, Lahu LM, Deicher FS, Li YN, Bruch PM, Matei AE, Micu A, Filla T, Koziel S, Hölscher AS, Röhrich M, Lorenz HM, Cramer M, Antoch G, Timm J, Abusabha Y, Ruck T, Homey B, Kreuter A, Bühring B, Radujkovic A, Hagen M, **Grieshaber-Bouyer R**, Schett G, Brunn A, Dietrich S, Merkt W, Distler JHW  
-_Nature Medicine_ 2026
+- **Font:** Source Sans 3 (the typeface of fau.de), included in `assets/fonts/`.
+- **Colours:** page background light cream `#FFFDF9`; navy `#071D3F` (top bar); section headings dark grey
+  `#333333` (Alumni and Fellowships in FAU blue `#04316A`); FAU blue `#04316A` for labels and small headings;
+  link blue `#0A4C95` (hover `#2F7BD6`); panels cream `#F6F0E5`, light blue `#EEF3FA` (Fellowships, area tags)
+  or white (Support our research); buttons light blue `#EEF3FA` with FAU-blue text; thin lines `#EEEAE3`;
+  logo colours red `#E53935`, green `#43A047`, blue `#1E88E5` (R, G, B; used for the logo and the blurred circles on Home). Names are written without titles.
+- **Pictures:** member photos square (about 800 × 800 px); optional Home picture wide (about 5:2, at least 1600 px);
+  Lab Life photos 4:3; logos as SVG or PNG with a transparent or white background.
 
-[CD19 CAR-T cells for treatment-refractory autoimmune diseases: the phase 1/2 CASTLE basket trial](https://www.nature.com/articles/s41591-025-04185-6)  
-Müller F\*, Hagen M\*, Wirsching A\*, Kharboutli S, Aigner M, Völkl S, Kretschmann S, Tascilar K, Taubmann J, Bucci L, Raimondo MG, Bergmann C, Rothe T, Tur C, Muñoz L, Böltz S, Schuster L, Hartmann F, Garantziotis P, Spörl S, Vasova I, Gerbitz A, Spriewald B, Kiener H, Giannarelli D, Locatelli F, D´Agostino MA, Hanssens L, Miltenyi S, Bozec A, **Grieshaber-Bouyer R**, Mackensen A\*, Schett G\*  
-_Nature Medicine_ 2026
+## How it works (for whoever maintains the code)
 
-[Roads and detours for CAR T cell therapy in autoimmune diseases](https://www.nature.com/articles/s41573-025-01349-4)  
-Avouac J\*, Barzel A\*, Davis R\*, Caiati D\*, Gottschalk S\*, **Grieshaber-Bouyer R\***, Mao X\*, Luning-Prak N\*, Radic M\*, Scherlinger M\*, Suneja Y\*, Talleur A\*, Thacker A\*, Unutmaz D\* (\*Authors in alphabetical order)  
-_Nature Reviews Drug Discovery_ 2026
+- `index.html` contains the page layout, styles and logic. It reads the content files in `content/`, which are
+  loaded as plain scripts (`window.RGB.… = {…}`) so the site also works when opened from disk (browsers block
+  loading JSON files from disk).
+- `assets/js/` holds the small page runtime (`dc-runtime.js`) and React / React DOM. Nothing is loaded from the
+  internet.
+- No build step: what is in the repository is exactly what is served.
 
-[Multiple Recent Approvals Establish T Cell Engaging Antibodies as a Compelling Therapeutic Modality](https://rupress.org/jem/article/223/2/e20251652/278749/T-cell-engagers-emerge-as-a-compelling-therapeutic)  
-Baeuerle P, Sauer K, **Grieshaber-Bouyer R**, Michaelson J  
-_J Exp Med_ 2026
+## Authors and credits
 
-[Improvement of skin manifestations of refractory connective tissue diseases by T-cell engager treatment](https://skindeep.skinonline.org/article/188493/)  
-Schett A, Wirsching A, **Grieshaber-Bouyer R**, Hagen M, Schett G  
-_SKINdeep_ 2026
+- **Concept, content direction and supervision:** Prof. Dr. med. Ricardo Grieshaber-Bouyer,
+  Principal Investigator, RGB lab (Universitätsklinikum Erlangen / FAU)
+- **Design and development:** Zahra Moslehi, RGB lab (Universitätsklinikum Erlangen / FAU),
+  [GitHub](https://github.com/zamoslehi) 
+- **Content:** members of the RGB lab
+- Font: Source Sans 3 © Adobe, SIL Open Font License 1.1 (`assets/fonts/`)
+- React and React DOM, MIT licence (`assets/js/`)
+- The RGB lab logo was made for this site.
 
+## How to cite
 
-### 2025
-
-[Local immune effector cell-associated toxicity syndrome in CAR T-cell treated patients with refractory systemic lupus erythematosus – Authors' reply](https://www.thelancet.com/journals/lanrhe/article/PIIS2665-9913(25)00222-X/)  
-Hagen M, Müller F, Wirsching A, Kharboutli S, Spoerl S, Düsing C, Krickau T, Metzler M, Völkl S, Aigner M, Kretschmann S, Vasova I, Saake M, Schliep S, Kubacki T, Hunzelmann N, Bucci L, Taubmann J, Bergmann C, Györfi AH, Dietrich S, Distler JHW, **Grieshaber-Bouyer R**, Mackensen A, Schett G  
-_Lancet Rheumatol_ 2025
-
-[Fcγ-receptor-activation by circulating immune complexes in systemic autoimmune diseases and its reduction by CD19-CAR T-cell therapy](https://academic.oup.com/rheumatology/advance-article/doi/10.1093/rheumatology/keaf627/8363895)  
-Freitag M, Kolb P, Falcone V, Claus M, Schröder P, Andreeva I, Rodon L, Ewald M, Deicher FS, Stütz AN, Distler JHW, Blank N, **Grieshaber-Bouyer R**, Muñoz LE, Lorenz HM, Schett G, Merkt W  
-_Rheumatology (Oxford)_ 2025
-
-[Reprogrammed T Cells for the Treatment of Rheumatoid Arthritis](https://link.springer.com/article/10.1007/s12688-025-00910-8)  
-Baeuerle PA & **Grieshaber-Bouyer R**  
-_rheuma plus_ 2025
-
-[Soluble BDCA-2 as a potential biomarker for rheumatoid arthritis and its role in enhancing IFN-α production through nucleic acid binding](https://academic.oup.com/rheumatology/advance-article/doi/10.1093/rheumatology/keaf537/8287650)  
-Mainieri L, Kaufmann A, Bucci L, **Grieshaber-Bouyer R\***, Bauer S\*, Venegas S\*  
-_Rheumatology_ 2025
-
-[BCMA T cell engager therapy in patients with refractory autoimmune disease](https://www.nejm.org/doi/full/10.1056/NEJMc2506740)  
-Bucci L, Böltz S, Hagen M, Tur C, Noethling D, Rothe T, Wirsching A, Auth J, Wacker J, Eckstein M, Alivernini S, Bozec A, Bergmann C, D'Agostino MA, Munoz L, Rech J, Kihm L, Raimondo MG, Schett G, **Grieshaber-Bouyer R**  
-_N Engl J Med_ 2025
-
-[Neutrophil heterogeneity identifies an association of LAMP1 with proliferative lupus nephritis](https://onlinelibrary.wiley.com/doi/10.1002/eji.70022)  
-Ostendorf L, Garantziotis P, Huang FY, Schett G, Accelerating Medicines Partnership: RA/SLE Network, Lederer JA, Fava A, Rao DA, **Grieshaber-Bouyer R**  
-_Eur J Immunol_ 2025
-
-[CytoNormPy Enables a Fast and Scalable Removal of Batch Effects in Cytometry Datasets](https://onlinelibrary.wiley.com/doi/10.1002/cyto.a.24953)  
-Exner T, Hackert N, Leomazzi L, Van Gassen S, Saeys Y, Lorenz HM, **Grieshaber-Bouyer R**  
-_Cytometry A_ 2025
-
-[From complexity to consensus: A roadmap for neutrophil classification](https://www.cell.com/immunity/fulltext/S1074-7613(25)00320-6)  
-Ng LG, Ballesteros I, Cassatella MA, Egeblad M, Fridlender ZG, Gabrilovich D, Gao Q, Granot Z, **Grieshaber-Bouyer R**, Grimes HL, Hedrick CC, Hidalgo A, Kaplan MJ, Kubes P, Ling GS, Lu L, Luo HR, Mayadas TN, Moutsopoulos NM, Ng M, Nigrovic PA, Ostuni R, Pittet MJ, Quail DF, Silvestre-Roig C, Soehnlein O, Udalova IA, Xue R, Zhang N, Kwok I  
-_Immunity_ 2025
-
-[Effects of CD19 CAR T-cell therapy on quality of life and direct health care costs in SLE: a preliminary analysis](https://www.jrheum.org/content/early/2025/11/10/jrheum.2024-1301)  
-Taubmann J, Hagen M, Müller F, Wirsching A, Temiz A, Völkl S, Aigner M, **Grieshaber-Bouyer R**, Mackensen A, Schett G  
-_J Rheumatol_ 2025
-
-[Long-term follow up of efficiency and safety of CD19-CAR T-cell treatment of systemic lupus erythematosus](https://link.springer.com/article/10.1007/s00393-025-01705-0)  
-Taubmann J, Böltz S, Hagen M, Wirsching A, Müller F, Völkl S, Kharboutli S, Spörl S, Garantziotis P, Aigner M, **Grieshaber-Bouyer R**, Mackensen A, Schett G  
-_Z Rheumatol_ 2025
-
-[Differential molecular signatures in response to CD19-CAR T cell therapy compared with conventional pharmacotherapy in systemic lupus erythematosus](https://ard.eular.org/article/S0003-4967(25)04187-1)  
-Garantziotis P, Beretta L, Lindblom J, Moysidou GS, Nikolopoulos D, **Grieshaber-Bouyer R**, Hagen M, Bergmann C, Wirsching A, Bozec A; PRECISESADS Clinical Consortium; Schneider M, Barturen G, Bertsias G, Boumpas DT, Alarcón-Riquelme ME, Mackensen A, Schett G, Parodis I  
-_Ann Rheum Dis_ 2025
-
-[Effects of different B-cell-depleting strategies on the lymphatic tissue](https://ard.eular.org/article/S0003-4967(25)04174-3)  
-Tur C, Eckstein M, Bucci L, Auth J, Bergmann C, Rauber S, Hagen M, Nöthling DM, Böltz S, Wirsching A, Tascilar K, Fagni F, Corte G, Rius Rigau A, Qin Y, Garantziotis P, Taubmann J, Wacker J, Ramming A, D Agostino MA, Rauch S, Hartmann A, Müller F, Mackensen A, **Grieshaber-Bouyer R**, Schett G, Bozec A, Raimondo MG  
-_Ann Rheum Dis_ 2025
-
-[Comparison of the safety profiles of CD19-targeting CAR T-cell therapy in patients with SLE and B-cell lymphoma](https://ashpublications.org/blood/article-abstract/146/9/1088/537757/Comparison-of-the-safety-profiles-of-CD19)  
-Müller F, Schwingen NR, Hagen M, Scholz JK, Aigner M, Wirsching A, Taubmann J, Kretschmann S, Kharboutli S, Krickau T, Naumann-Bartsch N, Benintende G, Spoerl S, Rothe T, Bruns H, **Grieshaber-Bouyer R**, Metzler M, Blumenthal DB, Graw F, Schett G, Mackensen A, Völkl S  
-_Blood_ 2025
-
-[Local Immune effector Cell-Associated Toxicity Syndrome (LICATS) in CAR T-cell treated patients with autoimmune disease – an observational study](https://www.thelancet.com/journals/lanrhe/article/PIIS2665-9913(25)00091-8)  
-Hagen M, Müller F, Wirsching A, Kharboutli S,  Spoerl S, Düsing C, Krickau T, Metzler M, Völkl S, Aigner M, Kretschmann S, Vasova I, Saake M, Schliep S, Kubacki T, Hunzelmann N, Bucci L, Taubmann J, Bergmann C, Györfi H, Dietrich S, Distler JHW, **Grieshaber-Bouyer R**,
-Mackensen A, Schett G  
-_Lancet Rheumatol_ 2025
-
-[BCMA-CAR T-cells in a patient with relapsing idiopathic inflammatory myositis after CD19-CAR T-cells](https://www.nature.com/articles/s41591-025-03718-3)  
-Müller F, Wirsching A, Hagen M, Völkl S, Tur C, Raimondo MG, Taubmann J, Bucci L, Zhang L, Kretschmann S, Aigner M, Eckstein M, Spörl S, Kharboutli S, Böltz S, Atzinger A, Munoz L,c Schett G, Mackensen A, **Grieshaber-Bouyer R**  
-_Nature Medicine_ 2025
-
-[CD19-CAR T-cell therapy induces deep tissue depletion of B cells](https://ard.bmj.com/content/early/2024/09/11/ard-2024-226142)  
-Tur C, Eckstein M, Velden J, Rauber S, Bergmann C, Auth J, Bucci L, Corte G, Hagen M, Wirsching A, **Grieshaber-Bouyer R**, Reis P, Kittan N, Wacker J, Rius Rigau A, Ramming A, D'Agostino MA, Hartmann A, Müller F, Mackensen A, Bozec A, Schett G, Raimondo MG  
-_Ann Rheum Dis_ 2025
-
-[CD19-targeting CAR T-cell therapy in patients with diffuse systemic sclerosis: a case series](https://www.thelancet.com/journals/lanrhe/article/PIIS2665-9913(24)00282-0)  
-Auth J, Müller F, Völkl S, Bayerl N, Distler JHW, Tur C, Raimondo MG, Chenguiti Fakhouri S, Atzinger A, Coppers B, Eckstein M, Liphardt AM, Bäuerle T, Tascilar K, Aigner M, Kretschmann S, Wirsching A, Taubmann J, Hagen M, Györfi AH, Kharboutli S, Krickau T, Dees C, Spörl S, Rothe T, Harrer T, Bozec A, **Grieshaber-Bouyer R**, Fuchs F, Kuwert T, Berking C, Horch RE, Uder M, Mackensen A, Schett G, Bergmann C  
-_Lancet Rheumatol_ 2025
-
-
-### 2024
-
-[BCMA-Targeted T-Cell-Engager Therapy for Autoimmune Disease](https://www.nejm.org/doi/10.1056/NEJMc2408786?url_ver=Z39.88-2003)  
-Hagen M, Bucci L, Böltz S, Nöthling DM, Rothe T, Anoshkin K, Raimondo MG, Tur C, Wirsching A, Wacker J, Düsing C, Distler JHW, Kuwert T, Bozec A, Ramming A, Schett G, **Grieshaber-Bouyer R**  
-_N Engl J Med_ 2024
-
-[Bispecific T cell engager therapy for refractory rheumatoid arthritis](https://www.nature.com/articles/s41591-024-02964-1)  
-Bucci L, Hagen M, Rothe T, Raimondo MG, Fagni F, Tur C, Wirsching A, Wacker J, Wilhelm A, Auger JP, Pachowsky M, Eckstein M, Alivernini S, Zoli A, Krönke G, Uderhardt S, Bozec A, D’Agostino MA, Schett G, **Grieshaber-Bouyer R**  
-_Nature Medicine_ 2024
-
-[Accurate, fast and memory efficient quantification of immune cell phenotypes in cytometry using machine learning](https://doi.org/10.1101/2024.07.26.605341)  
-Exner T, Hackert NS, Pohl F, Osmanusta G, Schmitt F, Lorenz HM, Wabnitz G, Schett G, Graw F, Henes J, **Grieshaber-Bouyer R**  
-_bioRxiv_ 2024
-
-[CD19 CAR T-Cell Therapy in Autoimmune Disease — A Case Series with Follow-up](https://www.nejm.org/doi/full/10.1056/NEJMoa2308917)  
-Müller F, Taubmann J, Bucci L, Wilhelm A, Bergmann C, Völkl S, Aigner M, Rothe T, Minopoulou I, Tur C, Knitza J, Kharboutli S, Kretschmann S, Vasova I, Spoerl S, Reimann H, Munoz L, Gerlach RG, Schäfer S, **Grieshaber-Bouyer R**, Korganow AS, Farge-Bancel D, Mougiakakos D, Bozec A, Winkler T, Krönke G, Mackensen A, Schett G  
-_New Engl J Med_ 2024
-
-[Treatment of CNS systemic lupus erythematosus with CD19 CAR T cells](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(24)02265-7/)  
-Hagen M, Müller F, Wirsching A, Kharboutli S, Spörl S, Aigner M, Völkl S, Köhler B, Dörfler A, **Grieshaber-Bouyer R**, Mackensen A, Schett G  
-_Lancet_ 2024
-
-[CD19-CAR T-cell therapy induces deep tissue depletion of B cells](https://ard.bmj.com/content/early/2024/08/16/ard-2024-226142.long)  
-Tur C, Eckstein M, Velden J, Rauber S, Bergmann C, Auth J, Bucci L, Corte G, Hagen M, Wirsching A, **Grieshaber-Bouyer R**, Reis P, Kittan N, Wacker J, Rius Rigau A, Ramming A, D’Agostino MA, Hartmann A, Müller F, Mackensen A, Bozec A, Schett G, Raimondo MG  
-_Ann Rheum Dis_ 2024
-
-[Selective CAR-T cell mediated B cell depletion suppresses interferon signature in SLE](https://insight.jci.org/articles/view/179433)  
-Wilhelm A, Chambers D, Müller F, Bozec A, **Grieshaber-Bouyer R**, Winkler T, Mougiakakos D, Mackensen A, Schett G, Krönke G  
-_JCI Insight_ 2024
-
-[CAR T-cell therapy in rheumatology-What we know so far?](https://link.springer.com/article/10.1007/s00393-024-01514-x)  
-Hagen M, Wirsching A, Bohr D, Taubmann J, Müller F, Mackensen A, **Grieshaber-Bouyer R\***, Schett G\*  
-_Z Rheumatol_ 2024
-
-
-### 2023
-
-[Human and mouse neutrophils share core transcriptional programs in both homeostatic and inflamed contexts](https://doi.org/10.1038/s41467-023-43573-9)  
-Hackert NS\*, Radtke FA\*, Exner T\*, Lorenz HM, Mueller-Tidow C, Nigrovic PA, Wabnitz G, **Grieshaber-Bouyer R**  
-_Nature Communications_ 2023
-
-[CD19 CAR-T cell treatment: Unraveling the role of B cells in Systemic Lupus Erythematosus](https://acrjournals.onlinelibrary.wiley.com/doi/abs/10.1002/art.42784)  
-Taubmann J, Müller F, Mutlu MY, Völkl S, Aigner M, Bozec A, Mackensen A, **Grieshaber-Bouyer R\***, Schett G\*  
-_Arthritis Rheumatol_ 2023
-
-[Distinct Functional States of Neutrophils by Actin Disassembly and NF-kB/STAT3 Signaling](https://doi.org/10.1101/2023.07.14.548975)  
-Heineken N, Schumacher JC, Exner T, Neuenfeldt F, Habicht J, Kahlich F, Platzer H, Merle U, Renkawitz T, Samstag Y, **Grieshaber-Bouyer R**, Autenrieth S, Wabnitz GH  
-_bioRxiv_ 2023
-
-
-### 2022
-
-[Ageing and interferon gamma response drive the phenotype of neutrophils in the inflamed joint](https://doi.org/10.1136/annrheumdis-2021-221866)  
-**Grieshaber-Bouyer R<sup>#</sup>**, Exner T, Hackert NS, Radtke FA, Jelinsky SA, Halyabar O, Wactor A, Karimizadeh E, Brennan J, Schettini J, Jonsson AH, Rao DA, Henderson LA, Mueller-Tidow C, Lorenz HM, Wabnitz G, Lederer JA, Hadjipanayis A, Nigrovic PA<sup>#</sup>. <sup>#</sup>Corresponding authors  
-_Ann Rheum Dis_ 2022
-
-[Inflammation induces pro-NETotic neutrophils via TNFR2 signaling](https://doi.org/10.1016/j.celrep.2022.110710)  
-Neuenfeldt F\*, Schumacher JC\*, **Grieshaber-Bouyer R**, Habicht J, Schröder-Braunstein J, Gauss A, Niesler B, Heineken N, Dalpke A, Gaida MM, Giese T, Meuer S, Samstag Y, Wabnitz G  
-_Cell Reports_ 2022
-
-[Neutrophil transit time and localization within the megakaryocyte define morphologically distinct forms of emperipolesis](https://doi.org/10.1182/bloodadvances.2021005097)  
-Huang FY\*, Cunin P\*, Radtke FA, Darbousset R, **Grieshaber-Bouyer R**, Nigrovic PA  
-_Blood Advances_ 2022
-
-
-### 2021
-
-[The neutrotime transcriptional signature defines a single continuum of neutrophils across biological compartments](https://doi.org/10.1038/s41467-021-22973-9)  
-**Grieshaber-Bouyer R**, Radtke FA, Cunin P, Stifano G, Levescot A, Vijaykumar B, Nelson-Maney N, Blaustein RB, Monach PA, Nigrovic PA; Immunological Genome Project Consortium  
-_Nature Communications_ 2021
-
-[JAK inhibition prevents the induction of pro-inflammatory HLA-DR+ CD90+ RA synovial fibroblasts by IFNɣ](https://doi.org/10.1002/art.41958)  
-Zhao S, **Grieshaber-Bouyer R**, Rao DA, Kolb P, Chen H, Andreeva I, Tretter T, Lorenz HM, Watzl C, Wabnitz G, Tykocinski LO, Merkt W  
-_Arthritis Rheumatol_ 2021
-
-[Arthritis flares mediated by tissue-resident memory T cells in the joint](https://doi.org/10.1016/j.celrep.2021.109902)  
-Chang MH\*, Levescot A\*, Nelson-Maney N, Blaustein RB, Winden KD, Morris A, Wactor A, Balu S, **Grieshaber-Bouyer R**, Wei K, Henderson LA, Iwakura Y, Clark RA, Rao DA, Fuhlbrigge RC<sup>#</sup>, Nigrovic PA<sup>#</sup>  
-_Cell Reports_ 2021
-
-[IL-1β-driven osteoclastogenic Tregs accelerate bone erosion in arthritis](https://doi.org/10.1172/JCI141008)  
-Levescot A, Chang MH, Schnell J, Nelson-Maney N, Yan J, Martínez-Bonet M, **Grieshaber-Bouyer R**, Lee PY, Wei K, Blaustein RB, Morris A, Wactor A, Iwakura Y, Lederer JA, Rao DA, Charles JF, Nigrovic PA  
-_J Clin Invest_ 2021
-
-[Gut CD4+ T cell phenotypes are a continuum molded by microbes, not by TH archetypes](https://doi.org/10.1038/s41590-020-00836-7)  
-Kiner E, Willie E, Vijaykumar B, Chowdhary K, Schmutz H, Chandler J, Schnell A, Thakore PI, LeGros G, Mostafavi S, Mathis D, Benoist C; Immunological Genome Project Consortium [consortium including **Grieshaber-Bouyer R**]  
-_Nature Immunology_ 2021
-
-[A microRNA expression and regulatory element activity atlas of the mouse immune system](https://doi.org/10.1038/s41590-021-00944-y)  
-Rose SA, Wroblewska A, Dhainaut M, Yoshida H, Shaffer JM, Bektesevic A, Ben-Zvi B, Rhoads A, Kim EY, Yu B, Lavin Y, Merad M, Buenrostro JD, Brown BD; Immunological Genome Consortium. [consortium including **Grieshaber-Bouyer R**]  
-_Nature Immunology_ 2021
-
-
-### 2020
-
-[ImmGen at 15](https://doi.org/10.1038/s41590-020-0687-4)  
-Immunological Genome Project Consortium [consortium including **Grieshaber-Bouyer R**]  
-_Nature Immunology_ 2020
-
-[Biosimilars – Opportunities and Risks](https://doi.org/10.1007/s00108-020-00784-2)  
-**Grieshaber-Bouyer R<sup>#</sup>**, Lorenz HM  
-_Internist (Berl)_ 2020
-
-
-### 2019
-
-[Divergent mononuclear cell participation and cytokine release profiles define hip and knee osteoarthritis](https://doi.org/10.3390/jcm8101631)  
-**Grieshaber-Bouyer R\***, Kämmerer T\*, Rosshirt N, Nees T, Koniezke P, Hagmann S, Tripel E, Schiltenwolf M, Kirsch J, Moradi B  
-_J Clin Med_ 2019
-
-[Neutrophil heterogeneity as therapeutic opportunity in immune-mediated disease](https://doi.org/10.3389/fimmu.2019.00346)  
-**Grieshaber-Bouyer R**, Nigrovic PA  
-_Front Immunol_ 2019
-
-
-### 2018
-
-[Maestro endothelium conducts the neutrophils](https://doi.org/10.1182/blood-2018-09-872085)  
-**Grieshaber-Bouyer R**, Nigrovic PA  
-_Blood_ 2018
-
-
-### 2017
-
-[CD177 modulates human neutrophil migration through activation-mediated integrin and chemoreceptor regulation](https://doi.org/10.1182/blood-2017-03-768507)  
-Bai M\*, **Grieshaber-Bouyer R\***, Wang JX, Schmider AB, Wilson ZS, Zeng L, Halyabar O, Godin MD, Nguyen HN, Levescot A, Cunin P, Lefort CT, Soberman RJ, Nigrovic PA  
-_Blood_ 2017
-
-[Arthroscopic Repair of Recurrent Posterior Shoulder Subluxation after Total Shoulder Arthroplasty](https://doi.org/10.2106/JBJS.CC.17.00048)  
-**Grieshaber-Bouyer R<sup>#</sup>**, Gerber C  
-_JBJS Case Connect_ 2017
-
-
-# Videos
-
-[Lupus and T Cell Engagers: What You Should Know](https://www.youtube.com/watch?v=qrnhsuXBZuc)  
-Lupus Research Alliance, Apr 9, 2026  
-
-[BioVerse #28 - China's Early-Stage Clinical Development is Rewriting R&D Playbook](https://www.youtube.com/watch?v=yAShMQt-kAk)  
-BioVerse, Feb 25, 2026  
-
-[Inside the Science—Understanding T Cell Engagers and CLN-978 for Autoimmune Diseases](https://www.youtube.com/watch?v=mKEdlICC-o4)  
-CreakyJoints, Feb 18, 2026  
-
-[Practical Questions about Clinical Trials with T Cell Engagers](https://www.youtube.com/watch?v=PrSVRgavxJ0)  
-CreakyJoints, Jan 16, 2026  
-
-[Redefining Autoimmune Treatment with CLN-978](https://www.youtube.com/watch?v=J-Uq8RCLdpU)  
-CreakyJoints, Oct 22, 2025  
-
-[Sweet and Sour (Ep 77: CAR-T cells in autoimmunity)](https://www.youtube.com/watch?v=4cCO_QpLKHI)  
-European Society for Dermatological Research (ESDR) Association, Jul 9, 2025  
-
-[Advances in Autoimmune Diseases: A Conversation with Dr. Ricardo Grieshaber-Bouyer](https://www.youtube.com/watch?v=Ne6SfUVmuSU)  
-Cullinan Therapeutics, Oct 29, 2024  
-
-
-# In The News
-
-[Lifelong drugs for autoimmune diseases don't work well. Now scientists are trying something new](https://www.timesfreepress.com/news/2025/nov/15/lifelong-drugs-for-autoimmune-diseases-dont-work-well-now-scientists-are-trying-something-new/)  
-November 15, 2025  
-
-[Myeloma Drug Performs Well in Autoimmune Diseases](https://www.medpagetoday.com/rheumatology/generalrheumatology/117966)  
-MedPage Today, Oct 15, 2025
-
-
-[A cup with the President – Episode 28: Prof. Dr. Grieshaber-Bouyer](https://www.fau.eu/2025/08/news/a-cup-with-the-president-episode-28-prof-dr-grieshaber-bouyer/)
-
-[FAU professor among Forbes’ “30 under 30”](https://www.fau.eu/2025/04/news/fau-professor-among-forbes-30-under-30/)  
-April 25, 2025
-
-[Forbes 30 under 30](https://www.forbes.com/profile/ricardo-grieshaber-bouyer/)  
-2025
-
-[Ein Rheumawirkstoff aus der Krebsmedizin](https://www.faz.net/aktuell/wissen/medizin-ernaehrung/rheumabehandlung-wie-ein-krebsmedikament-helfen-koennte-19717102.html)  
-FAZ, May 16, 2024
-
-[Mit T-Zell-Engagern gegen Rheuma](https://www.tagesschau.de/wissen/gesundheit/rheuma-t-cell-engager-100.html)  
-Tagesschau, May 13, 2024
-
-[How a “date” between immune cells makes rheumatism disappear](https://www.bionity.com/en/news/1183376/how-a-date-between-immune-cells-makes-rheumatism-disappear.html)  
-Bionity, May 06, 2024
-
-[Artrite reumatoide, l’impiego di anticorpi monoclonali rivoluziona la terapia dei casi gravi
-](https://www.insalutenews.it/in-salute/artrite-reumatoide-limpiego-di-anticorpi-monoclonali-rivoluziona-la-terapia-dei-casi-gravi/)  
-insalute news, May 02, 2024
-
-[FAU team develops new approach for treating autoimmune diseases 
-](https://www.fau.eu/2024/05/02/news/fau-team-develops-new-approach-for-treating-autoimmune-diseases/)  
-Friedrich-Alexander-Universität Erlangen-Nürnberg, May 02, 2024
-
-[Clinical report: Academic trials signal autoimmune opportunities for T cell engagers
-](https://www.biocentury.com/article/652286/clinical-report-academic-trials-signal-autoimmune-opportunities-for-t-cell-engagers)  
-BioCentury, May 01, 2024
-
-[Rheuma: T- trifft B-Zelle
-](https://www.mtdialog.de/news/artikel/rheuma-t-gegen-b-zelle)  
-MT im Dialog, April 30, 2024
-
-[Wie ein „Date“ von Immunzellen Rheuma verschwinden lässt
-](https://idw-online.de/de/news832692)  
-Informationsdienst Wissenschaft e.V., April 26, 2024
-
-[Rheuma schon vor dem Ausbruch verhindern?
-](https://www.tagesschau.de/wissen/gesundheit/rheuma-forschung-100.html)  
-Tagesschau, March 12, 2024
-
-[Studie: Rheuma kann schon vor dem Ausbruch verhindert werden
-](https://www.br.de/nachrichten/wissen/studie-rheuma-kann-schon-vor-dem-ausbruch-verhindert-werden,U5nSoUu)  
-Bayerischer Rundfunk, March 05, 2024
-
-[Central inflammation system discovered
-](https://www.msn.com/en-us/health/other/central-inflammation-system-discovered/ar-BB1hyrmG)  
-MSN news, January 31, 2024
-
-[Super code cracked: Central inflammation system discovered
-](https://www.fau.eu/2024/01/31/news/research/super-code-cracked-central-inflammation-system-discovered/)  
-Friedrich-Alexander-Universität Erlangen-Nürnberg, January 31, 2024
-
-[Neu an der Uni: Prof. Dr. med. Ricardo Grieshaber-Bouyer
-](https://www.fau.de/2023/10/news/neu-an-der-uni-prof-dr-med-ricardo-grieshaber-bouyer-rodrigues/)  
-Friedrich-Alexander-Universität Erlangen-Nürnberg, October 01, 2023
-
-[Personalized Treatment Recommendations for Spondyloarthropathies](https://zpm-verbund.de/de/forschung/projekte/19-personalisierte-therapieempfehlung-bei-spondyloarthritiden)  
-Centers for Personalized Medicine (ZPM), 2022
-
-[Tracking neutrophil development along a continuous spectrum with single cell analysis](https://www.10xgenomics.com/blog/tracking-neutrophil-development-along-a-continuous-spectrum-with-single-cell-analysis)  
-10X Genomics, July 23, 2021
-
-[INNATE IMMUNITY IN THE FOCUS OF HEIDELBERG's RHEUMATOLOGY  
-Research Award by the German Society for Rheumatology (DGRh)](https://www.klinikum.uni-heidelberg.de/newsroom/angeborene-immunitaet-im-fokus-der-heidelberger-rheumatologie/)    
-Heidelberg University Hospital, October 19, 2020
-
-
-# Research Support
-
-We are deeply grateful to all our funders for enabling our research, in particular the [Deutsche Forschungsgemeinschaft](https://www.dfg.de/en), the [Else Kröner-Fresenius Stiftung](https://www.ekfs.de/), the [Boehringer Ingelheim Stiftung](https://boehringer-ingelheim-stiftung.de/en/index.html),  the [Lupus Research Alliance](https://www.lupusresearch.org/) and the [Interdisciplinary Center for Clinical Research (IZKF) Erlangen](https://www.izkf.med.fau.de/en/).
-
-
-# Teaching
-
-We are integrated in the [Medical curriculum](https://www.med.fau.de/studium/), [IZKF scientist training programs](https://www.izkf.med.fau.de/en/) and the [iImmune](https://www.iimmune.nat.fau.de/) Integrated Immunology M.Sc. programme @FAU Erlangen-Nürnberg.
-
-
-# Directions
-
-Professorship for Clinical Systems Immunology  
-Glückstraße 4A  
-91054 Erlangen
-
-[Data processing policy (Datenschutzerklärung)](https://www.uk-erlangen.de/en/data-protection/)  
-[Imprint (Impressum)](https://www.uk-erlangen.de/en/imprint/)
+> Moslehi, Z., & Grieshaber-Bouyer, R. (2026). *RGB lab website* (Version 1.0) [Computer software].
+> RGB lab, Universitätsklinikum Erlangen. https://github.com/rgb-lab/rgb-lab-website

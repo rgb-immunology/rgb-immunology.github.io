@@ -1,0 +1,1221 @@
+<!DOCTYPE html>
+<html><head>
+<script>window.__resources = {"https://unpkg.com/react@18.3.1/umd/react.production.min.js": "assets/js/react.production.min.js", "https://unpkg.com/react-dom@18.3.1/umd/react-dom.production.min.js": "assets/js/react-dom.production.min.js"};</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  /* Hide the page until it is fully built, then fade it in (prevents a flash of unstyled content on load).
+     Failsafe: the page becomes visible after 3 s even if the ready signal never arrives. */
+  html { background:#FFFDF9; }
+  body { opacity:1; transition:opacity .45s ease; }
+  html:not(.rgb-ready) body { opacity:0; animation:rgb-failsafe 0s linear 3s forwards; }
+  @keyframes rgb-failsafe { to { opacity:1; } }
+  @media (prefers-reduced-motion: reduce) { body { transition:none; } }
+</style>
+<!-- Website content: edit these files (see README.md) -->
+<script src="content/site.js"></script>
+<script src="content/team.js"></script>
+<script src="content/contacts.js"></script>
+<script src="content/publications.js"></script>
+<script src="content/news.js"></script>
+<script src="content/positions.js"></script>
+<script src="assets/js/dc-runtime.js"></script>
+
+</head>
+<body>
+<x-dc>
+<helmet>
+<style>/* Source Sans 3 (variable, 200–900), the typeface of fau.de.
+   Copyright 2010-2020 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'.
+   Licensed under the SIL Open Font License 1.1: https://openfontlicense.org */
+@font-face {
+  font-family: 'Source Sans 3';
+  font-style: normal;
+  font-weight: 200 900;
+  font-display: swap;
+  src: url("assets/fonts/source-sans-3-latin-ext.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Source Sans 3';
+  font-style: normal;
+  font-weight: 200 900;
+  font-display: swap;
+  src: url("assets/fonts/source-sans-3-latin.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Source Sans 3';
+  font-style: italic;
+  font-weight: 200 900;
+  font-display: swap;
+  src: url("assets/fonts/source-sans-3-latin-ext-italic.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Source Sans 3';
+  font-style: italic;
+  font-weight: 200 900;
+  font-display: swap;
+  src: url("assets/fonts/source-sans-3-latin-italic.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+</style>
+<style>
+  body { margin:0; background:#FFFDF9; -webkit-font-smoothing:antialiased; font-family:'Source Sans 3',Roboto,Arial,sans-serif; }
+  a.person { color:#0A4C95; }
+  a.person:hover { color:#2F7BD6; text-decoration:underline; text-underline-offset:3px; }
+  /* ---------- header / navigation ---------- */
+  .rgb-nav { position:sticky; top:0; z-index:100; background:#071D3F; box-shadow:0 2px 4px rgba(0,0,0,.12); }
+  .rgb-nav-in { position:relative; max-width:1240px; margin:0 auto; padding:0 clamp(16px,4vw,48px); height:72px; display:flex; align-items:center; justify-content:space-between; gap:24px; }
+  .rgb-nav button { font:inherit; background:none; border:0; margin:0; color:inherit; cursor:pointer; }
+  .rgb-brand { display:flex; align-items:center; gap:12px; padding:6px 4px 6px 0 !important; color:#FFFFFF !important; text-align:left; }
+  .rgb-logo { height:44px; width:auto; display:block; }
+  .rgb-word { font-size:24px; line-height:1; letter-spacing:0; font-weight:300; color:#AFC0DA; white-space:nowrap; }
+  .rgb-word b { font-weight:700; color:#FFFFFF; }
+  .rgb-links { display:flex; align-items:center; gap:2px; }
+  .rgb-link { position:relative; padding:10px 11px !important; font-size:17px !important; font-weight:600 !important; color:#E8EFF9 !important; white-space:nowrap; border-radius:6px; transition:color .15s ease, background-color .15s ease; }
+  .rgb-link:hover { color:#FFFFFF !important; background:rgba(255,255,255,.07) !important; }
+  .rgb-link.on { color:#FFFFFF !important; font-weight:700 !important; }
+  .rgb-link.on::after { content:""; position:absolute; left:11px; right:11px; bottom:2px; height:2px; border-radius:2px; background:#5AA2FF; }
+  .rgb-nav button:focus-visible { outline:2px solid #5AA2FF; outline-offset:2px; }
+  .rgb-burger { display:none; flex-direction:column; justify-content:center; align-items:center; gap:5px; flex:none; width:44px; height:44px; padding:10px !important; border-radius:8px; }
+  .rgb-burger span { display:block; width:22px; height:2px; margin:0 auto; border-radius:2px; background:#FFFFFF; }
+  @media (max-width: 1200px) {
+    .rgb-burger { display:flex; }
+    .rgb-links { display:none; position:absolute; top:72px; left:0; right:0; flex-direction:column; align-items:stretch; gap:0; padding:8px clamp(16px,4vw,48px) 16px; background:#071D3F; box-shadow:0 8px 16px rgba(0,0,0,.18); }
+    .rgb-links.open { display:flex; }
+    .rgb-link { text-align:left; padding:14px 12px !important; font-size:18px !important; }
+    .rgb-link.on::after { left:0; right:auto; top:12px; bottom:12px; width:3px; height:auto; }
+  }
+  .social { display:inline-flex; align-items:center; justify-content:center; width:40px; height:40px; border-radius:50%; border:1px solid #D6E2F2; background:#FFFFFF; transition:background-color .15s ease, border-color .15s ease; }
+  a.social:hover { background:#EEF3FA; border-color:#0B5CAD; }
+  .social-empty { opacity:.35; cursor:default; }
+  a.legal { color:#6B6B6B; }
+  a.legal:hover { color:#04316A; text-decoration:underline; text-underline-offset:3px; }
+  .cta-btn { font:inherit; font-size:15px; font-weight:600; color:#04316A; background:#EEF3FA; border:1px solid #D6E2F2; border-radius:8px; padding:12px 20px; cursor:pointer; white-space:nowrap; transition:background-color .15s ease; }
+  .cta-btn:hover { background:#DCE8F7; }
+  .copy-btn { font:inherit; font-size:12px; font-weight:600; color:#04316A; background:#EEF3FA; border:1px solid #D6E2F2; border-radius:6px; padding:5px 10px; cursor:pointer; }
+  .copy-btn:hover { background:#DCE8F7; }
+  .cta-btn:focus-visible, .copy-btn:focus-visible { outline:2px solid #0B5CAD; outline-offset:3px; }
+  a.paper { color:#0A0A0A; }
+  a.paper:hover { color:#0B5CAD; text-decoration:underline; text-underline-offset:3px; }
+  a.paper .ext { color:#0B5CAD; font-size:.85em; }
+  /* Home hero, FAU style: full-width image with a blue text box over its lower left */
+  .hero { position:relative; height:clamp(440px,42vw,580px); overflow:hidden; background:#0A3D7D; }
+  .hero-img { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; object-position:60% 50%; display:block; }
+  .hero-in { position:relative; box-sizing:border-box; max-width:1240px; height:100%; margin:0 auto; padding:0 clamp(20px,5vw,72px) clamp(28px,4vw,56px); display:flex; align-items:flex-end; }
+  .hero-box { max-width:600px; background:#04316A; color:#FFFFFF; padding:clamp(24px,3vw,36px) clamp(24px,3vw,40px); display:flex; flex-direction:column; gap:16px; box-shadow:0 10px 30px rgba(4,30,66,.25); }
+  .hero-title { margin:0; font-size:clamp(26px,3vw,38px); font-weight:700; line-height:1.15; letter-spacing:0; color:#FFFFFF; text-wrap:balance; }
+  .hero-lead { font-size:18px; line-height:1.6; color:#E8EFF9; text-align:justify; hyphens:auto; -webkit-hyphens:auto; }
+  @media (max-width: 640px) { .hero { height:auto; } .hero-img { position:absolute; } .hero-in { padding-top:180px; } .hero-title { font-size:26px !important; } .hero-lead { text-align:left; hyphens:manual; -webkit-hyphens:manual; font-size:17px !important; } }
+  /* Home hero without a picture (heroImage: "" in content/site.js): headline and text on the page background, no box */
+  /* Fills the first screen below the menu, so "Selected work" only appears when scrolling */
+  .hero.hero-plain { height:auto; min-height:calc(100vh - 72px); min-height:calc(100svh - 72px); display:flex; background:none; }
+  .hero-plain .hero-in { height:auto; width:100%; padding-top:clamp(56px,8vw,104px); padding-bottom:clamp(56px,8vw,104px); align-items:center; }
+  .hero-plain .hero-box { max-width:none; background:none; box-shadow:none; padding:0; gap:28px; color:#0A0A0A; }
+  .hero-plain .hero-title { max-width:860px; color:#0A0A0A; font-size:clamp(40px,6.4vw,84px); font-weight:400; line-height:1.02; letter-spacing:-0.02em; }
+  .hero-plain .hero-rule { width:88px; height:2px; background:#04316A; }
+  .hero-plain .hero-lead { max-width:620px; font-size:20px; line-height:1.55; color:#3A3A3A; text-align:left; hyphens:none; -webkit-hyphens:none; }
+  .hero-rule { display:none; }
+  /* "Recent work published in" under the Home text (style of the first version of the site) */
+  .hero-proof { display:flex; flex-direction:column; gap:12px; margin-top:20px; }
+  .hero-proof-label { font:400 12px/1 ui-monospace,'SF Mono',Menlo,monospace; letter-spacing:0.14em; text-transform:uppercase; color:#6B6B6B; }
+  .hero-journals { display:flex; flex-wrap:wrap; gap:4px 0; align-items:baseline; font:400 22px/1.4 Georgia,'Times New Roman',serif; color:#0A0A0A; }
+  .hero-journals span:not(:last-child)::after { content:"/"; margin:0 20px; color:#C9C9C9; }
+  .hero-note { margin-top:4px; font:400 13px/1 ui-monospace,'SF Mono',Menlo,monospace; letter-spacing:0.04em; color:#04316A; }
+  .hero-box:not(.hero-plain *) .hero-proof { display:none; }
+  .hero-plain .hero-rule { display:block; }
+  /* Soft blurred circles in the logo colours on the right of the Home headline (decoration only) */
+  .hero-blur { display:none; }
+  .hero-plain .hero-blur { display:block; position:absolute; top:50%; right:max(-140px, calc(50% - 760px)); width:min(54vw,700px); aspect-ratio:1; transform:translateY(-50%); pointer-events:none; isolation:isolate; opacity:.22; }
+  /* Very light and very blurred, so the colours blend softly; overlaps get lighter, as in the logo (screen blend) */
+  /* The logo's three circles scaled up to fill the area: same sizes, positions and overlap as logo/rgb-lab-mark.svg */
+  .hero-blur span { position:absolute; width:63.8%; aspect-ratio:1; border-radius:50%; filter:blur(clamp(48px,6vw,90px)); mix-blend-mode:screen; }
+  .hero-blur span:nth-child(1) { left:18.1%; top:2.4%;  background:#E53935; }
+  .hero-blur span:nth-child(2) { left:0;     top:33.8%; background:#43A047; }
+  .hero-blur span:nth-child(3) { left:36.2%; top:33.8%; background:#1E88E5; }
+  .hero-plain .hero-in { z-index:1; }
+  @media (max-width: 760px) { .hero-plain .hero-blur { top:0; right:-30%; width:90vw; transform:none; opacity:.7; } }
+  @media (max-width: 640px) { .hero-plain .hero-title { font-size:40px !important; } .hero-plain .hero-lead { font-size:18px !important; } }
+  .alum-row { display:grid; grid-template-columns:56px minmax(0,1fr) 24px; gap:20px; align-items:center; width:100%; padding:16px 0; margin:0; border:0; background:none; font:inherit; color:inherit; text-align:left; cursor:pointer; }
+  .alum-cols { display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:6px 32px; align-items:baseline; min-width:0; }
+  .alum-head { display:grid; grid-template-columns:56px minmax(0,1fr) 24px; gap:20px; padding:14px 0 10px; border-bottom:1px solid #EEEAE3; font:700 12px/1.3 'Source Sans 3',Roboto,Arial,sans-serif; letter-spacing:0.08em; text-transform:uppercase; color:#04316A; }
+  .alum-now-label { display:none; font:600 13px/1.4 'Source Sans 3',Roboto,Arial,sans-serif; color:#04316A; }
+  @media (max-width: 640px) { .alum-head { display:none; } .alum-now-label { display:inline; } }
+  /* Alumni picture: small in the list, grows in place when the row is opened */
+  .alum-pic { display:block; width:56px; height:56px; border-radius:50%; overflow:hidden; border:1px solid #EEEAE3; background:#E6ECF4; transition:width .25s ease, height .25s ease; }
+  .alum-pic img { display:block; width:100%; height:100%; object-fit:cover; }
+  .alum-row { transition:grid-template-columns .25s ease; }
+  .alum-row[aria-expanded="true"] { grid-template-columns:140px minmax(0,1fr) 24px; align-items:start; }
+  .alum-row[aria-expanded="true"] .alum-pic { width:140px; height:140px; }
+  .alum-open { box-sizing:border-box; min-height:116px; padding:0 24px 28px 160px; max-width:900px; margin-top:-84px; }   /* min-height keeps the open area below the 140 px picture when the bio is short */
+  @media (max-width: 640px) {
+    .alum-row[aria-expanded="true"] { grid-template-columns:96px minmax(0,1fr) 24px; }
+    .alum-row[aria-expanded="true"] .alum-pic { width:96px; height:96px; }
+    .alum-open { padding-left:0; margin-top:0; min-height:0; }
+  }
+  @media (prefers-reduced-motion: reduce) { .alum-pic, .alum-row { transition:none; } }
+  .alum-row .alum-name { color:#0A4C95; }
+  .alum-row:hover .alum-name { color:#2F7BD6; text-decoration:underline; text-underline-offset:3px; }
+  .alum-row:focus-visible { outline:2px solid #0B5CAD; outline-offset:2px; border-radius:4px; }
+  .jlogo { box-sizing:border-box; width:160px; height:76px; display:flex; align-items:center; justify-content:center; padding:8px 12px; background:#FFFFFF; border:1px solid #EEEAE3; border-radius:8px; }
+  .jlogo img { display:block; max-width:100%; max-height:100%; width:auto; height:auto; object-fit:contain; }
+  .jbadge { font-size:13px; font-weight:700; line-height:1.2; letter-spacing:0; color:#04316A; text-align:center; }
+  /* Colour panels. .panel-blue is the accent band (Team "We are hiring",
+     Funding "Support our research", Teaching "Fellowships", Open positions "How to apply"); change its
+     colours here only. .panel-grey is the white band with a thin black line on top (Home "Selected work / In the news"). */
+  .panel-blue {
+    --panel-bg:#F6F0E5;        /* band background (warm cream; was FAU blue #04316A) */
+    --panel-fg:#04316A;        /* headings, journal names (FAU blue) */
+    --panel-text:#3A3A3A;      /* paragraphs */
+    --panel-label:#7A6650;     /* small label ("Recent work published in") */
+    --panel-line:rgba(91,70,54,.25);  /* slashes and divider lines */
+    --panel-btn-bg:#EEF3FA; --panel-btn-fg:#04316A; --panel-btn-hover:#DCE8F7;  /* light-blue buttons (as the area tags), navy text */
+    background:var(--panel-bg); color:var(--panel-fg);
+  }
+  /* Light-blue variant (same pale blue as the area tags), used on Teaching & Mentorship "Fellowships" */
+  .panel-blue.panel-sky { --panel-bg:#EEF3FA; --panel-label:#4A5E7A; --panel-line:rgba(4,49,106,.2); }
+  /* White variant with a thin border, used on Funding "Support our research" (Get in touch) */
+  .panel-blue.panel-white { --panel-bg:#FFFFFF; --panel-btn-bg:#DCE8F7; --panel-btn-hover:#CADCF2; border:1px solid #EEEAE3; }
+  .panel-blue.panel-white .cta-btn { border-color:#C6D7EE; }
+  .panel-grey { background:#FFFFFF; border-top:1px solid #0A0A0A; border-bottom:1px solid #EEEAE3; }
+  .bleed { box-shadow:0 0 0 100vmax currentColor; clip-path:inset(0 -100vmax); }
+  .panel-blue.bleed { box-shadow:0 0 0 100vmax var(--panel-bg); }
+  .panel-blue .cta-btn { background:var(--panel-btn-bg); color:var(--panel-btn-fg); }
+  .panel-blue .cta-btn:hover { background:var(--panel-btn-hover); }
+  .panel-blue .cta-btn:focus-visible { outline-color:var(--panel-fg); }
+  .flogo { box-sizing:border-box; width:100%; max-width:300px; height:100px; display:flex; align-items:center; justify-content:center; padding:14px 22px; background:#FFFFFF; border:1px solid #EEEAE3; border-radius:8px; }
+  .flogo img { display:block; max-width:100%; max-height:100%; width:auto; height:auto; object-fit:contain; }
+  /* Team grid layout */
+  .tgrid { display:flex; flex-direction:column; align-items:center; gap:28px; }
+  .tgrid .trow { max-width:1040px; row-gap:40px; }
+  .trow { display:flex; flex-wrap:wrap; justify-content:center; gap:28px; width:100%; }
+  .tcard { box-sizing:border-box; display:flex; flex-direction:column; align-items:center; text-align:center; gap:8px; background:#FFFFFF; border-radius:20px; box-shadow:0 1px 2px rgba(4,49,106,.06), 0 6px 18px rgba(4,49,106,.07); transition:transform .15s ease, box-shadow .15s ease; }
+  .tcard:hover { translate:0 -3px; box-shadow:0 2px 4px rgba(4,49,106,.08), 0 12px 28px rgba(4,49,106,.12); }
+  .tav { display:block; flex:none; border-radius:50%; overflow:hidden; background:#EEF1F5; box-shadow:0 0 0 4px #FFFFFF, 0 0 0 5px #DCE3EE; }
+  .tav img { display:block; width:100%; height:100%; object-fit:cover; }
+  .tname { font-weight:700; line-height:1.25; text-wrap:balance; }
+  .trole { color:#1A1A1A; line-height:1.4; text-wrap:pretty; white-space:pre-line; }
+  .ttag { margin-top:auto; font:600 11px/1 'Source Sans 3',Roboto,Arial,sans-serif; letter-spacing:0.1em; text-transform:uppercase; color:#04316A; background:#EEF3FA; padding:7px 10px; border-radius:999px; }
+  .tcard-pi { width:100%; max-width:820px; flex-direction:row; align-items:center; text-align:left; gap:36px; padding:36px 40px; border-radius:28px; }
+  .tcard-pi .tav { width:210px; height:210px; }
+  .tcard-pi .tname { font-size:clamp(24px,2.6vw,30px); }
+  .tcard-pi .trole { font-size:18px; }
+  .tpi-text { display:flex; flex-direction:column; gap:12px; min-width:0; }
+  .tpi-roles { display:flex; flex-direction:column; gap:5px; padding-top:12px; border-top:1px solid #EEEAE3; font-size:16px; line-height:1.45; color:#1A1A1A; }
+  .tcard-md { width:230px; padding:26px 18px 22px; }
+  .tcard-md .tav { width:136px; height:136px; margin-bottom:8px; }
+  .tcard-md .tname { font-size:19px; }
+  .tcard-md .trole { font-size:15px; }
+  @media (max-width: 640px) {
+    .tcard-pi { flex-direction:column; text-align:center; padding:28px 22px; gap:20px; }
+    .tcard-pi .tav { width:160px; height:160px; }
+    .tcard-md { width:calc(50% - 14px); min-width:150px; }
+    .tcard-md .tav { width:96px; height:96px; }
+  }
+  .pos-card { display:flex; flex-direction:column; gap:14px; background:#FFFFFF; border-radius:16px; padding:clamp(22px,3vw,34px); box-shadow:0 1px 2px rgba(4,49,106,.06), 0 6px 18px rgba(4,49,106,.07); border-left:4px solid #04316A; }
+  .pos-tag { font:600 11px/1 'Source Sans 3',Roboto,Arial,sans-serif; letter-spacing:0.1em; text-transform:uppercase; color:#FFFFFF; background:#04316A; padding:7px 10px; border-radius:999px; }
+  .pos-tag-light { color:#04316A; background:#EEF3FA; }
+  .feat-logo { width:100%; display:flex; align-items:center; justify-content:center; }
+  .feat-logo img { display:block; max-width:78%; max-height:120px; width:auto; height:auto; object-fit:contain; }
+  .press-row { display:grid; grid-template-columns:auto minmax(0,1fr) auto; gap:16px 24px; padding:22px 0; border-bottom:1px solid #EEEAE3; align-items:center; }
+  @media (max-width: 640px) { .press-row { grid-template-columns:auto minmax(0,1fr); } .press-date { grid-column:2; text-align:left !important; margin-top:-10px; } }
+  @media (max-width: 520px) { .jlogo { width:96px; height:56px; padding:6px 8px; } }
+  .video-card { display:flex; flex-direction:column; gap:14px; color:#0A0A0A !important; text-decoration:none; }
+  .video-thumb { position:relative; display:block; aspect-ratio:16/9; overflow:hidden; border-radius:10px; border:1px solid #EEEAE3; background:#FAF8F4; }
+  .video-thumb img { display:block; width:100%; height:100%; object-fit:cover; transition:transform .25s ease; }
+  .video-play { position:absolute; inset:0; display:flex; align-items:center; justify-content:center; opacity:.92; transition:opacity .2s ease; }
+  .video-card:hover .video-thumb img { transform:scale(1.03); }
+  .video-card:hover .video-play { opacity:1; }
+  .video-card:hover .video-title { color:#0B5CAD; text-decoration:underline; text-underline-offset:3px; }
+  .video-card .ext { color:#0B5CAD; font-size:.85em; }
+  a:focus-visible { outline:2px solid #0B5CAD; outline-offset:3px; border-radius:2px; }
+  a { color:#04316A; text-decoration:none; }
+  a:hover { color:#0A0A0A; }
+</style>
+</helmet>
+
+<div style="min-height:100vh; display:flex; flex-direction:column; background:#FFFDF9; color:#0A0A0A; font-family:'Source Sans 3',Roboto,Arial,sans-serif">
+
+  <!-- ================= HEADER ================= -->
+  <header class="rgb-nav">
+    <div class="rgb-nav-in">
+      <button type="button" class="rgb-brand" sc-camel-on-click="{{ goHome }}" aria-label="RGB lab — home">
+        <img class="rgb-logo" src="{{ logoSrc }}" alt="">
+        <sc-if value="{{ showWordmark }}" hint-placeholder-val="{{ true }}">
+          <span class="rgb-word"><b>RGB</b> lab</span>
+        </sc-if>
+      </button>
+      <button type="button" class="rgb-burger" sc-camel-on-click="{{ toggleMenu }}" aria-label="Menu" aria-expanded="{{ menuAria }}">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="rgb-links {{ menuCls }}" aria-label="Main">
+        <button type="button" class="rgb-link {{ navHome }}" sc-camel-on-click="{{ goHome }}">Home</button>
+        <button type="button" class="rgb-link {{ navTeam }}" sc-camel-on-click="{{ goTeam }}">Team</button>
+        <sc-if value="{{ hasPositions }}" hint-placeholder-val="{{ false }}"><button type="button" class="rgb-link {{ navPositions }}" sc-camel-on-click="{{ goPositions }}">Open positions</button></sc-if>
+        <button type="button" class="rgb-link {{ navPubs }}" sc-camel-on-click="{{ goPubs }}">Publications</button>
+        <button type="button" class="rgb-link {{ navFunding }}" sc-camel-on-click="{{ goFunding }}">Funding</button>
+        <button type="button" class="rgb-link {{ navTeaching }}" sc-camel-on-click="{{ goTeaching }}">Teaching &amp; Mentorship</button>
+        <button type="button" class="rgb-link {{ navLabLife }}" sc-camel-on-click="{{ goLabLife }}">Lab Life</button>
+        <button type="button" class="rgb-link {{ navPress }}" sc-camel-on-click="{{ goPress }}">Press &amp; Media</button>
+      </nav>
+    </div>
+  </header>
+
+  <div style="flex:1">
+
+  <!-- ================= HOME ================= -->
+  <sc-if value="{{ isHome }}" hint-placeholder-val="{{ true }}">
+  <div>
+    <div class="hero {{ heroClass }}">
+      <sc-if value="{{ hasHeroImg }}" hint-placeholder-val="{{ false }}"><img class="hero-img" src="{{ heroSrc }}" alt="{{ heroAlt }}"></sc-if>
+      <div class="hero-blur" aria-hidden="true"><span></span><span></span><span></span></div>
+      <div class="hero-in">
+        <div class="hero-box">
+          <h1 class="hero-title">{{ heroTitle }}</h1>
+          <div class="hero-rule"></div>
+          <div lang="en" class="hero-lead">{{ heroText }}</div>
+          <sc-if value="{{ hasHeroJournals }}" hint-placeholder-val="{{ true }}">
+            <div class="hero-proof">
+              <div class="hero-proof-label">Recent work published in</div>
+              <div class="hero-journals"><sc-for list="{{ heroJournals }}" as="j" hint-placeholder-count="4"><span>{{ j.x }}</span></sc-for></div>
+              <sc-if value="{{ hasHeroNote }}" hint-placeholder-val="{{ true }}"><div class="hero-note">{{ heroNote }}</div></sc-if>
+            </div>
+          </sc-if>
+        </div>
+      </div>
+    </div>
+
+    <sc-if value="{{ showNewsIndex }}" hint-placeholder-val="{{ true }}">
+    <div class="panel-grey">
+      <div style="max-width:1240px; margin:0 auto; display:grid; grid-template-columns:repeat(auto-fit,minmax(320px,1fr)); gap:0">
+        <div style="padding:40px clamp(20px,5vw,48px) 48px clamp(20px,5vw,72px); border-right:1px solid #E3DED5; display:flex; flex-direction:column; gap:22px">
+          <div style="display:flex; justify-content:space-between; align-items:baseline; gap:16px">
+            <div style="font:700 16px/1.2 'Source Sans 3',Roboto,Arial,sans-serif; letter-spacing:0.08em; text-transform:uppercase; color:#04316A">Selected work</div>
+            <div sc-camel-on-click="{{ goPubs }}" style="font-size:15px; font-weight:600; color:#04316A; cursor:pointer; white-space:nowrap">All publications →</div>
+          </div>
+          <div style="display:flex; flex-direction:column">
+            <sc-for list="{{ featured }}" as="p" hint-placeholder-count="5">
+              <div style="display:grid; grid-template-columns:minmax(0,1fr) auto; gap:32px; padding:16px 0; border-top:1px solid #E3DED5; align-items:baseline">
+                <sc-if value="{{ p.url }}" hint-placeholder-val="{{ true }}"><a class="paper" href="{{ p.url }}" target="_blank" rel="noopener" style="display:block; font-size:18px; font-weight:500; line-height:1.4; text-wrap:pretty">{{ p.t }}<span class="ext" aria-hidden="true"> ↗</span></a></sc-if><sc-if value="{{ p.noUrl }}" hint-placeholder-val="{{ false }}"><div style="font-size:18px; font-weight:500; line-height:1.4; text-wrap:pretty">{{ p.t }}</div></sc-if>
+                <div style="font:600 15px/1.4 'Source Sans 3',Roboto,Arial,sans-serif; color:#333333; white-space:nowrap; text-align:right">{{ p.jshort }}<br>{{ p.y }}</div>
+              </div>
+            </sc-for>
+          </div>
+        </div>
+
+        <div style="padding:40px clamp(20px,5vw,72px) 48px clamp(20px,5vw,48px); display:flex; flex-direction:column; gap:22px">
+          <div style="display:flex; justify-content:space-between; align-items:baseline; gap:16px">
+            <div style="font:700 16px/1.2 'Source Sans 3',Roboto,Arial,sans-serif; letter-spacing:0.08em; text-transform:uppercase; color:#04316A">In the news</div>
+            <div sc-camel-on-click="{{ goPress }}" style="font-size:15px; font-weight:600; color:#04316A; cursor:pointer; white-space:nowrap">All press →</div>
+          </div>
+          <div style="display:flex; flex-direction:column">
+            <sc-for list="{{ pressTop }}" as="n" hint-placeholder-count="4">
+              <div style="display:flex; flex-direction:column; gap:5px; padding:16px 0; border-top:1px solid #E3DED5">
+                <a class="paper" href="{{ n.url }}" target="_blank" rel="noopener" style="display:block; font-size:18px; font-weight:500; line-height:1.4; text-wrap:pretty">{{ n.t }}<span class="ext" aria-hidden="true"> ↗</span></a>
+                <div style="font:600 15px/1.2 'Source Sans 3',Roboto,Arial,sans-serif; color:#333333">{{ n.s }}</div>
+              </div>
+            </sc-for>
+          </div>
+        </div>
+      </div>
+    </div>
+    </sc-if>
+
+    <sc-if value="{{ showFunderStrip }}" hint-placeholder-val="{{ true }}">
+    <div style="background:#FFFFFF">
+      <div style="max-width:1240px; margin:0 auto; padding:40px clamp(20px,5vw,72px) 48px; display:flex; flex-direction:column; gap:18px">
+        <div style="font:700 13px/1.2 'Source Sans 3',Roboto,Arial,sans-serif; letter-spacing:0.1em; text-transform:uppercase; color:#3A3A3A">Supported by</div>
+        <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(130px,1fr)); gap:28px 36px; align-items:center">
+          <img src="images/funders/DFG.jpg" alt="Deutsche Forschungsgemeinschaft" style="width:100%; max-height:44px; object-fit:contain; object-position:left center; display:block">
+          <img src="images/funders/Boehringer_Ingelheim_Stiftung.jpg" alt="Boehringer Ingelheim Stiftung" style="width:100%; max-height:44px; object-fit:contain; object-position:left center; display:block">
+          <img src="images/funders/IZKF_Erlangen.jpg" alt="Interdisciplinary Center for Clinical Research Erlangen" style="width:100%; max-height:44px; object-fit:contain; object-position:left center; display:block">
+          <img src="images/funders/Forschungsstiftung_Medizin.jpg" alt="Forschungsstiftung Medizin" style="width:100%; max-height:44px; object-fit:contain; object-position:left center; display:block">
+          <img src="images/funders/CASCAID.jpg" alt="CASCAID" style="width:100%; max-height:44px; object-fit:contain; object-position:left center; display:block">
+          <img src="images/funders/TRR241.svg" alt="TRR 241" style="width:100%; max-height:44px; object-fit:contain; object-position:left center; display:block">
+          <img src="images/funders/TRR332.gif" alt="TRR 332" style="width:100%; max-height:44px; object-fit:contain; object-position:left center; display:block">
+        </div>
+      </div>
+    </div>
+    </sc-if>
+  </div>
+  </sc-if>
+
+  <!-- ================= TEAM ================= -->
+  <sc-if value="{{ isTeam }}" hint-placeholder-val="{{ false }}">
+  <div style="max-width:1240px; margin:0 auto; padding:clamp(40px,6vw,72px) clamp(20px,5vw,72px) 80px; display:flex; flex-direction:column; gap:64px">
+
+    <div style="display:flex; flex-direction:column; gap:24px">
+      <h1 style="margin:0; font-size:clamp(28px,3.4vw,38px); font-weight:700; line-height:1.1; letter-spacing:0; color:#0A0A0A">Team</h1>
+      <div style="width:88px; height:2px; background:#04316A"></div>
+      <div style="font-size:19px; line-height:1.6; color:#1A1A1A; max-width:640px; text-wrap:pretty">We are a diverse group working across wet and dry immunology, bioinformatics and global clinical trials.</div>
+    </div>
+
+    <div style="display:flex; flex-direction:column; gap:12px">
+      <img src="{{ teamPhoto }}" alt="{{ teamPhotoAlt }}" width="2400" height="1351" style="width:100%; height:auto; display:block; background:#FAF8F4">
+      <div style="font:600 14px/1.5 'Source Sans 3',Roboto,Arial,sans-serif; letter-spacing:0.02em; color:#333333">{{ teamPhotoCaption }}</div>
+    </div>
+
+
+    <!-- Team as one grid of cards -->
+    <div class="tgrid">
+      <div class="trow">
+          <sc-for list="{{ everyone }}" as="m" hint-placeholder-count="4">
+            <div class="tcard tcard-md" style="transform: {{ m.dy }}">
+              <a class="tav" href="{{ m.url }}" sc-camel-on-click="{{ m.go }}" sc-camel-tab-index="-1" aria-hidden="true"><img src="{{ m.img }}" alt=""></a>
+              <a class="person tname" href="{{ m.url }}" sc-camel-on-click="{{ m.go }}">{{ m.n }}</a>
+              <div class="trole">{{ m.r }}</div>
+              <div class="ttag">{{ m.g }}</div>
+            </div>
+          </sc-for>
+      </div>
+    </div>
+
+    <!-- Open positions: shown only when content/positions.js lists at least one position -->
+    <sc-if value="{{ hasPositions }}" hint-placeholder-val="{{ false }}">
+    <div class="panel-blue" style="padding:clamp(28px,4vw,48px); display:flex; flex-wrap:wrap; gap:32px; justify-content:space-between; align-items:flex-end">
+      <div style="display:flex; flex-direction:column; gap:14px; max-width:620px">
+        <div style="font-size:28px; font-weight:700; line-height:1.2; letter-spacing:0; color:#333333">We are hiring</div>
+        <div style="font-size:18px; line-height:1.6; color:var(--panel-text); text-wrap:pretty">We currently have {{ positionsCountLabel }}. See the details and how to apply.</div>
+      </div>
+      <div style="display:flex; flex-wrap:wrap; gap:12px">
+      <button type="button" class="cta-btn" sc-camel-on-click="{{ goPositions }}">See open positions →</button>
+      <button type="button" class="cta-btn" sc-camel-on-click="{{ toggleContact }}" aria-expanded="{{ contactAria }}"><sc-if value="{{ contactClosed }}" hint-placeholder-val="{{ true }}">Write to us →</sc-if><sc-if value="{{ contactOpen }}" hint-placeholder-val="{{ false }}">Close ✕</sc-if></button>
+      </div>
+      <sc-if value="{{ contactOpen }}" hint-placeholder-val="{{ false }}">
+        <div style="flex:1 1 100%; display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr)); gap:16px; padding-top:24px; border-top:1px solid var(--panel-line)">
+          <sc-for list="{{ contacts }}" as="c" hint-placeholder-count="2">
+            <div style="background:#FFFFFF; border:1px solid #EEEAE3; border-radius:10px; padding:20px 22px; display:flex; flex-direction:column; gap:6px">
+              <div style="font-size:16px; font-weight:600; line-height:1.35; color:#0A0A0A">{{ c.n }}</div>
+              <div style="font-size:15px; line-height:1.45; color:#333333">{{ c.r }}</div>
+              <sc-if value="{{ c.has }}" hint-placeholder-val="{{ true }}">
+                <div style="display:flex; flex-wrap:wrap; align-items:center; gap:8px 12px; padding-top:8px">
+                  <a class="person" href="{{ c.mailto }}" style="font-size:15px; font-weight:500; overflow-wrap:anywhere">{{ c.email }}</a>
+                  <button type="button" class="copy-btn" sc-camel-on-click="{{ c.copy }}" aria-label="{{ c.copyAria }}">{{ c.copyLabel }}</button>
+                </div>
+              </sc-if>
+              <sc-if value="{{ c.none }}" hint-placeholder-val="{{ false }}">
+                <div style="padding-top:8px; font-size:14px; color:#8A8A8A; font-style:italic">Email address to be added</div>
+              </sc-if>
+            </div>
+          </sc-for>
+        </div>
+      </sc-if>
+    </div>
+    </sc-if>
+
+
+    <!-- Alumni -->
+    <div style="display:flex; flex-direction:column; gap:0">
+      <div style="display:flex; justify-content:space-between; align-items:center; gap:16px; padding-bottom:14px; border-bottom:2px solid #04316A"><h2 style="margin:0; font-size:clamp(20px,2.2vw,24px); font-weight:700; line-height:1.25; letter-spacing:0; color:#04316A">Alumni</h2></div>
+      <div class="alum-head" aria-hidden="true">
+        <span></span>
+        <span class="alum-cols"><span>Name · role in the lab</span><span>Current position</span></span>
+        <span></span>
+      </div>
+      <sc-for list="{{ alumni }}" as="a" hint-placeholder-count="16">
+        <div style="border-bottom:1px solid #EEEAE3">
+          <button type="button" class="alum-row" sc-camel-on-click="{{ a.toggle }}" aria-expanded="{{ a.aria }}">
+            <span class="alum-pic"><img src="{{ a.img }}" alt=""></span>
+            <span class="alum-cols">
+              <span style="display:flex; flex-direction:column; gap:4px">
+                <span class="alum-name" style="font-size:18px; font-weight:700; line-height:1.35">{{ a.n }}</span>
+                <span style="font:500 14px/1.4 'Source Sans 3',Roboto,Arial,sans-serif; color:#333333">{{ a.r }}</span>
+              </span>
+              <span style="font-size:16px; line-height:1.5; color:#1A1A1A; text-wrap:pretty"><span class="alum-now-label">Current position: </span>{{ a.now }}</span>
+            </span>
+            <span aria-hidden="true" style="font-size:20px; line-height:1; color:#04316A; text-align:center">{{ a.sign }}</span>
+          </button>
+          <sc-if value="{{ a.isOpen }}" hint-placeholder-val="{{ false }}">
+            <div class="alum-open">
+              <div style="display:flex; flex-direction:column; gap:14px; min-width:0">
+              <sc-if value="{{ a.hasBio }}" hint-placeholder-val="{{ false }}">
+                <p style="margin:0; font-size:16px; line-height:1.65; color:#1A1A1A; text-wrap:pretty">{{ a.bio }}</p>
+              </sc-if>
+              <sc-if value="{{ a.noBio }}" hint-placeholder-val="{{ true }}">
+                <p style="margin:0; font-size:14px; line-height:1.6; color:#8A8A8A; font-style:italic">Short biography to be added.</p>
+              </sc-if>
+              </div>
+            </div>
+          </sc-if>
+        </div>
+      </sc-for>
+    </div>
+  </div>
+  </sc-if>
+
+  <!-- ================= PERSON PROFILE ================= -->
+  <sc-if value="{{ isPerson }}" hint-placeholder-val="{{ false }}">
+  <div style="max-width:1100px; width:100%; margin:0 auto; padding:clamp(32px,5vw,56px) clamp(20px,5vw,72px) 96px; display:flex; flex-direction:column; gap:40px">
+    <div sc-camel-on-click="{{ goTeam }}" style="align-self:flex-start; font-size:14px; font-weight:500; color:#0B5CAD; cursor:pointer" style-hover="text-decoration:underline">← All team members</div>
+
+    <div style="display:flex; flex-wrap:wrap; gap:48px 64px; align-items:flex-start">
+      <!-- left: identity -->
+      <div style="display:flex; flex-direction:column; align-items:center; text-align:center; gap:14px; flex:1 1 260px; max-width:340px; margin:0 auto">
+        <div role="img" aria-label="{{ pr.n }}" style="width:220px; height:220px; border-radius:50%; overflow:hidden; border:1px solid #EEEAE3"><img src="{{ pr.img }}" alt="" style="display:block; width:100%; height:100%; object-fit:cover"></div>
+        <h1 style="margin:10px 0 0; font-size:28px; font-weight:600; line-height:1.2; letter-spacing:0">{{ pr.n }}</h1>
+        <div style="font-size:16px; line-height:1.5; color:#3A3A3A; white-space:pre-line">{{ pr.r }}</div>
+        <div style="font-size:14px; line-height:1.55; color:#6B6B6B">{{ pr.aff }}</div>
+        <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:8px; padding-top:4px">
+          <div style="font:600 11px/1 'Source Sans 3',Roboto,Arial,sans-serif; letter-spacing:0.1em; text-transform:uppercase; color:#04316A; background:#EEF3FA; padding:7px 10px; border-radius:999px">{{ pr.g }}</div>
+        </div>
+        <div style="display:flex; gap:10px; justify-content:center; padding-top:6px">
+          <sc-for list="{{ pr.links }}" as="l" hint-placeholder-count="3">
+            <sc-if value="{{ l.has }}" hint-placeholder-val="{{ true }}">
+              <a class="social" href="{{ l.url }}" target="_blank" rel="noopener" aria-label="{{ l.label }}" title="{{ l.label }}"><img src="{{ l.icon }}" alt="" width="18" height="18"></a>
+            </sc-if>
+            <sc-if value="{{ l.none }}" hint-placeholder-val="{{ false }}">
+              <span class="social social-empty" title="{{ l.emptyTitle }}"><img src="{{ l.icon }}" alt="" width="18" height="18"></span>
+            </sc-if>
+          </sc-for>
+        </div>
+        <sc-if value="{{ pr.hasEmail }}" hint-placeholder-val="{{ false }}">
+          <a class="person" href="{{ pr.mailto }}" style="font-size:14px; font-weight:500">{{ pr.email }}</a>
+        </sc-if>
+        <sc-if value="{{ pr.hasPositions }}" hint-placeholder-val="{{ false }}">
+          <div style="display:flex; flex-direction:column; gap:8px; width:100%; margin-top:6px; padding-top:16px; border-top:1px solid #EEEAE3; font-size:15px; line-height:1.45; color:#1A1A1A">
+            <sc-for list="{{ pr.positions }}" as="pos" hint-placeholder-count="6"><div>{{ pos.x }}</div></sc-for>
+          </div>
+        </sc-if>
+      </div>
+
+      <!-- right: bio, interests, education -->
+      <div style="display:flex; flex-direction:column; gap:40px; flex:999 1 420px; min-width:0">
+        <section style="display:flex; flex-direction:column; gap:14px">
+          <h2 style="margin:0; font-size:22px; font-weight:600; line-height:1.25; letter-spacing:0; color:#333333">Biography</h2>
+          <sc-if value="{{ pr.hasBio }}" hint-placeholder-val="{{ true }}">
+            <sc-for list="{{ pr.bioParas }}" as="bp" hint-placeholder-count="3"><p style="margin:0; font-size:17px; line-height:1.7; color:#2A2A2A; text-wrap:pretty">{{ bp.x }}</p></sc-for>
+          </sc-if>
+          <sc-if value="{{ pr.noBio }}" hint-placeholder-val="{{ false }}">
+            <p style="margin:0; font-size:15px; line-height:1.6; color:#8A8A8A; font-style:italic">Biography to be added.</p>
+          </sc-if>
+        </section>
+
+        <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr)); gap:40px 48px">
+          <section style="display:flex; flex-direction:column; gap:16px">
+            <h2 style="margin:0; font-size:22px; font-weight:600; line-height:1.25; letter-spacing:0; color:#333333">Interests</h2>
+            <sc-if value="{{ pr.hasInterests }}" hint-placeholder-val="{{ true }}">
+              <ul style="margin:0; padding:0; list-style:none; display:flex; flex-direction:column; gap:10px">
+                <sc-for list="{{ pr.interests }}" as="it" hint-placeholder-count="5">
+                  <li style="display:flex; gap:12px; align-items:baseline; font-size:16px; line-height:1.5; color:#2A2A2A"><span aria-hidden="true" style="flex:none; width:6px; height:6px; border-radius:50%; background:#0B5CAD; transform:translateY(-2px)"></span>{{ it.x }}</li>
+                </sc-for>
+              </ul>
+            </sc-if>
+            <sc-if value="{{ pr.noInterests }}" hint-placeholder-val="{{ false }}">
+              <p style="margin:0; font-size:15px; line-height:1.6; color:#8A8A8A; font-style:italic">Interests to be added.</p>
+            </sc-if>
+          </section>
+
+          <section style="display:flex; flex-direction:column; gap:16px">
+            <h2 style="margin:0; font-size:22px; font-weight:600; line-height:1.25; letter-spacing:0; color:#333333">Education</h2>
+            <sc-if value="{{ pr.hasEdu }}" hint-placeholder-val="{{ true }}">
+              <ul style="margin:0; padding:0; list-style:none; display:flex; flex-direction:column; gap:18px">
+                <sc-for list="{{ pr.education }}" as="e" hint-placeholder-count="3">
+                  <li style="display:flex; flex-direction:column; gap:3px; padding-left:16px; border-left:2px solid #D6E2F2">
+                    <div style="font-size:16px; font-weight:600; line-height:1.4; color:#0A0A0A">{{ e.label }}</div>
+                    <div style="font-size:14px; line-height:1.5; color:#6B6B6B">{{ e.s }}</div>
+                  </li>
+                </sc-for>
+              </ul>
+            </sc-if>
+            <sc-if value="{{ pr.noEdu }}" hint-placeholder-val="{{ false }}">
+              <p style="margin:0; font-size:15px; line-height:1.6; color:#8A8A8A; font-style:italic">Education to be added.</p>
+            </sc-if>
+          </section>
+        </div>
+      </div>
+    </div>
+  </div>
+  </sc-if>
+
+  <!-- ================= PUBLICATIONS ================= -->
+  <sc-if value="{{ isPubs }}" hint-placeholder-val="{{ false }}">
+  <div style="max-width:1240px; margin:0 auto; padding:clamp(40px,6vw,72px) clamp(20px,5vw,72px) 80px; display:flex; flex-direction:column; gap:64px">
+
+    <div style="display:flex; flex-direction:column; gap:24px">
+      <h1 style="margin:0; font-size:clamp(28px,3.4vw,38px); font-weight:700; line-height:1.1; letter-spacing:0; color:#0A0A0A">Publications</h1>
+      <div style="width:88px; height:2px; background:#04316A"></div>
+      <div style="font-size:18px; line-height:1.6; color:#3A3A3A; max-width:640px; text-wrap:pretty">Our work spans clinical trials of cell-depleting therapies, systems-level immune profiling and the computational methods that make both readable.</div>
+    </div>
+
+    <!-- featured -->
+    <div style="display:flex; flex-direction:column; gap:28px">
+      <h2 style="margin:0; font-size:clamp(20px,2.2vw,24px); font-weight:700; line-height:1.25; letter-spacing:0; color:#333333; padding-bottom:14px; border-bottom:2px solid #04316A">Featured</h2>
+      <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:40px">
+        <sc-for list="{{ featured3 }}" as="p" hint-placeholder-count="3">
+          <div style="display:flex; flex-direction:column; gap:18px">
+            <div style="aspect-ratio:4/3; border:1px solid #F2EFE9; display:flex; flex-direction:column; justify-content:center; align-items:center; padding:28px; background: {{ p.ground }}; border-top: {{ p.rule }}">
+              <div class="feat-logo">
+                <sc-if value="{{ p.hasLogo }}" hint-placeholder-val="{{ true }}"><img src="{{ p.logo }}" alt="{{ p.j }}"></sc-if>
+                <sc-if value="{{ p.noLogo }}" hint-placeholder-val="{{ false }}"><span class="jbadge" style="font-size:22px">{{ p.j }}</span></sc-if>
+              </div>
+              
+            </div>
+            <div style="display:flex; flex-direction:column; gap:10px">
+              <sc-if value="{{ p.url }}" hint-placeholder-val="{{ true }}"><a class="paper" href="{{ p.url }}" target="_blank" rel="noopener" style="display:block; font-size:20px; line-height:1.3; letter-spacing:0; text-wrap:pretty">{{ p.t }}<span class="ext" aria-hidden="true"> ↗</span></a></sc-if><sc-if value="{{ p.noUrl }}" hint-placeholder-val="{{ false }}"><div style="font-size:20px; line-height:1.3; letter-spacing:0; text-wrap:pretty">{{ p.t }}</div></sc-if>
+              <div style="font-size:13px; line-height:1.5; color:#6B6B6B; text-wrap:pretty">{{ p.a }}</div>
+              <sc-if value="{{ p.hasLogo }}" hint-placeholder-val="{{ true }}"><div style="font:600 15px/1.4 'Source Sans 3',Roboto,Arial,sans-serif; color:#333333">{{ p.y }}</div></sc-if><sc-if value="{{ p.noLogo }}" hint-placeholder-val="{{ false }}"><div style="font:500 16px/1.4 'Source Sans 3',Roboto,Arial,sans-serif; color: {{ p.c }}">{{ p.j }} · {{ p.y }}</div></sc-if>
+            </div>
+          </div>
+        </sc-for>
+      </div>
+    </div>
+
+    <!-- filters + list -->
+    <div style="display:flex; flex-direction:column; gap:28px">
+      <div style="display:flex; flex-wrap:wrap; gap:20px 40px; justify-content:space-between; align-items:flex-end; padding-bottom:14px; border-bottom:2px solid #04316A">
+        <h2 style="margin:0; font-size:clamp(20px,2.2vw,24px); font-weight:700; line-height:1.25; letter-spacing:0; color:#333333">All publications</h2>
+        <div style="display:flex; flex-wrap:wrap; align-items:flex-end; gap:8px">
+          <sc-for list="{{ yearChips }}" as="c" hint-placeholder-count="11">
+            <div sc-camel-on-click="{{ c.pick }}" style="cursor:pointer; display:flex; flex-direction:column; justify-content:flex-end; gap:7px; min-height:76px">
+              <div style="display:flex; flex-direction:column; justify-content:flex-end; gap:2px; padding:0 3px">
+                <sc-for list="{{ c.bars }}" as="b" hint-placeholder-count="0">
+                  <sc-if value="{{ b.on }}" hint-placeholder-val="{{ false }}">
+                    <div style="height:2px; background:#04316A"></div>
+                  </sc-if>
+                  <sc-if value="{{ b.off }}" hint-placeholder-val="{{ true }}">
+                    <div style="height:2px; background:#C9D3E2"></div>
+                  </sc-if>
+                </sc-for>
+              </div>
+              <sc-if value="{{ c.on }}" hint-placeholder-val="{{ false }}">
+                <div style="font:500 12px/1 'Source Sans 3',Roboto,Arial,sans-serif; letter-spacing:0.06em; padding:7px 11px; background:#EEF3FA; color:#04316A; font-weight:700; border:1px solid #D6E2F2; text-align:center">{{ c.label }}</div>
+              </sc-if>
+              <sc-if value="{{ c.off }}" hint-placeholder-val="{{ true }}">
+                <div style="font:500 12px/1 'Source Sans 3',Roboto,Arial,sans-serif; letter-spacing:0.06em; padding:7px 11px; background:#FFFFFF; color:#3A3A3A; border:1px solid #EEEAE3; text-align:center" style-hover="border-color:#04316A; color:#04316A">{{ c.label }}</div>
+              </sc-if>
+            </div>
+          </sc-for>
+        </div>
+      </div>
+
+      <div style="display:flex; flex-direction:column">
+        <sc-for list="{{ shownPubs }}" as="p" hint-placeholder-count="12">
+          <div style="display:grid; grid-template-columns:auto minmax(0,1fr); gap:24px; padding:22px 0; border-bottom:1px solid #EEEAE3; align-items:start">
+            <div class="jlogo">
+              <sc-if value="{{ p.hasLogo }}" hint-placeholder-val="{{ false }}"><img src="{{ p.logo }}" alt="{{ p.j }}" loading="lazy"></sc-if>
+              <sc-if value="{{ p.noLogo }}" hint-placeholder-val="{{ true }}"><span class="jbadge">{{ p.jshort }}</span></sc-if>
+            </div>
+            <div style="display:flex; flex-direction:column; gap:8px">
+              <sc-if value="{{ p.url }}" hint-placeholder-val="{{ true }}"><a class="paper" href="{{ p.url }}" target="_blank" rel="noopener" style="display:block; font-size:18px; line-height:1.35; letter-spacing:0; text-wrap:pretty">{{ p.t }}<span class="ext" aria-hidden="true"> ↗</span></a></sc-if><sc-if value="{{ p.noUrl }}" hint-placeholder-val="{{ false }}"><div style="font-size:18px; line-height:1.35; letter-spacing:0; text-wrap:pretty">{{ p.t }}</div></sc-if>
+              <div style="font-size:13px; line-height:1.55; color:#6B6B6B; text-wrap:pretty">{{ p.a }}</div>
+              <div style="display:flex; flex-wrap:wrap; gap:6px 16px; align-items:baseline">
+                <sc-if value="{{ p.noLogo }}" hint-placeholder-val="{{ false }}"><div style="font:500 16px/1.4 'Source Sans 3',Roboto,Arial,sans-serif; color:#0A0A0A">{{ p.j }}</div></sc-if>
+                <div style="font:500 12px/1 'Source Sans 3',Roboto,Arial,sans-serif; letter-spacing:0.06em; color:#6B6B6B">{{ p.y }}</div>
+              </div>
+            </div>
+          </div>
+        </sc-for>
+      </div>
+
+      <div style="padding-top:8px; font:500 12px/1.6 'Source Sans 3',Roboto,Arial,sans-serif; letter-spacing:0.04em; color:#6B6B6B">* equal contribution · # corresponding author</div>
+    </div>
+  </div>
+  </sc-if>
+
+  <!-- ================= FUNDING ================= -->
+  <sc-if value="{{ isFunding }}" hint-placeholder-val="{{ false }}">
+  <div style="max-width:1240px; margin:0 auto; padding:clamp(40px,6vw,72px) clamp(20px,5vw,72px) 80px; display:flex; flex-direction:column; gap:64px">
+    <div style="display:flex; flex-direction:column; gap:24px">
+      <h1 style="margin:0; font-size:clamp(28px,3.4vw,38px); font-weight:700; line-height:1.1; letter-spacing:0; color:#0A0A0A">Funding</h1>
+      <div style="width:88px; height:2px; background:#04316A"></div>
+      <div style="font-size:18px; line-height:1.6; color:#3A3A3A; max-width:640px; text-wrap:pretty">We are deeply grateful to all our funders for enabling our research. A funding runway into 2031 lets us choose problems by how much they would change medicine rather than by what a short grant cycle rewards.</div>
+    </div>
+
+    <div style="display:flex; flex-direction:column; gap:0">
+      <h2 style="margin:0; font-size:clamp(20px,2.2vw,24px); font-weight:700; line-height:1.25; letter-spacing:0; color:#333333; padding-bottom:14px; border-bottom:2px solid #04316A">Our funders</h2>
+      <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:20px 40px; padding:28px 0; border-bottom:1px solid #EEEAE3; align-items:center">
+        <div class="flogo"><img src="images/funders/DFG.jpg" alt="Deutsche Forschungsgemeinschaft"></div>
+        <div style="font-size:18px; line-height:1.4; letter-spacing:0; text-wrap:pretty">Deutsche Forschungsgemeinschaft</div>
+      </div>
+      <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:20px 40px; padding:28px 0; border-bottom:1px solid #EEEAE3; align-items:center">
+        <div class="flogo"><img src="images/funders/Boehringer_Ingelheim_Stiftung.jpg" alt="Boehringer Ingelheim Stiftung"></div>
+        <div style="font-size:18px; line-height:1.4; letter-spacing:0; text-wrap:pretty">Boehringer Ingelheim Stiftung</div>
+      </div>
+      <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:20px 40px; padding:28px 0; border-bottom:1px solid #EEEAE3; align-items:center">
+        <div class="flogo"><img src="images/funders/IZKF_Erlangen.jpg" alt="Interdisciplinary Center for Clinical Research Erlangen"></div>
+        <div style="font-size:18px; line-height:1.4; letter-spacing:0; text-wrap:pretty">Interdisciplinary Center for Clinical Research (IZKF) Erlangen</div>
+      </div>
+      <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:20px 40px; padding:28px 0; border-bottom:1px solid #EEEAE3; align-items:center">
+        <div class="flogo"><img src="images/funders/Forschungsstiftung_Medizin.jpg" alt="Forschungsstiftung Medizin"></div>
+        <div style="font-size:18px; line-height:1.4; letter-spacing:0; text-wrap:pretty">Forschungsstiftung Medizin</div>
+      </div>
+      <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:20px 40px; padding:28px 0; border-bottom:1px solid #EEEAE3; align-items:center">
+        <div class="flogo"><img src="images/funders/CASCAID.jpg" alt="CASCAID"></div>
+        <div style="font-size:18px; line-height:1.4; letter-spacing:0; text-wrap:pretty">CASCAID — Cellular and Systems Control of Autoimmune Disease</div>
+      </div>
+      <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:20px 40px; padding:28px 0; border-bottom:1px solid #EEEAE3; align-items:center">
+        <div class="flogo"><img src="images/funders/TRR241.svg" alt="TRR 241"></div>
+        <div style="font-size:18px; line-height:1.4; letter-spacing:0; text-wrap:pretty">TRR 241</div>
+      </div>
+      <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:20px 40px; padding:28px 0; border-bottom:1px solid #EEEAE3; align-items:center">
+        <div class="flogo"><img src="images/funders/TRR332.gif" alt="TRR 332"></div>
+        <div style="font-size:18px; line-height:1.4; letter-spacing:0; text-wrap:pretty">TRR 332 — Neutrophils: origin, fate and function</div>
+      </div>
+      <div style="padding-top:22px; font-size:15px; line-height:1.6; color:#3A3A3A; max-width:640px; text-wrap:pretty">We also gratefully acknowledge the Else Kröner-Fresenius-Stiftung and the Lupus Research Alliance for their support of our work.</div>
+    </div>
+
+    <div class="panel-blue panel-white" style="padding:clamp(28px,4vw,48px); display:flex; flex-wrap:wrap; gap:32px; justify-content:space-between; align-items:flex-end">
+      <div style="display:flex; flex-direction:column; gap:14px; max-width:620px">
+        <div style="font-size:28px; font-weight:700; line-height:1.2; letter-spacing:0; color:#1B4F8F">Support our research</div>
+        <div style="font-size:18px; line-height:1.6; color:var(--panel-text); text-wrap:pretty">Our work is made possible by a combination of grants and philanthropic gifts. If our approach to curing autoimmune disease interests you, we would like to hear from you.</div>
+      </div>
+      <button type="button" class="cta-btn" sc-camel-on-click="{{ toggleContact }}" aria-expanded="{{ contactAria }}"><sc-if value="{{ contactClosed }}" hint-placeholder-val="{{ true }}">Get in touch →</sc-if><sc-if value="{{ contactOpen }}" hint-placeholder-val="{{ false }}">Close ✕</sc-if></button>
+      <sc-if value="{{ contactOpen }}" hint-placeholder-val="{{ false }}">
+        <div style="flex:1 1 100%; display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr)); gap:16px; padding-top:24px; border-top:1px solid var(--panel-line)">
+          <sc-for list="{{ contacts }}" as="c" hint-placeholder-count="2">
+            <div style="background:#FFFFFF; border:1px solid #EEEAE3; border-radius:10px; padding:20px 22px; display:flex; flex-direction:column; gap:6px">
+              <div style="font-size:16px; font-weight:600; line-height:1.35; color:#0A0A0A">{{ c.n }}</div>
+              <div style="font-size:14px; line-height:1.45; color:#6B6B6B">{{ c.r }}</div>
+              <sc-if value="{{ c.has }}" hint-placeholder-val="{{ true }}">
+                <div style="display:flex; flex-wrap:wrap; align-items:center; gap:8px 12px; padding-top:8px">
+                  <a class="person" href="{{ c.mailto }}" style="font-size:15px; font-weight:500; overflow-wrap:anywhere">{{ c.email }}</a>
+                  <button type="button" class="copy-btn" sc-camel-on-click="{{ c.copy }}" aria-label="{{ c.copyAria }}">{{ c.copyLabel }}</button>
+                </div>
+              </sc-if>
+              <sc-if value="{{ c.none }}" hint-placeholder-val="{{ false }}">
+                <div style="padding-top:8px; font-size:14px; color:#8A8A8A; font-style:italic">Email address to be added</div>
+              </sc-if>
+            </div>
+          </sc-for>
+        </div>
+      </sc-if>
+    </div>
+  </div>
+  </sc-if>
+
+  <!-- ================= TEACHING ================= -->
+  <sc-if value="{{ isTeaching }}" hint-placeholder-val="{{ false }}">
+  <div style="max-width:1240px; margin:0 auto; padding:clamp(40px,6vw,72px) clamp(20px,5vw,72px) 80px; display:flex; flex-direction:column; gap:64px">
+    <div style="display:flex; flex-direction:column; gap:24px">
+      <h1 style="margin:0; font-size:clamp(28px,3.4vw,38px); font-weight:700; line-height:1.1; letter-spacing:0; color:#0A0A0A">Teaching &amp; Mentorship</h1>
+      <div style="width:88px; height:2px; background:#04316A"></div>
+      <div style="font-size:18px; line-height:1.6; color:#3A3A3A; max-width:640px; text-wrap:pretty">We train physicians and scientists who are comfortable in the clinic, at the bench and in the terminal. Our alumni lead groups, run clinics and build companies.</div>
+    </div>
+
+    <div style="display:flex; flex-direction:column; gap:0">
+      <h2 style="margin:0; font-size:clamp(20px,2.2vw,24px); font-weight:700; line-height:1.25; letter-spacing:0; color:#333333; padding-bottom:14px; border-bottom:2px solid #04316A">Programmes</h2>
+      <sc-for list="{{ programmes }}" as="p" hint-placeholder-count="3">
+        <div style="display:grid; grid-template-columns:auto minmax(0,1fr); gap:16px 28px; padding:24px 0; border-bottom:1px solid #EEEAE3; align-items:center">
+          <a class="jlogo" href="{{ p.url }}" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="{{ p.logo }}" alt="{{ p.logoAlt }}" loading="lazy"></a>
+          <div style="display:flex; flex-direction:column; gap:6px">
+            <a class="paper" href="{{ p.url }}" target="_blank" rel="noopener" style="display:block; font-size:20px; font-weight:600; line-height:1.3; letter-spacing:0">{{ p.n }}<span class="ext" aria-hidden="true"> ↗</span></a>
+            <div style="font-size:16px; line-height:1.6; color:#1A1A1A; text-wrap:pretty">{{ p.d }}</div>
+          </div>
+        </div>
+      </sc-for>
+    </div>
+
+    <div class="panel-blue panel-sky bleed" style="display:flex; flex-direction:column; gap:28px; padding:48px 0 56px; margin-bottom:-80px">
+      <h2 style="margin:0; font-size:clamp(20px,2.2vw,24px); font-weight:700; line-height:1.25; letter-spacing:0; color:#04316A; padding-bottom:14px; border-bottom:2px solid var(--panel-line)">Fellowships held by our trainees</h2>
+      <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:24px">
+        <sc-for list="{{ fellowships }}" as="f" hint-placeholder-count="4">
+          <div style="display:flex; flex-direction:column; gap:8px; padding:22px; background:#FFFFFF; color:#0A0A0A; border-radius:4px">
+            <a href="{{ f.url }}" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true" style="display:flex; align-items:center; justify-content:flex-start; height:56px; margin-bottom:8px"><img src="{{ f.logo }}" alt="" loading="lazy" style="display:block; max-width:min(100%,190px); max-height:{{ f.lh }}; width:auto; height:auto; object-fit:contain"></a>
+            <a class="person" href="{{ f.url }}" target="_blank" rel="noopener" style="font-size:18px; font-weight:700; line-height:1.35">{{ f.n }}<span aria-hidden="true" style="font-size:.85em"> ↗</span></a>
+            <div style="font:500 15px/1.45 'Source Sans 3',Roboto,Arial,sans-serif; color:#333333">{{ f.d }}</div>
+          </div>
+        </sc-for>
+      </div>
+    </div>
+
+  </div>
+  </sc-if>
+
+  <!-- ================= LAB LIFE ================= -->
+  <sc-if value="{{ isLabLife }}" hint-placeholder-val="{{ false }}">
+  <div style="max-width:1240px; margin:0 auto; padding:clamp(40px,6vw,72px) clamp(20px,5vw,72px) 80px; display:flex; flex-direction:column; gap:48px">
+    <div style="display:flex; flex-direction:column; gap:24px">
+      <h1 style="margin:0; font-size:clamp(28px,3.4vw,38px); font-weight:700; line-height:1.1; letter-spacing:0; color:#0A0A0A">Lab Life</h1>
+      <div style="width:88px; height:2px; background:#04316A"></div>
+      <div style="font-size:18px; line-height:1.6; color:#3A3A3A; max-width:640px; text-wrap:pretty">Science is a team effort. Beyond the clinic, the bench and the terminal, we make time to celebrate together.</div>
+    </div>
+    <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,420px),1fr)); gap:40px 32px; align-items:start">
+      <sc-for list="{{ labLife }}" as="ph" hint-placeholder-count="2">
+        <figure style="margin:0; display:flex; flex-direction:column; gap:12px">
+          <img src="{{ ph.src }}" alt="{{ ph.alt }}" width="{{ ph.w }}" height="{{ ph.h }}" loading="lazy" style="display:block; width:100%; height:auto; aspect-ratio:4/3; object-fit:cover; border-radius:14px; background:#FAF8F4; box-shadow:0 1px 2px rgba(0,0,0,.06), 0 8px 24px rgba(7,29,63,.10)">
+          <figcaption style="font-size:15px; font-weight:600; line-height:1.4; color:#0A0A0A">{{ ph.label }}</figcaption>
+        </figure>
+      </sc-for>
+    </div>
+  </div>
+  </sc-if>
+
+  <!-- ================= OPEN POSITIONS (content/positions.js) ================= -->
+  <sc-if value="{{ isPositions }}" hint-placeholder-val="{{ false }}">
+  <div style="max-width:1240px; margin:0 auto; padding:clamp(40px,6vw,72px) clamp(20px,5vw,72px) 80px; display:flex; flex-direction:column; gap:48px">
+    <div style="display:flex; flex-direction:column; gap:24px">
+      <h1 style="margin:0; font-size:clamp(28px,3.4vw,38px); font-weight:700; line-height:1.1; letter-spacing:0; color:#0A0A0A">Open positions</h1>
+      <div style="width:88px; height:2px; background:#04316A"></div>
+      <div style="font-size:18px; line-height:1.6; color:#3A3A3A; max-width:680px; text-wrap:pretty">{{ positionsIntro }}</div>
+    </div>
+    <sc-if value="{{ hasPositions }}" hint-placeholder-val="{{ true }}">
+    <div style="display:flex; flex-direction:column; gap:24px">
+      <sc-for list="{{ positions }}" as="p" hint-placeholder-count="2">
+        <article class="pos-card">
+          <div style="display:flex; flex-wrap:wrap; gap:8px">
+            <span class="pos-tag">{{ p.type }}</span>
+            <sc-if value="{{ p.hasArea }}" hint-placeholder-val="{{ true }}"><span class="pos-tag pos-tag-light">{{ p.area }}</span></sc-if>
+          </div>
+          <h2 style="margin:0; font-size:clamp(22px,2.4vw,26px); font-weight:700; line-height:1.25; color:#333333">{{ p.title }}</h2>
+          <sc-if value="{{ p.hasMeta }}" hint-placeholder-val="{{ true }}"><div style="font:600 15px/1.4 'Source Sans 3',Roboto,Arial,sans-serif; color:#333333">{{ p.meta }}</div></sc-if>
+          <p style="margin:0; font-size:17px; line-height:1.65; color:#1A1A1A; max-width:820px; text-wrap:pretty">{{ p.summary }}</p>
+          <sc-if value="{{ p.hasReq }}" hint-placeholder-val="{{ true }}">
+            <div style="display:flex; flex-direction:column; gap:8px">
+              <div style="font:700 13px/1.2 'Source Sans 3',Roboto,Arial,sans-serif; letter-spacing:0.08em; text-transform:uppercase; color:#04316A">What we are looking for</div>
+              <ul style="margin:0; padding-left:20px; display:flex; flex-direction:column; gap:4px; font-size:16px; line-height:1.55; color:#1A1A1A">
+                <sc-for list="{{ p.req }}" as="r" hint-placeholder-count="3"><li>{{ r.x }}</li></sc-for>
+              </ul>
+            </div>
+          </sc-if>
+          <sc-if value="{{ p.hasLink }}" hint-placeholder-val="{{ true }}"><a class="person" href="{{ p.link }}" target="_blank" rel="noopener" style="font-size:16px; font-weight:600">Full announcement <span aria-hidden="true">↗</span></a></sc-if>
+        </article>
+      </sc-for>
+    </div>
+    </sc-if>
+    <sc-if value="{{ noPositions }}" hint-placeholder-val="{{ false }}">
+      <p style="margin:0; font-size:17px; line-height:1.6; color:#333333">There are no open positions at the moment. Unsolicited applications are always welcome.</p>
+    </sc-if>
+    <div class="panel-blue" style="padding:clamp(28px,4vw,48px); display:flex; flex-direction:column; gap:20px">
+      <div style="font-size:28px; font-weight:700; line-height:1.2; color:#333333">How to apply</div>
+      <div style="font-size:18px; line-height:1.6; color:var(--panel-text); max-width:720px; text-wrap:pretty">{{ positionsApply }}</div>
+      <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr)); gap:16px">
+          <sc-for list="{{ contacts }}" as="c" hint-placeholder-count="2">
+            <div style="background:#FFFFFF; border:1px solid #EEEAE3; border-radius:10px; padding:20px 22px; display:flex; flex-direction:column; gap:6px">
+              <div style="font-size:16px; font-weight:600; line-height:1.35; color:#0A0A0A">{{ c.n }}</div>
+              <div style="font-size:15px; line-height:1.45; color:#333333">{{ c.r }}</div>
+              <sc-if value="{{ c.has }}" hint-placeholder-val="{{ true }}">
+                <div style="display:flex; flex-wrap:wrap; align-items:center; gap:8px 12px; padding-top:8px">
+                  <a class="person" href="{{ c.mailto }}" style="font-size:15px; font-weight:500; overflow-wrap:anywhere">{{ c.email }}</a>
+                  <button type="button" class="copy-btn" sc-camel-on-click="{{ c.copy }}" aria-label="{{ c.copyAria }}">{{ c.copyLabel }}</button>
+                </div>
+              </sc-if>
+              <sc-if value="{{ c.none }}" hint-placeholder-val="{{ false }}">
+                <div style="padding-top:8px; font-size:14px; color:#8A8A8A; font-style:italic">Email address to be added</div>
+              </sc-if>
+            </div>
+          </sc-for>
+      </div>
+    </div>
+  </div>
+  </sc-if>
+
+  <!-- ================= PRESS ================= -->
+  <sc-if value="{{ isPress }}" hint-placeholder-val="{{ false }}">
+  <div style="max-width:1240px; margin:0 auto; padding:clamp(40px,6vw,72px) clamp(20px,5vw,72px) 80px; display:flex; flex-direction:column; gap:64px">
+    <div style="display:flex; flex-direction:column; gap:24px">
+      <h1 style="margin:0; font-size:clamp(28px,3.4vw,38px); font-weight:700; line-height:1.1; letter-spacing:0; color:#0A0A0A">Press &amp; Media</h1>
+      <div style="width:88px; height:2px; background:#04316A"></div>
+      <div style="font-size:18px; line-height:1.6; color:#3A3A3A; max-width:640px; text-wrap:pretty">Coverage of our clinical trials and commentary on where cell-depleting therapy for autoimmune disease is heading. For interview requests, contact the lab directly.</div>
+    </div>
+
+    <div style="display:flex; flex-direction:column; gap:28px">
+      <h2 style="margin:0; font-size:clamp(20px,2.2vw,24px); font-weight:700; line-height:1.25; letter-spacing:0; color:#333333; padding-bottom:14px; border-bottom:2px solid #04316A">Video &amp; talks</h2>
+      <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:32px">
+        <sc-for list="{{ videos }}" as="v" hint-placeholder-count="4">
+          <a class="video-card" href="{{ v.url }}" target="_blank" rel="noopener" aria-label="{{ v.aria }}">
+            <span class="video-thumb">
+              <img src="{{ v.thumb }}" alt="" loading="lazy">
+              <span class="video-play" aria-hidden="true"><svg viewBox="0 0 68 48" width="56" height="40"><path d="M66.5 7.7a8.5 8.5 0 0 0-6-6C55.3 0 34 0 34 0S12.7 0 7.5 1.4a8.5 8.5 0 0 0-6 6.1C0 13 0 24 0 24s0 11 1.5 16.3a8.5 8.5 0 0 0 6 6C12.7 48 34 48 34 48s21.3 0 26.5-1.4a8.5 8.5 0 0 0 6-6C68 35 68 24 68 24s0-11-1.5-16.3z" fill="#E1261C"/><path d="M27 34.3 45 24 27 13.7z" fill="#fff"/></svg></span>
+            </span>
+            <span style="display:flex; flex-direction:column; gap:7px">
+              <span class="video-title" style="font-size:17px; line-height:1.35; text-wrap:pretty">{{ v.t }}<span class="ext" aria-hidden="true"> ↗</span></span>
+              <span style="font:500 12px/1.4 'Source Sans 3',Roboto,Arial,sans-serif; color:#6B6B6B">{{ v.s }}</span>
+            </span>
+          </a>
+        </sc-for>
+      </div>
+    </div>
+
+    <div style="display:flex; flex-direction:column">
+      <h2 style="margin:0; font-size:clamp(20px,2.2vw,24px); font-weight:700; line-height:1.25; letter-spacing:0; color:#333333; padding-bottom:14px; border-bottom:2px solid #04316A">In the news</h2>
+      <sc-for list="{{ press }}" as="n" hint-placeholder-count="18">
+        <div class="press-row">
+          <div class="jlogo">
+            <sc-if value="{{ n.hasLogo }}" hint-placeholder-val="{{ false }}"><img src="{{ n.logo }}" alt="{{ n.o }}" loading="lazy"></sc-if>
+            <sc-if value="{{ n.noLogo }}" hint-placeholder-val="{{ true }}"><span class="jbadge">{{ n.o }}</span></sc-if>
+          </div>
+          <div style="display:flex; flex-direction:column; gap:6px">
+            <a class="paper" href="{{ n.url }}" target="_blank" rel="noopener" style="display:block; font-size:18px; line-height:1.35; letter-spacing:0; text-wrap:pretty">{{ n.t }}<span class="ext" aria-hidden="true"> ↗</span></a>
+            <sc-if value="{{ n.noLogo }}" hint-placeholder-val="{{ false }}"><div style="font:500 12px/1.4 'Source Sans 3',Roboto,Arial,sans-serif; letter-spacing:0.04em; text-transform:uppercase; color:#04316A">{{ n.o }}</div></sc-if>
+          </div>
+          <div class="press-date" style="font:600 15px/1.4 'Source Sans 3',Roboto,Arial,sans-serif; color:#333333; white-space:nowrap; text-align:right">{{ n.d }}</div>
+        </div>
+      </sc-for>
+    </div>
+  </div>
+  </sc-if>
+
+  </div>
+
+  <!-- ================= FOOTER ================= -->
+  <div style="border-top:1px solid #0A0A0A; background:#FFFDF9">
+    <div style="max-width:1240px; margin:0 auto; padding:40px clamp(20px,5vw,72px); display:flex; flex-wrap:wrap; gap:24px 40px; align-items:flex-start; justify-content:space-between">
+        <div style="display:flex; flex-direction:column; align-items:flex-start; gap:14px">
+          <a href="https://www.fau.de/" target="_blank" rel="noopener" title="Friedrich-Alexander-Universität Erlangen-Nürnberg" style="display:block">
+            <img src="logo/fau-logo.png" alt="Friedrich-Alexander-Universität Erlangen-Nürnberg" width="131" height="56" style="height:56px; width:131px; display:block">
+          </a>
+          <div style="display:flex; gap:20px; font-size:13px; line-height:1.5">
+            <a class="legal" href="https://www.fau.eu/imprint/" target="_blank" rel="noopener">Imprint</a>
+            <a class="legal" href="https://www.fau.eu/privacy/" target="_blank" rel="noopener">Data protection</a>
+          </div>
+        </div>
+        <a href="https://www.uk-erlangen.de/" target="_blank" rel="noopener" title="Uniklinikum Erlangen" style="display:block; padding-top:5px">
+          <img src="logo/uker-logo.svg" alt="Uniklinikum Erlangen" width="166" height="46" style="height:46px; width:166px; display:block">
+        </a>
+    </div>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script="" data-props="{&quot;$preview&quot;:{&quot;width&quot;:1280},&quot;showProof&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Homepage blocks&quot;},&quot;showNewsIndex&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Homepage blocks&quot;},&quot;showFunderStrip&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Homepage blocks&quot;}}">
+// ---------- Content (from the files in content/; edit those, not this file) ----------
+const SITE = window.RGB.site, TEAM_DATA = window.RGB.team, PUB_DATA = window.RGB.publications, NEWS_DATA = window.RGB.news;
+const PUBS = PUB_DATA.list.map(p => ({ t: p.title, a: p.authors || "", j: p.journal || "", jshort: p.journalShort || p.journal || "", y: p.year, url: p.url || "" }));
+
+// Grid layout: small up/down offsets (px) so the cards are not all on one line. The first row (4 cards) stays
+// aligned; later rows use the offsets below, repeating. Staff (last row) continue the same pattern.
+const STAGGER = [4, -8, 10, -4, -10, -14, 8, 12];
+const stagger = (list, start = 0) => list.map((m, i) => { const k = start + i;
+  return { ...m, dy: "translateY(" + (k < 4 ? 0 : STAGGER[(k - 4) % STAGGER.length]) + "px)" }; });
+
+// Everyone (members and alumni) is listed alphabetically by family name: the last word of the name,
+// ignoring titles and what follows the comma ("Prof. Dr. med. Ricardo Grieshaber-Bouyer, MHBA" -> "Grieshaber-Bouyer").
+const familyName = (n) => n.split(",")[0].replace(/(Prof\.|Dr\.|med\.|rer\.|nat\.)/g, "").trim().split(/\s+/).pop();
+const byFamilyName = (a, b) => familyName(a.n).localeCompare(familyName(b.n), "de", { sensitivity: "base" }) || a.n.localeCompare(b.n, "de");
+
+const MEMBERS = TEAM_DATA.members.map(m => ({ n: m.name, r: m.role || "", g: m.area || "", photo: m.photo || "", positions: m.positions || [] }))
+  .sort(byFamilyName);
+
+const ALUMNI = (TEAM_DATA.alumni || []).map(a => ({ n: a.name, r: a.role || "", now: a.now || "", photo: a.photo || "", bio: a.bio || "" }))
+  .sort(byFamilyName);
+
+// Placeholder picture: a plain silhouette in the site's blue, the same for everyone.
+// Set photo: "..." (image URL or data URI) on a person to show a real photo instead.
+const SILHOUETTE = "images/silhouette.svg";
+const avatarFor = (p) => p.photo || SILHOUETTE;
+
+// Profile pages (opened from the Team tab at  #/people/<slug>).
+// Key = slug of the person's name (e.g. "Dr. Zahra Moslehi, PhD" -> "zahra-moslehi").
+// Every field is optional; anything missing shows a "to be added" note.
+// PROFILES is built from the "profile" of each member in content/team.js (see below, after slugOf).
+
+// Social / academic links shown on profile pages. Set a URL in PROFILES (twitter, linkedin, scholar).
+// Links without a URL show as faded placeholders; set HIDE_EMPTY_LINKS = true to hide them instead.
+// Set a link to null (e.g. twitter: null) to never show that button for this person.
+const HIDE_EMPTY_LINKS = SITE.hideEmptyLinks === true;
+const iconUri = (path) => "data:image/svg+xml;base64," + btoa('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="#0B5CAD" d="' + path + '"/></svg>');
+const SOCIAL = [
+  { key: "twitter", label: "X (Twitter)", icon: iconUri("M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z") },
+  { key: "linkedin", label: "LinkedIn", icon: iconUri("M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z") },
+  { key: "scholar", label: "Google Scholar", icon: iconUri("M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z") }
+];
+
+// Contacts shown when visitors click "Write to us" / "Get in touch".
+const CONTACTS = (window.RGB.contacts || []).map(c => ({ n: c.name, r: c.role || "", email: c.email || "" }));
+const copyText = (s) => {
+  try { if (navigator.clipboard && window.isSecureContext) return navigator.clipboard.writeText(s); } catch (e) {}
+  const ta = document.createElement("textarea"); ta.value = s; ta.setAttribute("readonly", ""); ta.style.position = "fixed"; ta.style.opacity = "0";
+  document.body.appendChild(ta); ta.select(); try { document.execCommand("copy"); } catch (e) {} document.body.removeChild(ta);
+  return Promise.resolve();
+};
+
+const TITLES = /(Prof\.|Dr\.|med\.|rer\.|nat\.|PhD|MD|MHBA|MSc|M\.Sc\.)/g;
+const slugOf = (n) => n.replace(TITLES, "").replace(/,/g, " ").normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+  .toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
+const PROFILES = {};
+TEAM_DATA.members.forEach(m => { if (!m.profile) return; const p = m.profile;
+  PROFILES[slugOf(m.name)] = { ...p, aff: p.affiliation, education: (p.education || []).map(e => ({ d: e.degree, y: e.year, s: e.school })) }; });
+// ---------- Routing: every page has its own address, so Back/Forward and bookmarks work ----------
+const PAGE_PATHS = { home: "", team: "#/team", pubs: "#/publications", funding: "#/funding", teaching: "#/teaching", lablife: "#/lab-life", press: "#/press", positions: "#/positions" };
+const routeFromHash = () => {
+  const h = typeof location !== "undefined" ? location.hash : "";
+  const m = h.match(/^#\/people\/([a-z0-9-]+)/);
+  if (m) return { page: "person", person: m[1] };
+  const page = Object.keys(PAGE_PATHS).find(k => PAGE_PATHS[k] && PAGE_PATHS[k] === h);
+  return { page: page || "home", person: null };
+};
+const SCROLL_POS = {};   // remembered scroll position per address, restored on Back/Forward
+const currentHash = () => (typeof location !== "undefined" ? location.hash : "");
+const BASE_TITLE = typeof document !== "undefined" ? document.title : "";
+
+// ---------- Lab logo ----------
+// Three overlapping circles in red #E53935, green #43A047 and blue #1E88E5 (R, G, B) with an antibody (Y).
+// To use your own logo: set LOGO_SRC to an image URL or data URI (SVG/PNG, ideally light-on-dark).
+// If that image already contains the name "RGB lab", set SHOW_WORDMARK to false.
+
+
+// Logo files: logo/rgb-lab-mark.svg (header) and logo/rgb-lab-icon.svg (browser-tab icon).
+const LOGO_SRC = SITE.logo;
+const FAVICON_SRC = SITE.favicon || SITE.logo;
+const SHOW_WORDMARK = SITE.showLabName !== false;
+if (typeof document !== "undefined") {
+  let l = document.querySelector('link[rel="icon"]');
+  if (!l) { l = document.createElement("link"); l.rel = "icon"; document.head.appendChild(l); }
+  l.type = "image/svg+xml"; l.href = FAVICON_SRC;
+}
+
+// ---------- Home page image ----------
+// Optional picture behind the Home headline (heroImage in content/site.js; wide image, about 5:2, cropped to fill
+// the band, with the headline in a blue box). Without a picture the headline sits on the page background.
+const HERO_SRC = SITE.heroImage;
+const HERO_ALT = SITE.heroImageAlt || "";
+
+// ---------- Lab Life photos ---------- (listed in content/site.js, files in images/lab-life/)
+const LAB_LIFE = (SITE.labLife || []).map(p => ({ src: p.photo, w: p.width || 1280, h: p.height || 960, caption: p.caption || "", date: p.date || "", alt: p.alt || p.caption || "" }))
+  .map(p => ({ ...p, label: p.date ? p.caption + " · " + p.date : p.caption }));
+
+const PRESS = NEWS_DATA.press.map(n => ({ t: n.title, o: n.outlet || "", d: n.date || "", url: n.url || "" }));
+
+// Press outlet logos (files in images/press-logos/). Key = the outlet name `o` in PRESS.
+// An outlet without a logo shows its name in a text badge instead.
+const PRESS_LOGOS = NEWS_DATA.outletLogos || {};
+PRESS.forEach(n => { n.logo = PRESS_LOGOS[n.o] || ""; n.hasLogo = !!n.logo; n.noLogo = !n.logo; });
+
+// Talks: url = YouTube link, thumb = embedded thumbnail image.
+const VIDEOS = (NEWS_DATA.videos || []).map(v => ({ t: v.title, s: v.source || "", url: v.url, thumb: v.thumbnail }));
+
+const JOURNAL_COLORS = {
+  "Nature Reviews Immunology": "#6C4796"
+};
+
+const PIC_RULES = [
+  [/engager|bispecific/i, "engager"],
+  [/CAR[- ]T|CD19|chimeric antigen/i, "car"],
+  [/deplet/i, "depletion"],
+  [/cytometry|machine learning|CytoNorm|atlas|microRNA|MorphoMapping|quantification|transcriptional programs|systems biology|cell cloud|ImmGen/i, "compute"],
+  [/neutrotime|continuum|heterogeneity|classification|neutrophil/i, "continuum"],
+  [/tissue|skin|synovial|joint|lymphatic|emperipolesis|megakaryocyte|kidney|osteoarthritis|shoulder/i, "tissue"],
+  [/interferon|IFN|signaling|inflammat|NETotic|signature|feed-forward|receptor activation|BDCA|immune complexes|Treg|phenotypes|flares/i, "signal"]
+];
+const picFor = (t) => (PIC_RULES.find(r => r[0].test(t)) || [null, "review"])[1];
+const withPic = (list) => list.map(p => { const t = picFor(p.t); return { ...p, pic: t,
+  isEngager: t==="engager", isCar: t==="car", isDepletion: t==="depletion", isContinuum: t==="continuum",
+  isCompute: t==="compute", isReview: t==="review", isTissue: t==="tissue", isSignal: t==="signal" }; });
+
+// Papers shown as the 3 "Featured" cards on the Publications tab (matched by a piece of the title).
+// Each card shows the journal logo from JOURNAL_LOGOS.
+const FEATURED = PUB_DATA.featured || [];
+
+// Journal logos for the "All publications" list, keyed by the journal name used in PUBS (j).
+// Journals without an entry show a text badge with their short name. Add a logo by adding a line here.
+// Use logos only, never cover images (covers are copyrighted artwork). Removed covers: Current Opinion in Immunology,
+// Die Innere Medizin (Der Internist), JBJS Case Connector, Zeitschrift für Rheumatologie, rheuma plus.
+const JOURNAL_LOGOS = PUB_DATA.journalLogos || {};
+const POS_DATA = window.RGB.positions || {};
+const POSITIONS = (POS_DATA.list || []).filter(p => p && p.title).map(p => {
+  const meta = [p.start ? "Start: " + p.start : "", p.deadline || ""].filter(Boolean).join(" · ");
+  const req = (p.requirements || []).map(x => ({ x }));
+  return { title: p.title, type: p.type || "Position", area: p.area || "", hasArea: !!p.area, meta, hasMeta: !!meta,
+    summary: p.summary || "", req, hasReq: req.length > 0, link: p.link || "", hasLink: !!p.link };
+});
+
+PUBS.forEach(p => {
+  p.url = p.url || ""; p.noUrl = !p.url;
+  p.logo = JOURNAL_LOGOS[p.j] || ""; p.hasLogo = !!p.logo; p.noLogo = !p.logo;
+});
+const pick = (needles) => needles.map(s => PUBS.find(p => p.t.includes(s))).filter(Boolean);
+
+class Component extends DCLogic {
+  // Reveal the page once the first render is on screen and the fonts are loaded (see the <style> in <head>).
+  _reveal = typeof window !== "undefined" && setTimeout(() => {
+    const fontsReady = document.fonts && document.fonts.ready ? document.fonts.ready : Promise.resolve();
+    const show = () => document.documentElement.classList.add("rgb-ready");
+    Promise.race([fontsReady, new Promise(r => setTimeout(r, 1200))]).then(() => {
+      requestAnimationFrame(() => requestAnimationFrame(show));
+      setTimeout(show, 120);   // backup: animation frames are paused in background tabs
+    });
+  }, 0);
+
+  state = { page: "home", year: "ALL", open: null, alum: null, person: null, menu: false, contact: false, copied: null, ...routeFromHash() };
+  _listen = typeof window !== "undefined" && (() => {
+    try { history.scrollRestoration = "manual"; } catch (e) {}
+    const onBackForward = () => {
+      const r = routeFromHash(), y = SCROLL_POS[currentHash()] || 0;
+      if (r.page === this.state.page && r.person === this.state.person) return;
+      this.setState({ ...r, open: null, menu: false, contact: false, copied: null });
+      setTimeout(() => requestAnimationFrame(() => window.scrollTo(0, y)), 0);
+    };
+    window.addEventListener("popstate", onBackForward);
+    window.addEventListener("hashchange", onBackForward);
+    return true;
+  })();
+
+  // Navigate inside the app: push a history entry so the browser Back button returns here.
+  nav(hash, route) {
+    if (typeof window !== "undefined") {
+      SCROLL_POS[currentHash()] = window.scrollY;
+      if (hash !== currentHash()) history.pushState(null, "", hash || (location.pathname + location.search));
+    }
+    this.setState({ ...route, open: null, menu: false, contact: false, copied: null });
+    if (typeof window !== "undefined") window.scrollTo(0, 0);
+  }
+  // Click handler for links: let Cmd/Ctrl/Shift/middle-click open a new tab as usual.
+  linkTo(hash, route) { return (e) => {
+    if (e && (e.metaKey || e.ctrlKey || e.shiftKey || e.altKey || (e.button && e.button !== 0))) return;
+    if (e && e.preventDefault) e.preventDefault();
+    this.nav(hash, route);
+  }; }
+
+  go(p) { return () => this.nav(PAGE_PATHS[p], { page: p, person: null }); }
+
+  renderVals() {
+    const { page, year } = this.state;
+    const years = ["ALL", ...[...new Set(PUBS.map(p => p.y))].sort((a, b) => b - a)];
+    const initials = (n) => n.replace(/(Prof\.|Dr\.|med\.|rer\.|nat\.|PhD|MD|MHBA|MSc|M\.Sc\.)/g, "")
+      .trim().split(/\s+/).filter(Boolean).slice(0, 2).map(w => w[0]).join("");
+
+    return {
+      page,
+      isHome: page === "home",
+      isTeam: page === "team",
+      isPerson: page === "person",
+      teamOn: page === "team" || page === "person",
+      contactOpen: !!this.state.contact,
+      contactClosed: !this.state.contact,
+      contactAria: this.state.contact ? "true" : "false",
+      toggleContact: () => this.setState(s => ({ contact: !s.contact, copied: null })),
+      contacts: CONTACTS.map(c => ({
+        ...c, has: !!c.email, none: !c.email, mailto: "mailto:" + c.email,
+        copyLabel: this.state.copied === c.email ? "Copied ✓" : "Copy",
+        copyAria: "Copy email address of " + c.n,
+        copy: () => { Promise.resolve(copyText(c.email)).then(() => {
+          this.setState({ copied: c.email });
+          setTimeout(() => { if (this.state.copied === c.email) this.setState({ copied: null }); }, 2000);
+        }); }
+      })),
+      heroJournals: (SITE.heroJournals || []).map(x => ({ x })), hasHeroJournals: (SITE.heroJournals || []).length > 0,
+      heroNote: SITE.heroNote || "", hasHeroNote: !!SITE.heroNote,
+      heroSrc: HERO_SRC, hasHeroImg: !!HERO_SRC, heroClass: HERO_SRC ? "" : "hero-plain",
+      heroTitle: SITE.heroTitle || "",
+      heroText: SITE.heroText || "",
+      teamPhoto: SITE.teamPhoto || "",
+      teamPhotoAlt: SITE.teamPhotoAlt || "",
+      teamPhotoCaption: SITE.teamPhotoCaption || "",
+      heroAlt: HERO_ALT,
+      logoSrc: LOGO_SRC,
+      showWordmark: SHOW_WORDMARK,
+      menuCls: this.state.menu ? "open" : "",
+      menuAria: this.state.menu ? "true" : "false",
+      toggleMenu: () => this.setState(s => ({ menu: !s.menu })),
+      navHome: page === "home" ? "on" : "",
+      navTeam: page === "team" || page === "person" ? "on" : "",
+      navPubs: page === "pubs" ? "on" : "",
+      navFunding: page === "funding" ? "on" : "",
+      navTeaching: page === "teaching" ? "on" : "",
+      navLabLife: page === "lablife" ? "on" : "",
+      navPositions: page === "positions" ? "on" : "",
+      navPress: page === "press" ? "on" : "",
+      isPubs: page === "pubs",
+      isFunding: page === "funding",
+      isTeaching: page === "teaching",
+      isLabLife: page === "lablife",
+      isPositions: page === "positions",
+      isPress: page === "press",
+      goHome: this.go("home"),
+      goTeam: this.go("team"),
+      goPubs: this.go("pubs"),
+      goFunding: this.go("funding"),
+      goTeaching: this.go("teaching"),
+      goLabLife: this.go("lablife"),
+      goPositions: this.go("positions"),
+      positions: POSITIONS,
+      hasPositions: POSITIONS.length > 0,
+      noPositions: POSITIONS.length === 0,
+      positionsIntro: POS_DATA.intro || "",
+      positionsApply: POS_DATA.howToApply || "",
+      positionsCountLabel: POSITIONS.length === 1 ? "1 open position" : POSITIONS.length + " open positions",
+      labLife: LAB_LIFE,
+      goPress: this.go("press"),
+
+      showProof: this.props.showProof ?? true,
+      showNewsIndex: this.props.showNewsIndex ?? true,
+      showFunderStrip: this.props.showFunderStrip ?? true,
+
+      featured: pick(["the phase 1/2 CASTLE", "T cell engagers in autoimmune diseases", "BCMA T cell engager therapy in patients", "Bispecific T cell engager therapy for refractory rheumatoid", "The neutrotime transcriptional signature"]),
+      featured3: withPic(pick(FEATURED))
+        .map(p => {
+          const c = JOURNAL_COLORS[p.j];
+          return {
+            ...p,
+            coverLabel: p.j + " · " + p.y,
+            c: c || "#0A0A0A",
+            rule: "3px solid " + (c || "#0A0A0A"),
+            ground: c ? c + "0D" : "#FFFFFF"
+          };
+        }),
+      shownPubs: withPic(year === "ALL" ? PUBS : PUBS.filter(p => p.y === year)),
+      yearChips: years.map(y => {
+        const count = y === "ALL" ? 0 : PUBS.filter(p => p.y === y).length;
+        const active = year === y;
+        return {
+          label: String(y),
+          on: active,
+          off: !active,
+          bars: Array.from({ length: count }, () => ({ on: active, off: !active })),
+          pick: () => this.setState({ year: y })
+        };
+      }),
+
+      ...(() => {
+        const people = MEMBERS.map(m => { const url = "#/people/" + slugOf(m.n); return { ...m, img: avatarFor(m), url, go: this.linkTo(url, { page: "person", person: slugOf(m.n) }) }; });
+        return { everyone: stagger(people) };
+      })(),
+      alumni: ALUMNI.map((a, idx) => {
+        const isOpen = this.state.alum === idx;
+        return { ...a, now: a.now || "—", img: avatarFor(a), isOpen, sign: isOpen ? "−" : "+", aria: isOpen ? "true" : "false",
+          toggle: () => this.setState(s => ({ alum: s.alum === idx ? null : idx })),
+          hasBio: !!a.bio, noBio: !a.bio,
+          };
+      }),
+      pr: (() => {
+        if (page !== "person") return {};
+        const slug = this.state.person;
+        const mem = MEMBERS.find(m => slugOf(m.n) === slug);
+        const alum = !mem && ALUMNI.find(a => slugOf(a.n) === slug);
+        const base = mem || alum;
+        if (!base) return { links: [], n: "Person not found", r: "", aff: "", g: "", status: "", img: SILHOUETTE, noBio: true, noInterests: true, noEdu: true };
+        const p = PROFILES[slug] || {};
+        const interests = (p.interests || []).map(x => ({ x }));
+        const education = (p.education || []).map(e => ({ ...e, label: e.y ? e.d + ", " + e.y : e.d }));
+        if (typeof document !== "undefined") document.title = base.n + " · RGB lab";
+        return {
+          n: base.n, r: base.r, g: mem ? mem.g : "Alumni", status: mem ? "Lab member" : (alum.now && alum.now !== "" ? "Now: " + alum.now : "Alumni"),
+          aff: p.aff || (mem ? "Universitätsklinikum Erlangen" : ""),
+          img: avatarFor({ photo: p.photo || base.photo }),
+          links: SOCIAL.filter(s => p[s.key] !== null && (!HIDE_EMPTY_LINKS || p[s.key])).map(s => ({
+            label: s.label, icon: s.icon, url: p[s.key] || "", has: !!p[s.key], none: !p[s.key],
+            emptyTitle: s.label + " — link not added yet"
+          })),
+          email: p.email || "", mailto: "mailto:" + (p.email || ""), hasEmail: !!p.email,
+          bio: p.bio || "", bioParas: (p.bio || "").split(/\n\s*\n/).map(x => ({ x: x.trim() })).filter(o => o.x), hasBio: !!p.bio, noBio: !p.bio,
+          interests, hasInterests: interests.length > 0, noInterests: interests.length === 0,
+          education, hasEdu: education.length > 0, noEdu: education.length === 0,
+          positions: (mem ? mem.positions : []).map(x => ({ x })), hasPositions: !!(mem && mem.positions.length)
+        };
+      })(),
+      alumniCount: ALUMNI.length,
+      ...(page !== "person" && typeof document !== "undefined" && document.title !== BASE_TITLE ? (document.title = BASE_TITLE, {}) : {}),
+
+      press: PRESS,
+      pressTop: PRESS.slice(0, 4).map(n => ({ t: n.t, s: n.o + " · " + n.d, url: n.url })),
+      videos: VIDEOS.map(v => ({ ...v, aria: v.t + " (video on YouTube, opens in new tab)" })),
+
+      programmes: [
+        { n: "Medical curriculum", url: "https://www.med.fau.de/studium/medizin/", logo: "logo/fau-logo.png", logoAlt: "Friedrich-Alexander-Universität Erlangen-Nürnberg", d: "We teach across the FAU medical curriculum, from immunology fundamentals to bedside rheumatology and the practice of clinical trials." },
+        { n: "IZKF scientist training", url: "https://www.izkf.med.fau.de/en/nachwuchs/clinician-scientist-programm/", logo: "images/funders/IZKF_Erlangen.jpg", logoAlt: "Interdisciplinary Center for Clinical Research (IZKF) Erlangen", d: "Clinician-scientist tracks of the Interdisciplinary Center for Clinical Research, including protected research time and structured mentoring." },
+        { n: "iImmune M.Sc.", url: "https://www.iimmune.nat.fau.de/", logo: "logo/fau-logo.png", logoAlt: "Friedrich-Alexander-Universität Erlangen-Nürnberg", d: "Integrated Immunology M.Sc. programme at FAU — lab rotations, computational immunology projects and thesis supervision." }
+      ],
+      fellowships: [
+        { n: "Boehringer Ingelheim Fonds", url: "https://bifonds.de/", logo: "images/teaching-logos/BIF.svg", lh: "56px", d: "Held by three of our doctoral researchers" },
+        { n: "HBIGS", url: "https://www.hbigs.uni-heidelberg.de/en", logo: "images/teaching-logos/HBIGS.svg", lh: "48px", d: "Heidelberg Biosciences International Graduate School" },
+        { n: "Peter-Scriba fellowship", url: "https://www.dgim.de/akademien-stipendien/peter-scriba-promotionsstipendien", logo: "images/teaching-logos/DGIM.svg", lh: "34px", d: "German Society of Internal Medicine" },
+        { n: "PROMOS", url: "https://www.fau.de/studium/studienorganisation/wege-ins-ausland/finanzierung-eines-auslandsaufenthaltes/daad-promos-stipendien/", logo: "images/teaching-logos/DAAD.svg", lh: "34px", d: "German Academic Exchange Service (DAAD)" }
+      ]
+    };
+  }
+}
+</script>
+
+
+</body></html>

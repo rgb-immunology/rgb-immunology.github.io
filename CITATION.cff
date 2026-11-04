@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use or refer to this website, please cite it as below."
+title: "RGB lab website"
+type: software
+authors:
+  - family-names: "Moslehi"
+    given-names: "Zahra"
+    affiliation: "Universitätsklinikum Erlangen / FAU Erlangen-Nürnberg"
+  - family-names: "Grieshaber-Bouyer"
+    given-names: "Ricardo"
+    affiliation: "Universitätsklinikum Erlangen / FAU Erlangen-Nürnberg"
+repository-code: "https://github.com/rgb-lab/rgb-lab-website"
+url: "https://rgb-lab.de"
+license: MIT
+version: "1.0.0"
+date-released: "2026-10-07"
+keywords:
+  - lab website
+  - static site
+  - clinical systems immunology
