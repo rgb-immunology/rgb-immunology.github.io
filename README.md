@@ -29,16 +29,11 @@ Pictures go in these folders:
 
 ---
 
-## View the site
-
-- **On your computer:** download or clone the repository and double-click `index.html`.
-  Keep the folders next to it; the page loads its pictures from them.
-- **Online with GitHub Pages (only after the repository is made public at launch; while it's private, use "On your computer" above):** in the repository go to **Settings → Pages**, choose
-  **Deploy from a branch**, branch **main**, folder **/ (root)**, and save. After a minute the site is live at
-  `https://<github-user-or-organisation>.github.io/<repository-name>/`. Every change you commit appears there
-  automatically within a minute or two.
-
 ## Edit on github.com (no software needed)
+
+The live site, https://rgb-lab.de, is published from the `main` branch of
+https://github.com/rgb-immunology/rgb-immunology.github.io. A change committed there appears on the site
+within about 10 minutes. If you still see the old version, reload with Cmd+Shift+R (Ctrl+Shift+R on Windows).
 
 1. Open the file (for example `content/team.js`) and click the **pencil icon** (Edit).
 2. Make the change, then click **Commit changes…** and write a short note such as "Add Jane Doe".
@@ -216,16 +211,15 @@ Upload it to `images/lab-life/` and copy a block in `labLife` in `content/site.j
 
 ### Hide empty social buttons on profile pages
 
-Profile pages show LinkedIn / Google Scholar / X buttons; without a link they appear faded. Set
-`hideEmptyLinks: true` in `content/site.js` to hide them. In a profile, `twitter: null` (etc.) never shows that button.
+Profile pages show LinkedIn / Google Scholar / X buttons. Buttons without a link are hidden. To show them faded
+instead, set `hideEmptyLinks: false` in `content/site.js`. In a profile, `twitter: null` (etc.) never shows that button.
 
 ---
 
 ## What is not in the content files
 
 The texts of the Funding and Teaching & Mentorship pages, the page intros and the footer are in `index.html`
-(search for the text you want to change). Ask before restructuring `index.html`; the content files are the
-safe place for everyday updates.
+(search for the text you want to change). The content files are the safe place for everyday updates.
 
 ## Pages and addresses
 
@@ -282,4 +276,4 @@ Keep new content consistent with the existing look.
 ## How to cite
 
 > Moslehi, Z., & Grieshaber-Bouyer, R. (2026). *RGB lab website* (Version 1.0) [Computer software].
-> RGB lab, Universitätsklinikum Erlangen. https://github.com/rgb-lab/rgb-lab-website
+> RGB lab, Universitätsklinikum Erlangen. https://rgb-lab.de
